@@ -1,0 +1,801 @@
+certified_facilitator,created_at,digital_proficiency,display_name,email,hire_date,is_active,phone,role,school_id,students_assigned,subject_expertise,teacher_code,teacher_id,years_experience
+false,2018-05-08T00:00:00.000Z,Intermediate,Teacher 1,teacher000001@staff.magicbus.edu,2018-05-08,true,XXXX-XXX-1595,Subject Teacher,172,65,Languages,TCH00001,1,7
+true,2015-04-25T00:00:00.000Z,Intermediate,Teacher 2,teacher000002@staff.magicbus.edu,2015-04-25,false,XXXX-XXX-8819,Class Teacher,162,107,Languages,TCH00002,2,10
+false,2011-07-26T00:00:00.000Z,Intermediate,Teacher 3,teacher000003@staff.magicbus.edu,2011-07-26,true,XXXX-XXX-7356,Subject Teacher,116,81,General,TCH00003,3,14
+false,2024-03-18T00:00:00.000Z,Advanced,Teacher 4,teacher000004@staff.magicbus.edu,2024-03-18,true,XXXX-XXX-7142,Class Teacher,104,144,Computer Science,TCH00004,4,1
+true,2016-02-17T00:00:00.000Z,Intermediate,Teacher 5,teacher000005@staff.magicbus.edu,2016-02-17,true,XXXX-XXX-8850,Subject Teacher,54,70,Computer Science,TCH00005,5,9
+true,2015-01-15T00:00:00.000Z,Advanced,Teacher 6,teacher000006@staff.magicbus.edu,2015-01-15,true,XXXX-XXX-2265,Class Teacher,116,48,Languages,TCH00006,6,10
+true,2021-06-10T00:00:00.000Z,Beginner,Teacher 7,teacher000007@staff.magicbus.edu,2021-06-10,true,XXXX-XXX-9740,Class Teacher,133,42,Computer Science,TCH00007,7,4
+false,2015-10-26T00:00:00.000Z,Beginner,Teacher 8,teacher000008@staff.magicbus.edu,2015-10-26,true,XXXX-XXX-1148,Class Teacher,40,59,Mathematics,TCH00008,8,10
+true,2024-08-22T00:00:00.000Z,Beginner,Teacher 9,teacher000009@staff.magicbus.edu,2024-08-22,true,XXXX-XXX-1163,Subject Teacher,89,98,Social Studies,TCH00009,9,1
+true,2023-10-02T00:00:00.000Z,Advanced,Teacher 10,teacher000010@staff.magicbus.edu,2023-10-02,true,XXXX-XXX-7294,Subject Teacher,194,111,Mathematics,TCH00010,10,2
+true,2019-01-07T00:00:00.000Z,Intermediate,Teacher 11,teacher000011@staff.magicbus.edu,2019-01-07,true,XXXX-XXX-7583,Subject Teacher,66,100,Mathematics,TCH00011,11,6
+true,2019-10-04T00:00:00.000Z,Intermediate,Teacher 12,teacher000012@staff.magicbus.edu,2019-10-04,true,XXXX-XXX-6193,Subject Teacher,117,141,General,TCH00012,12,6
+false,2017-02-09T00:00:00.000Z,Intermediate,Teacher 13,teacher000013@staff.magicbus.edu,2017-02-09,true,XXXX-XXX-8182,Subject Teacher,8,150,Computer Science,TCH00013,13,8
+true,2023-01-05T00:00:00.000Z,Intermediate,Teacher 14,teacher000014@staff.magicbus.edu,2023-01-05,true,XXXX-XXX-8378,Subject Teacher,111,43,Social Studies,TCH00014,14,2
+false,2012-09-15T00:00:00.000Z,Advanced,Teacher 15,teacher000015@staff.magicbus.edu,2012-09-15,true,XXXX-XXX-1453,Class Teacher,108,63,Languages,TCH00015,15,13
+false,2024-11-11T00:00:00.000Z,Intermediate,Teacher 16,teacher000016@staff.magicbus.edu,2024-11-11,true,XXXX-XXX-1970,Class Teacher,78,117,Science,TCH00016,16,1
+true,2023-07-18T00:00:00.000Z,Beginner,Teacher 17,teacher000017@staff.magicbus.edu,2023-07-18,true,XXXX-XXX-7218,Mentor,39,114,Mathematics,TCH00017,17,2
+true,2025-05-31T00:00:00.000Z,Beginner,Teacher 18,teacher000018@staff.magicbus.edu,2025-05-31,true,XXXX-XXX-8782,Subject Teacher,119,42,Mathematics,TCH00018,18,1
+false,2022-01-14T00:00:00.000Z,Beginner,Teacher 19,teacher000019@staff.magicbus.edu,2022-01-14,false,XXXX-XXX-4554,Subject Teacher,76,81,Computer Science,TCH00019,19,3
+true,2021-03-05T00:00:00.000Z,Beginner,Teacher 20,teacher000020@staff.magicbus.edu,2021-03-05,false,XXXX-XXX-4554,Subject Teacher,113,46,Social Studies,TCH00020,20,4
+false,2012-12-27T00:00:00.000Z,Intermediate,Teacher 21,teacher000021@staff.magicbus.edu,2012-12-27,true,XXXX-XXX-4353,Subject Teacher,40,101,Science,TCH00021,21,13
+false,2020-04-27T00:00:00.000Z,Advanced,Teacher 22,teacher000022@staff.magicbus.edu,2020-04-27,true,XXXX-XXX-8777,Class Teacher,132,61,Mathematics,TCH00022,22,5
+false,2011-02-14T00:00:00.000Z,Intermediate,Teacher 23,teacher000023@staff.magicbus.edu,2011-02-14,true,XXXX-XXX-7484,Subject Teacher,168,116,Social Studies,TCH00023,23,14
+false,2010-06-25T00:00:00.000Z,Intermediate,Teacher 24,teacher000024@staff.magicbus.edu,2010-06-25,true,XXXX-XXX-3929,Class Teacher,149,41,General,TCH00024,24,15
+false,2023-07-16T00:00:00.000Z,Intermediate,Teacher 25,teacher000025@staff.magicbus.edu,2023-07-16,true,XXXX-XXX-9182,Mentor,176,142,Computer Science,TCH00025,25,2
+true,2012-05-24T00:00:00.000Z,Advanced,Teacher 26,teacher000026@staff.magicbus.edu,2012-05-24,true,XXXX-XXX-9110,Class Teacher,182,77,Social Studies,TCH00026,26,13
+true,2016-07-19T00:00:00.000Z,Intermediate,Teacher 27,teacher000027@staff.magicbus.edu,2016-07-19,true,XXXX-XXX-6407,Subject Teacher,11,126,Computer Science,TCH00027,27,9
+false,2024-05-04T00:00:00.000Z,Advanced,Teacher 28,teacher000028@staff.magicbus.edu,2024-05-04,true,XXXX-XXX-5706,Coordinator,108,91,Computer Science,TCH00028,28,1
+true,2022-04-22T00:00:00.000Z,Beginner,Teacher 29,teacher000029@staff.magicbus.edu,2022-04-22,true,XXXX-XXX-1279,Class Teacher,119,73,General,TCH00029,29,3
+false,2023-10-15T00:00:00.000Z,Intermediate,Teacher 30,teacher000030@staff.magicbus.edu,2023-10-15,false,XXXX-XXX-8249,Class Teacher,126,112,Social Studies,TCH00030,30,2
+true,2021-03-24T00:00:00.000Z,Beginner,Teacher 31,teacher000031@staff.magicbus.edu,2021-03-24,true,XXXX-XXX-4501,Subject Teacher,30,78,General,TCH00031,31,4
+true,2021-10-13T00:00:00.000Z,Beginner,Teacher 32,teacher000032@staff.magicbus.edu,2021-10-13,true,XXXX-XXX-9628,Class Teacher,37,47,Science,TCH00032,32,4
+true,2011-02-17T00:00:00.000Z,Beginner,Teacher 33,teacher000033@staff.magicbus.edu,2011-02-17,true,XXXX-XXX-1413,Subject Teacher,190,42,Languages,TCH00033,33,14
+true,2012-07-10T00:00:00.000Z,Advanced,Teacher 34,teacher000034@staff.magicbus.edu,2012-07-10,true,XXXX-XXX-5513,Subject Teacher,34,33,Languages,TCH00034,34,13
+true,2024-11-19T00:00:00.000Z,Beginner,Teacher 35,teacher000035@staff.magicbus.edu,2024-11-19,true,XXXX-XXX-8503,Class Teacher,8,125,General,TCH00035,35,1
+true,2013-05-16T00:00:00.000Z,Beginner,Teacher 36,teacher000036@staff.magicbus.edu,2013-05-16,true,XXXX-XXX-3423,Class Teacher,182,107,Computer Science,TCH00036,36,12
+false,2015-06-08T00:00:00.000Z,Beginner,Teacher 37,teacher000037@staff.magicbus.edu,2015-06-08,true,XXXX-XXX-5188,Subject Teacher,181,129,General,TCH00037,37,10
+false,2016-06-25T00:00:00.000Z,Beginner,Teacher 38,teacher000038@staff.magicbus.edu,2016-06-25,true,XXXX-XXX-9569,Subject Teacher,162,112,Computer Science,TCH00038,38,9
+false,2010-02-24T00:00:00.000Z,Intermediate,Teacher 39,teacher000039@staff.magicbus.edu,2010-02-24,true,XXXX-XXX-2636,Mentor,126,59,Science,TCH00039,39,15
+true,2020-06-15T00:00:00.000Z,Advanced,Teacher 40,teacher000040@staff.magicbus.edu,2020-06-15,true,XXXX-XXX-3359,Coordinator,12,63,Mathematics,TCH00040,40,5
+true,2025-02-18T00:00:00.000Z,Beginner,Teacher 41,teacher000041@staff.magicbus.edu,2025-02-18,true,XXXX-XXX-8511,Mentor,178,90,Mathematics,TCH00041,41,1
+true,2011-09-30T00:00:00.000Z,Intermediate,Teacher 42,teacher000042@staff.magicbus.edu,2011-09-30,true,XXXX-XXX-7342,Coordinator,197,58,Computer Science,TCH00042,42,14
+true,2019-04-08T00:00:00.000Z,Intermediate,Teacher 43,teacher000043@staff.magicbus.edu,2019-04-08,true,XXXX-XXX-5743,Mentor,196,146,Computer Science,TCH00043,43,6
+true,2020-11-11T00:00:00.000Z,Intermediate,Teacher 44,teacher000044@staff.magicbus.edu,2020-11-11,true,XXXX-XXX-8607,Mentor,139,41,Science,TCH00044,44,5
+false,2023-06-21T00:00:00.000Z,Intermediate,Teacher 45,teacher000045@staff.magicbus.edu,2023-06-21,true,XXXX-XXX-6710,Coordinator,55,137,Computer Science,TCH00045,45,2
+true,2010-04-25T00:00:00.000Z,Advanced,Teacher 46,teacher000046@staff.magicbus.edu,2010-04-25,false,XXXX-XXX-1053,Class Teacher,171,119,General,TCH00046,46,15
+true,2017-07-03T00:00:00.000Z,Intermediate,Teacher 47,teacher000047@staff.magicbus.edu,2017-07-03,true,XXXX-XXX-2143,Subject Teacher,76,108,General,TCH00047,47,8
+true,2012-04-18T00:00:00.000Z,Advanced,Teacher 48,teacher000048@staff.magicbus.edu,2012-04-18,true,XXXX-XXX-1356,Subject Teacher,168,135,Computer Science,TCH00048,48,13
+true,2021-06-06T00:00:00.000Z,Intermediate,Teacher 49,teacher000049@staff.magicbus.edu,2021-06-06,true,XXXX-XXX-9578,Subject Teacher,33,130,Languages,TCH00049,49,4
+true,2012-08-19T00:00:00.000Z,Intermediate,Teacher 50,teacher000050@staff.magicbus.edu,2012-08-19,true,XXXX-XXX-6609,Mentor,3,51,Social Studies,TCH00050,50,13
+false,2017-11-13T00:00:00.000Z,Intermediate,Teacher 51,teacher000051@staff.magicbus.edu,2017-11-13,true,XXXX-XXX-3131,Class Teacher,76,135,Social Studies,TCH00051,51,8
+false,2010-07-02T00:00:00.000Z,Intermediate,Teacher 52,teacher000052@staff.magicbus.edu,2010-07-02,true,XXXX-XXX-9279,Coordinator,60,147,Science,TCH00052,52,15
+true,2010-05-10T00:00:00.000Z,Intermediate,Teacher 53,teacher000053@staff.magicbus.edu,2010-05-10,true,XXXX-XXX-4594,Coordinator,76,67,Social Studies,TCH00053,53,15
+true,2010-03-25T00:00:00.000Z,Advanced,Teacher 54,teacher000054@staff.magicbus.edu,2010-03-25,true,XXXX-XXX-4792,Mentor,51,50,Computer Science,TCH00054,54,15
+true,2019-12-18T00:00:00.000Z,Intermediate,Teacher 55,teacher000055@staff.magicbus.edu,2019-12-18,true,XXXX-XXX-5079,Subject Teacher,28,126,Computer Science,TCH00055,55,6
+false,2012-07-19T00:00:00.000Z,Advanced,Teacher 56,teacher000056@staff.magicbus.edu,2012-07-19,false,XXXX-XXX-3090,Subject Teacher,170,53,Computer Science,TCH00056,56,13
+true,2011-11-28T00:00:00.000Z,Beginner,Teacher 57,teacher000057@staff.magicbus.edu,2011-11-28,true,XXXX-XXX-9590,Subject Teacher,150,73,Mathematics,TCH00057,57,14
+true,2013-08-14T00:00:00.000Z,Intermediate,Teacher 58,teacher000058@staff.magicbus.edu,2013-08-14,true,XXXX-XXX-6505,Coordinator,80,106,Social Studies,TCH00058,58,12
+true,2023-03-18T00:00:00.000Z,Advanced,Teacher 59,teacher000059@staff.magicbus.edu,2023-03-18,true,XXXX-XXX-1093,Subject Teacher,1,31,Social Studies,TCH00059,59,2
+false,2024-04-30T00:00:00.000Z,Beginner,Teacher 60,teacher000060@staff.magicbus.edu,2024-04-30,false,XXXX-XXX-2432,Subject Teacher,131,103,Science,TCH00060,60,1
+true,2010-06-08T00:00:00.000Z,Beginner,Teacher 61,teacher000061@staff.magicbus.edu,2010-06-08,true,XXXX-XXX-2903,Class Teacher,30,65,Mathematics,TCH00061,61,15
+true,2017-05-05T00:00:00.000Z,Beginner,Teacher 62,teacher000062@staff.magicbus.edu,2017-05-05,true,XXXX-XXX-8173,Class Teacher,175,32,Science,TCH00062,62,8
+false,2022-09-25T00:00:00.000Z,Advanced,Teacher 63,teacher000063@staff.magicbus.edu,2022-09-25,true,XXXX-XXX-3008,Coordinator,88,30,Mathematics,TCH00063,63,3
+true,2019-09-25T00:00:00.000Z,Advanced,Teacher 64,teacher000064@staff.magicbus.edu,2019-09-25,true,XXXX-XXX-8444,Coordinator,193,82,Computer Science,TCH00064,64,6
+true,2015-11-16T00:00:00.000Z,Intermediate,Teacher 65,teacher000065@staff.magicbus.edu,2015-11-16,true,XXXX-XXX-2610,Subject Teacher,163,46,General,TCH00065,65,10
+true,2023-04-25T00:00:00.000Z,Intermediate,Teacher 66,teacher000066@staff.magicbus.edu,2023-04-25,true,XXXX-XXX-1851,Class Teacher,157,99,Computer Science,TCH00066,66,2
+false,2015-04-11T00:00:00.000Z,Intermediate,Teacher 67,teacher000067@staff.magicbus.edu,2015-04-11,true,XXXX-XXX-6882,Class Teacher,135,104,Languages,TCH00067,67,10
+false,2011-06-15T00:00:00.000Z,Advanced,Teacher 68,teacher000068@staff.magicbus.edu,2011-06-15,true,XXXX-XXX-2030,Class Teacher,13,107,Science,TCH00068,68,14
+true,2011-08-03T00:00:00.000Z,Intermediate,Teacher 69,teacher000069@staff.magicbus.edu,2011-08-03,true,XXXX-XXX-5847,Mentor,58,150,Computer Science,TCH00069,69,14
+false,2020-05-07T00:00:00.000Z,Beginner,Teacher 70,teacher000070@staff.magicbus.edu,2020-05-07,true,XXXX-XXX-5652,Mentor,188,82,General,TCH00070,70,5
+false,2023-10-06T00:00:00.000Z,Beginner,Teacher 71,teacher000071@staff.magicbus.edu,2023-10-06,true,XXXX-XXX-8891,Mentor,22,125,Languages,TCH00071,71,2
+true,2021-07-19T00:00:00.000Z,Beginner,Teacher 72,teacher000072@staff.magicbus.edu,2021-07-19,false,XXXX-XXX-5267,Subject Teacher,108,95,Computer Science,TCH00072,72,4
+false,2024-11-22T00:00:00.000Z,Intermediate,Teacher 73,teacher000073@staff.magicbus.edu,2024-11-22,false,XXXX-XXX-2720,Class Teacher,34,94,Languages,TCH00073,73,1
+true,2015-09-24T00:00:00.000Z,Intermediate,Teacher 74,teacher000074@staff.magicbus.edu,2015-09-24,true,XXXX-XXX-1135,Coordinator,21,33,Science,TCH00074,74,10
+false,2020-07-31T00:00:00.000Z,Intermediate,Teacher 75,teacher000075@staff.magicbus.edu,2020-07-31,true,XXXX-XXX-7586,Subject Teacher,53,123,Computer Science,TCH00075,75,5
+false,2017-10-24T00:00:00.000Z,Intermediate,Teacher 76,teacher000076@staff.magicbus.edu,2017-10-24,false,XXXX-XXX-8401,Class Teacher,179,54,Science,TCH00076,76,8
+true,2014-09-13T00:00:00.000Z,Intermediate,Teacher 77,teacher000077@staff.magicbus.edu,2014-09-13,true,XXXX-XXX-6977,Mentor,107,146,Languages,TCH00077,77,11
+false,2020-08-06T00:00:00.000Z,Advanced,Teacher 78,teacher000078@staff.magicbus.edu,2020-08-06,true,XXXX-XXX-6526,Subject Teacher,48,94,Computer Science,TCH00078,78,5
+false,2020-06-17T00:00:00.000Z,Intermediate,Teacher 79,teacher000079@staff.magicbus.edu,2020-06-17,true,XXXX-XXX-5717,Subject Teacher,121,146,Mathematics,TCH00079,79,5
+true,2010-04-09T00:00:00.000Z,Beginner,Teacher 80,teacher000080@staff.magicbus.edu,2010-04-09,true,XXXX-XXX-7333,Subject Teacher,50,138,Languages,TCH00080,80,15
+true,2014-06-21T00:00:00.000Z,Intermediate,Teacher 81,teacher000081@staff.magicbus.edu,2014-06-21,true,XXXX-XXX-3847,Mentor,98,130,Social Studies,TCH00081,81,11
+false,2015-05-09T00:00:00.000Z,Intermediate,Teacher 82,teacher000082@staff.magicbus.edu,2015-05-09,true,XXXX-XXX-1661,Class Teacher,162,133,Languages,TCH00082,82,10
+false,2012-04-17T00:00:00.000Z,Intermediate,Teacher 83,teacher000083@staff.magicbus.edu,2012-04-17,true,XXXX-XXX-7645,Class Teacher,137,148,Science,TCH00083,83,13
+true,2011-07-27T00:00:00.000Z,Advanced,Teacher 84,teacher000084@staff.magicbus.edu,2011-07-27,true,XXXX-XXX-1081,Subject Teacher,183,101,Science,TCH00084,84,14
+false,2010-01-06T00:00:00.000Z,Intermediate,Teacher 85,teacher000085@staff.magicbus.edu,2010-01-06,true,XXXX-XXX-1285,Subject Teacher,91,37,Languages,TCH00085,85,15
+true,2019-12-20T00:00:00.000Z,Intermediate,Teacher 86,teacher000086@staff.magicbus.edu,2019-12-20,true,XXXX-XXX-1485,Subject Teacher,42,140,Science,TCH00086,86,6
+false,2015-05-07T00:00:00.000Z,Intermediate,Teacher 87,teacher000087@staff.magicbus.edu,2015-05-07,true,XXXX-XXX-8716,Subject Teacher,107,92,Mathematics,TCH00087,87,10
+false,2022-10-31T00:00:00.000Z,Intermediate,Teacher 88,teacher000088@staff.magicbus.edu,2022-10-31,true,XXXX-XXX-6929,Mentor,163,132,Languages,TCH00088,88,3
+false,2020-11-22T00:00:00.000Z,Intermediate,Teacher 89,teacher000089@staff.magicbus.edu,2020-11-22,true,XXXX-XXX-9687,Class Teacher,17,48,General,TCH00089,89,5
+true,2018-04-04T00:00:00.000Z,Intermediate,Teacher 90,teacher000090@staff.magicbus.edu,2018-04-04,true,XXXX-XXX-7464,Class Teacher,134,64,Mathematics,TCH00090,90,7
+false,2018-07-14T00:00:00.000Z,Beginner,Teacher 91,teacher000091@staff.magicbus.edu,2018-07-14,true,XXXX-XXX-7384,Class Teacher,15,132,Languages,TCH00091,91,7
+true,2014-12-26T00:00:00.000Z,Intermediate,Teacher 92,teacher000092@staff.magicbus.edu,2014-12-26,true,XXXX-XXX-6122,Subject Teacher,71,68,Computer Science,TCH00092,92,11
+true,2022-10-18T00:00:00.000Z,Intermediate,Teacher 93,teacher000093@staff.magicbus.edu,2022-10-18,true,XXXX-XXX-5167,Subject Teacher,8,121,General,TCH00093,93,3
+false,2024-08-24T00:00:00.000Z,Intermediate,Teacher 94,teacher000094@staff.magicbus.edu,2024-08-24,true,XXXX-XXX-1484,Subject Teacher,154,106,General,TCH00094,94,1
+false,2024-09-30T00:00:00.000Z,Advanced,Teacher 95,teacher000095@staff.magicbus.edu,2024-09-30,true,XXXX-XXX-6283,Subject Teacher,171,38,Languages,TCH00095,95,1
+false,2024-02-21T00:00:00.000Z,Advanced,Teacher 96,teacher000096@staff.magicbus.edu,2024-02-21,false,XXXX-XXX-8605,Mentor,40,133,Computer Science,TCH00096,96,1
+true,2025-01-11T00:00:00.000Z,Intermediate,Teacher 97,teacher000097@staff.magicbus.edu,2025-01-11,true,XXXX-XXX-5469,Mentor,22,63,General,TCH00097,97,1
+false,2020-01-02T00:00:00.000Z,Intermediate,Teacher 98,teacher000098@staff.magicbus.edu,2020-01-02,true,XXXX-XXX-2071,Class Teacher,4,91,Science,TCH00098,98,6
+false,2024-11-16T00:00:00.000Z,Advanced,Teacher 99,teacher000099@staff.magicbus.edu,2024-11-16,true,XXXX-XXX-7997,Class Teacher,109,108,General,TCH00099,99,1
+false,2011-09-22T00:00:00.000Z,Intermediate,Teacher 100,teacher000100@staff.magicbus.edu,2011-09-22,true,XXXX-XXX-2374,Subject Teacher,37,85,Computer Science,TCH00100,100,14
+true,2025-03-29T00:00:00.000Z,Intermediate,Teacher 101,teacher000101@staff.magicbus.edu,2025-03-29,true,XXXX-XXX-7252,Subject Teacher,154,139,Computer Science,TCH00101,101,1
+true,2011-02-27T00:00:00.000Z,Intermediate,Teacher 102,teacher000102@staff.magicbus.edu,2011-02-27,true,XXXX-XXX-7770,Class Teacher,146,142,General,TCH00102,102,14
+true,2020-07-08T00:00:00.000Z,Intermediate,Teacher 103,teacher000103@staff.magicbus.edu,2020-07-08,true,XXXX-XXX-3971,Subject Teacher,1,96,Science,TCH00103,103,5
+true,2021-11-27T00:00:00.000Z,Intermediate,Teacher 104,teacher000104@staff.magicbus.edu,2021-11-27,true,XXXX-XXX-8174,Coordinator,75,63,Science,TCH00104,104,4
+false,2014-12-25T00:00:00.000Z,Intermediate,Teacher 105,teacher000105@staff.magicbus.edu,2014-12-25,true,XXXX-XXX-7323,Class Teacher,118,40,Languages,TCH00105,105,11
+false,2024-10-23T00:00:00.000Z,Intermediate,Teacher 106,teacher000106@staff.magicbus.edu,2024-10-23,true,XXXX-XXX-2100,Subject Teacher,176,75,Science,TCH00106,106,1
+false,2015-02-07T00:00:00.000Z,Intermediate,Teacher 107,teacher000107@staff.magicbus.edu,2015-02-07,true,XXXX-XXX-5710,Subject Teacher,30,150,General,TCH00107,107,10
+true,2015-03-25T00:00:00.000Z,Beginner,Teacher 108,teacher000108@staff.magicbus.edu,2015-03-25,true,XXXX-XXX-7191,Class Teacher,40,92,Computer Science,TCH00108,108,10
+true,2015-09-15T00:00:00.000Z,Intermediate,Teacher 109,teacher000109@staff.magicbus.edu,2015-09-15,true,XXXX-XXX-1931,Subject Teacher,121,43,Mathematics,TCH00109,109,10
+false,2012-01-26T00:00:00.000Z,Beginner,Teacher 110,teacher000110@staff.magicbus.edu,2012-01-26,true,XXXX-XXX-1215,Subject Teacher,22,71,Science,TCH00110,110,13
+true,2011-04-13T00:00:00.000Z,Intermediate,Teacher 111,teacher000111@staff.magicbus.edu,2011-04-13,true,XXXX-XXX-7029,Subject Teacher,22,98,Social Studies,TCH00111,111,14
+false,2015-08-25T00:00:00.000Z,Advanced,Teacher 112,teacher000112@staff.magicbus.edu,2015-08-25,true,XXXX-XXX-7535,Subject Teacher,155,51,Mathematics,TCH00112,112,10
+true,2015-07-21T00:00:00.000Z,Advanced,Teacher 113,teacher000113@staff.magicbus.edu,2015-07-21,true,XXXX-XXX-5215,Class Teacher,116,131,General,TCH00113,113,10
+true,2024-06-14T00:00:00.000Z,Advanced,Teacher 114,teacher000114@staff.magicbus.edu,2024-06-14,true,XXXX-XXX-9787,Class Teacher,166,39,Computer Science,TCH00114,114,1
+true,2014-01-16T00:00:00.000Z,Intermediate,Teacher 115,teacher000115@staff.magicbus.edu,2014-01-16,true,XXXX-XXX-9921,Mentor,167,50,General,TCH00115,115,11
+false,2018-12-04T00:00:00.000Z,Beginner,Teacher 116,teacher000116@staff.magicbus.edu,2018-12-04,true,XXXX-XXX-4959,Subject Teacher,113,96,Computer Science,TCH00116,116,7
+true,2020-05-09T00:00:00.000Z,Intermediate,Teacher 117,teacher000117@staff.magicbus.edu,2020-05-09,true,XXXX-XXX-3268,Subject Teacher,101,134,Languages,TCH00117,117,5
+false,2023-09-29T00:00:00.000Z,Beginner,Teacher 118,teacher000118@staff.magicbus.edu,2023-09-29,true,XXXX-XXX-7550,Subject Teacher,102,122,Computer Science,TCH00118,118,2
+false,2010-04-28T00:00:00.000Z,Intermediate,Teacher 119,teacher000119@staff.magicbus.edu,2010-04-28,true,XXXX-XXX-4536,Subject Teacher,200,117,Languages,TCH00119,119,15
+false,2022-01-19T00:00:00.000Z,Beginner,Teacher 120,teacher000120@staff.magicbus.edu,2022-01-19,true,XXXX-XXX-1334,Class Teacher,74,50,Languages,TCH00120,120,3
+false,2021-01-26T00:00:00.000Z,Advanced,Teacher 121,teacher000121@staff.magicbus.edu,2021-01-26,true,XXXX-XXX-4853,Subject Teacher,174,100,Science,TCH00121,121,4
+true,2011-12-17T00:00:00.000Z,Advanced,Teacher 122,teacher000122@staff.magicbus.edu,2011-12-17,true,XXXX-XXX-4030,Coordinator,141,109,General,TCH00122,122,14
+false,2018-08-24T00:00:00.000Z,Beginner,Teacher 123,teacher000123@staff.magicbus.edu,2018-08-24,true,XXXX-XXX-3694,Subject Teacher,15,149,General,TCH00123,123,7
+true,2010-07-23T00:00:00.000Z,Intermediate,Teacher 124,teacher000124@staff.magicbus.edu,2010-07-23,true,XXXX-XXX-8428,Subject Teacher,105,56,Science,TCH00124,124,15
+true,2020-04-17T00:00:00.000Z,Advanced,Teacher 125,teacher000125@staff.magicbus.edu,2020-04-17,true,XXXX-XXX-5939,Mentor,79,101,General,TCH00125,125,5
+true,2025-02-16T00:00:00.000Z,Advanced,Teacher 126,teacher000126@staff.magicbus.edu,2025-02-16,false,XXXX-XXX-4235,Mentor,164,94,Computer Science,TCH00126,126,1
+false,2025-02-25T00:00:00.000Z,Intermediate,Teacher 127,teacher000127@staff.magicbus.edu,2025-02-25,true,XXXX-XXX-1569,Class Teacher,132,117,General,TCH00127,127,1
+false,2018-11-19T00:00:00.000Z,Intermediate,Teacher 128,teacher000128@staff.magicbus.edu,2018-11-19,true,XXXX-XXX-6694,Subject Teacher,119,84,Computer Science,TCH00128,128,7
+false,2016-07-15T00:00:00.000Z,Intermediate,Teacher 129,teacher000129@staff.magicbus.edu,2016-07-15,true,XXXX-XXX-6529,Coordinator,91,86,Languages,TCH00129,129,9
+false,2020-04-14T00:00:00.000Z,Intermediate,Teacher 130,teacher000130@staff.magicbus.edu,2020-04-14,true,XXXX-XXX-3617,Subject Teacher,136,95,General,TCH00130,130,5
+true,2016-06-30T00:00:00.000Z,Beginner,Teacher 131,teacher000131@staff.magicbus.edu,2016-06-30,true,XXXX-XXX-5398,Coordinator,193,132,Languages,TCH00131,131,9
+true,2012-11-14T00:00:00.000Z,Intermediate,Teacher 132,teacher000132@staff.magicbus.edu,2012-11-14,true,XXXX-XXX-9766,Coordinator,100,94,Computer Science,TCH00132,132,13
+false,2017-06-02T00:00:00.000Z,Intermediate,Teacher 133,teacher000133@staff.magicbus.edu,2017-06-02,true,XXXX-XXX-1285,Class Teacher,62,115,Science,TCH00133,133,8
+true,2019-11-30T00:00:00.000Z,Intermediate,Teacher 134,teacher000134@staff.magicbus.edu,2019-11-30,true,XXXX-XXX-7253,Subject Teacher,104,100,Computer Science,TCH00134,134,6
+false,2018-07-03T00:00:00.000Z,Intermediate,Teacher 135,teacher000135@staff.magicbus.edu,2018-07-03,true,XXXX-XXX-2127,Subject Teacher,102,136,General,TCH00135,135,7
+false,2020-04-21T00:00:00.000Z,Beginner,Teacher 136,teacher000136@staff.magicbus.edu,2020-04-21,true,XXXX-XXX-5969,Mentor,60,131,Social Studies,TCH00136,136,5
+true,2014-02-17T00:00:00.000Z,Advanced,Teacher 137,teacher000137@staff.magicbus.edu,2014-02-17,true,XXXX-XXX-2428,Class Teacher,60,77,Languages,TCH00137,137,11
+true,2019-08-26T00:00:00.000Z,Advanced,Teacher 138,teacher000138@staff.magicbus.edu,2019-08-26,true,XXXX-XXX-4973,Coordinator,80,127,Computer Science,TCH00138,138,6
+true,2014-11-27T00:00:00.000Z,Intermediate,Teacher 139,teacher000139@staff.magicbus.edu,2014-11-27,true,XXXX-XXX-9944,Class Teacher,137,33,Languages,TCH00139,139,11
+false,2015-02-16T00:00:00.000Z,Advanced,Teacher 140,teacher000140@staff.magicbus.edu,2015-02-16,true,XXXX-XXX-9460,Mentor,143,125,Mathematics,TCH00140,140,10
+true,2022-03-02T00:00:00.000Z,Beginner,Teacher 141,teacher000141@staff.magicbus.edu,2022-03-02,false,XXXX-XXX-7380,Mentor,45,123,Mathematics,TCH00141,141,3
+false,2014-11-30T00:00:00.000Z,Intermediate,Teacher 142,teacher000142@staff.magicbus.edu,2014-11-30,true,XXXX-XXX-9277,Class Teacher,184,115,Mathematics,TCH00142,142,11
+true,2021-12-10T00:00:00.000Z,Intermediate,Teacher 143,teacher000143@staff.magicbus.edu,2021-12-10,true,XXXX-XXX-5067,Subject Teacher,154,124,Mathematics,TCH00143,143,4
+true,2012-08-10T00:00:00.000Z,Intermediate,Teacher 144,teacher000144@staff.magicbus.edu,2012-08-10,true,XXXX-XXX-9464,Mentor,83,144,Mathematics,TCH00144,144,13
+false,2016-05-31T00:00:00.000Z,Intermediate,Teacher 145,teacher000145@staff.magicbus.edu,2016-05-31,true,XXXX-XXX-8757,Subject Teacher,152,99,Computer Science,TCH00145,145,9
+true,2010-05-07T00:00:00.000Z,Intermediate,Teacher 146,teacher000146@staff.magicbus.edu,2010-05-07,true,XXXX-XXX-8456,Subject Teacher,169,30,Computer Science,TCH00146,146,15
+true,2015-10-30T00:00:00.000Z,Beginner,Teacher 147,teacher000147@staff.magicbus.edu,2015-10-30,true,XXXX-XXX-4084,Subject Teacher,117,75,Computer Science,TCH00147,147,10
+true,2012-05-01T00:00:00.000Z,Intermediate,Teacher 148,teacher000148@staff.magicbus.edu,2012-05-01,true,XXXX-XXX-8692,Subject Teacher,137,118,Computer Science,TCH00148,148,13
+true,2023-02-02T00:00:00.000Z,Intermediate,Teacher 149,teacher000149@staff.magicbus.edu,2023-02-02,true,XXXX-XXX-8417,Subject Teacher,189,130,General,TCH00149,149,2
+false,2024-09-14T00:00:00.000Z,Advanced,Teacher 150,teacher000150@staff.magicbus.edu,2024-09-14,true,XXXX-XXX-9513,Coordinator,99,138,Mathematics,TCH00150,150,1
+false,2024-07-23T00:00:00.000Z,Intermediate,Teacher 151,teacher000151@staff.magicbus.edu,2024-07-23,true,XXXX-XXX-1568,Subject Teacher,24,127,Science,TCH00151,151,1
+true,2022-03-05T00:00:00.000Z,Beginner,Teacher 152,teacher000152@staff.magicbus.edu,2022-03-05,false,XXXX-XXX-3345,Class Teacher,43,58,General,TCH00152,152,3
+true,2021-03-07T00:00:00.000Z,Advanced,Teacher 153,teacher000153@staff.magicbus.edu,2021-03-07,true,XXXX-XXX-9622,Subject Teacher,106,95,Computer Science,TCH00153,153,4
+true,2016-07-28T00:00:00.000Z,Advanced,Teacher 154,teacher000154@staff.magicbus.edu,2016-07-28,true,XXXX-XXX-3839,Coordinator,160,31,Computer Science,TCH00154,154,9
+false,2011-04-29T00:00:00.000Z,Intermediate,Teacher 155,teacher000155@staff.magicbus.edu,2011-04-29,true,XXXX-XXX-3334,Class Teacher,146,98,Computer Science,TCH00155,155,14
+false,2012-07-07T00:00:00.000Z,Intermediate,Teacher 156,teacher000156@staff.magicbus.edu,2012-07-07,true,XXXX-XXX-4092,Subject Teacher,158,118,Languages,TCH00156,156,13
+false,2018-07-17T00:00:00.000Z,Beginner,Teacher 157,teacher000157@staff.magicbus.edu,2018-07-17,true,XXXX-XXX-7654,Mentor,94,92,Mathematics,TCH00157,157,7
+false,2016-06-20T00:00:00.000Z,Intermediate,Teacher 158,teacher000158@staff.magicbus.edu,2016-06-20,true,XXXX-XXX-6515,Subject Teacher,19,82,Science,TCH00158,158,9
+true,2016-07-14T00:00:00.000Z,Beginner,Teacher 159,teacher000159@staff.magicbus.edu,2016-07-14,false,XXXX-XXX-9640,Subject Teacher,16,146,General,TCH00159,159,9
+false,2011-01-25T00:00:00.000Z,Beginner,Teacher 160,teacher000160@staff.magicbus.edu,2011-01-25,true,XXXX-XXX-4208,Subject Teacher,138,89,Computer Science,TCH00160,160,14
+true,2014-02-14T00:00:00.000Z,Advanced,Teacher 161,teacher000161@staff.magicbus.edu,2014-02-14,true,XXXX-XXX-6051,Class Teacher,158,65,Social Studies,TCH00161,161,11
+true,2013-02-05T00:00:00.000Z,Intermediate,Teacher 162,teacher000162@staff.magicbus.edu,2013-02-05,true,XXXX-XXX-7476,Class Teacher,47,65,General,TCH00162,162,12
+false,2016-06-14T00:00:00.000Z,Advanced,Teacher 163,teacher000163@staff.magicbus.edu,2016-06-14,true,XXXX-XXX-6186,Class Teacher,6,140,Social Studies,TCH00163,163,9
+true,2021-08-07T00:00:00.000Z,Advanced,Teacher 164,teacher000164@staff.magicbus.edu,2021-08-07,true,XXXX-XXX-2760,Mentor,94,67,Computer Science,TCH00164,164,4
+true,2019-01-21T00:00:00.000Z,Advanced,Teacher 165,teacher000165@staff.magicbus.edu,2019-01-21,true,XXXX-XXX-9306,Class Teacher,196,45,Science,TCH00165,165,6
+true,2018-08-17T00:00:00.000Z,Intermediate,Teacher 166,teacher000166@staff.magicbus.edu,2018-08-17,true,XXXX-XXX-2246,Subject Teacher,7,106,Science,TCH00166,166,7
+true,2020-11-17T00:00:00.000Z,Intermediate,Teacher 167,teacher000167@staff.magicbus.edu,2020-11-17,true,XXXX-XXX-5564,Coordinator,41,135,Languages,TCH00167,167,5
+true,2010-09-08T00:00:00.000Z,Advanced,Teacher 168,teacher000168@staff.magicbus.edu,2010-09-08,true,XXXX-XXX-7524,Subject Teacher,170,37,General,TCH00168,168,15
+true,2022-12-22T00:00:00.000Z,Intermediate,Teacher 169,teacher000169@staff.magicbus.edu,2022-12-22,true,XXXX-XXX-8510,Coordinator,76,131,General,TCH00169,169,3
+true,2023-09-04T00:00:00.000Z,Intermediate,Teacher 170,teacher000170@staff.magicbus.edu,2023-09-04,true,XXXX-XXX-1870,Subject Teacher,37,141,Social Studies,TCH00170,170,2
+true,2012-12-17T00:00:00.000Z,Beginner,Teacher 171,teacher000171@staff.magicbus.edu,2012-12-17,true,XXXX-XXX-4529,Subject Teacher,2,76,Social Studies,TCH00171,171,13
+false,2016-04-18T00:00:00.000Z,Beginner,Teacher 172,teacher000172@staff.magicbus.edu,2016-04-18,true,XXXX-XXX-2631,Mentor,196,132,Social Studies,TCH00172,172,9
+false,2014-02-10T00:00:00.000Z,Advanced,Teacher 173,teacher000173@staff.magicbus.edu,2014-02-10,true,XXXX-XXX-7283,Mentor,116,92,Computer Science,TCH00173,173,11
+true,2016-08-07T00:00:00.000Z,Beginner,Teacher 174,teacher000174@staff.magicbus.edu,2016-08-07,true,XXXX-XXX-5844,Class Teacher,23,32,Computer Science,TCH00174,174,9
+true,2017-07-03T00:00:00.000Z,Advanced,Teacher 175,teacher000175@staff.magicbus.edu,2017-07-03,true,XXXX-XXX-4649,Subject Teacher,15,113,Social Studies,TCH00175,175,8
+true,2023-05-29T00:00:00.000Z,Beginner,Teacher 176,teacher000176@staff.magicbus.edu,2023-05-29,true,XXXX-XXX-2567,Coordinator,178,34,Languages,TCH00176,176,2
+false,2022-08-14T00:00:00.000Z,Intermediate,Teacher 177,teacher000177@staff.magicbus.edu,2022-08-14,true,XXXX-XXX-2919,Subject Teacher,126,126,Languages,TCH00177,177,3
+false,2021-09-04T00:00:00.000Z,Intermediate,Teacher 178,teacher000178@staff.magicbus.edu,2021-09-04,true,XXXX-XXX-4889,Subject Teacher,135,138,General,TCH00178,178,4
+true,2024-12-04T00:00:00.000Z,Intermediate,Teacher 179,teacher000179@staff.magicbus.edu,2024-12-04,true,XXXX-XXX-4179,Coordinator,3,99,Science,TCH00179,179,1
+false,2011-01-08T00:00:00.000Z,Beginner,Teacher 180,teacher000180@staff.magicbus.edu,2011-01-08,false,XXXX-XXX-7738,Coordinator,49,143,General,TCH00180,180,14
+false,2023-07-29T00:00:00.000Z,Intermediate,Teacher 181,teacher000181@staff.magicbus.edu,2023-07-29,true,XXXX-XXX-2028,Subject Teacher,119,48,Computer Science,TCH00181,181,2
+false,2014-02-27T00:00:00.000Z,Beginner,Teacher 182,teacher000182@staff.magicbus.edu,2014-02-27,true,XXXX-XXX-7581,Class Teacher,42,84,General,TCH00182,182,11
+false,2020-03-28T00:00:00.000Z,Intermediate,Teacher 183,teacher000183@staff.magicbus.edu,2020-03-28,true,XXXX-XXX-3611,Subject Teacher,139,93,Languages,TCH00183,183,5
+true,2020-02-15T00:00:00.000Z,Intermediate,Teacher 184,teacher000184@staff.magicbus.edu,2020-02-15,false,XXXX-XXX-7098,Class Teacher,140,87,Computer Science,TCH00184,184,5
+false,2010-08-17T00:00:00.000Z,Advanced,Teacher 185,teacher000185@staff.magicbus.edu,2010-08-17,false,XXXX-XXX-6776,Mentor,149,126,Computer Science,TCH00185,185,15
+true,2021-07-21T00:00:00.000Z,Beginner,Teacher 186,teacher000186@staff.magicbus.edu,2021-07-21,true,XXXX-XXX-2550,Class Teacher,115,107,Social Studies,TCH00186,186,4
+false,2022-08-02T00:00:00.000Z,Intermediate,Teacher 187,teacher000187@staff.magicbus.edu,2022-08-02,true,XXXX-XXX-6724,Mentor,199,99,Computer Science,TCH00187,187,3
+true,2018-08-23T00:00:00.000Z,Advanced,Teacher 188,teacher000188@staff.magicbus.edu,2018-08-23,true,XXXX-XXX-1615,Class Teacher,76,119,General,TCH00188,188,7
+true,2016-12-21T00:00:00.000Z,Intermediate,Teacher 189,teacher000189@staff.magicbus.edu,2016-12-21,true,XXXX-XXX-1127,Subject Teacher,75,95,Languages,TCH00189,189,9
+false,2022-07-13T00:00:00.000Z,Intermediate,Teacher 190,teacher000190@staff.magicbus.edu,2022-07-13,true,XXXX-XXX-3046,Class Teacher,161,35,Computer Science,TCH00190,190,3
+true,2023-08-09T00:00:00.000Z,Intermediate,Teacher 191,teacher000191@staff.magicbus.edu,2023-08-09,true,XXXX-XXX-1285,Subject Teacher,114,97,General,TCH00191,191,2
+true,2023-02-17T00:00:00.000Z,Intermediate,Teacher 192,teacher000192@staff.magicbus.edu,2023-02-17,true,XXXX-XXX-9774,Class Teacher,83,66,Computer Science,TCH00192,192,2
+false,2024-12-24T00:00:00.000Z,Beginner,Teacher 193,teacher000193@staff.magicbus.edu,2024-12-24,true,XXXX-XXX-2638,Class Teacher,174,135,Science,TCH00193,193,1
+true,2018-04-02T00:00:00.000Z,Intermediate,Teacher 194,teacher000194@staff.magicbus.edu,2018-04-02,true,XXXX-XXX-5106,Subject Teacher,72,34,General,TCH00194,194,7
+true,2021-10-30T00:00:00.000Z,Intermediate,Teacher 195,teacher000195@staff.magicbus.edu,2021-10-30,true,XXXX-XXX-4407,Subject Teacher,183,93,Languages,TCH00195,195,4
+false,2017-06-23T00:00:00.000Z,Intermediate,Teacher 196,teacher000196@staff.magicbus.edu,2017-06-23,true,XXXX-XXX-4617,Mentor,10,148,Languages,TCH00196,196,8
+true,2022-10-11T00:00:00.000Z,Intermediate,Teacher 197,teacher000197@staff.magicbus.edu,2022-10-11,true,XXXX-XXX-3610,Subject Teacher,157,130,Computer Science,TCH00197,197,3
+false,2024-02-15T00:00:00.000Z,Intermediate,Teacher 198,teacher000198@staff.magicbus.edu,2024-02-15,true,XXXX-XXX-7400,Subject Teacher,119,60,General,TCH00198,198,1
+false,2010-05-30T00:00:00.000Z,Intermediate,Teacher 199,teacher000199@staff.magicbus.edu,2010-05-30,true,XXXX-XXX-6094,Class Teacher,111,72,Computer Science,TCH00199,199,15
+false,2014-04-01T00:00:00.000Z,Advanced,Teacher 200,teacher000200@staff.magicbus.edu,2014-04-01,true,XXXX-XXX-2824,Subject Teacher,39,61,Languages,TCH00200,200,11
+true,2019-06-22T00:00:00.000Z,Intermediate,Teacher 201,teacher000201@staff.magicbus.edu,2019-06-22,true,XXXX-XXX-9925,Subject Teacher,195,150,General,TCH00201,201,6
+false,2017-09-21T00:00:00.000Z,Intermediate,Teacher 202,teacher000202@staff.magicbus.edu,2017-09-21,true,XXXX-XXX-7974,Subject Teacher,189,54,Languages,TCH00202,202,8
+true,2012-10-14T00:00:00.000Z,Intermediate,Teacher 203,teacher000203@staff.magicbus.edu,2012-10-14,false,XXXX-XXX-6350,Class Teacher,194,143,Mathematics,TCH00203,203,13
+false,2019-01-12T00:00:00.000Z,Intermediate,Teacher 204,teacher000204@staff.magicbus.edu,2019-01-12,true,XXXX-XXX-8577,Subject Teacher,18,150,Computer Science,TCH00204,204,6
+false,2020-02-05T00:00:00.000Z,Intermediate,Teacher 205,teacher000205@staff.magicbus.edu,2020-02-05,false,XXXX-XXX-9013,Coordinator,119,59,Languages,TCH00205,205,5
+false,2010-09-05T00:00:00.000Z,Intermediate,Teacher 206,teacher000206@staff.magicbus.edu,2010-09-05,false,XXXX-XXX-8386,Subject Teacher,27,86,Computer Science,TCH00206,206,15
+true,2019-12-02T00:00:00.000Z,Intermediate,Teacher 207,teacher000207@staff.magicbus.edu,2019-12-02,true,XXXX-XXX-7349,Coordinator,110,87,Mathematics,TCH00207,207,6
+false,2012-10-30T00:00:00.000Z,Intermediate,Teacher 208,teacher000208@staff.magicbus.edu,2012-10-30,true,XXXX-XXX-4391,Mentor,5,68,Science,TCH00208,208,13
+true,2021-02-08T00:00:00.000Z,Intermediate,Teacher 209,teacher000209@staff.magicbus.edu,2021-02-08,false,XXXX-XXX-7572,Subject Teacher,53,145,General,TCH00209,209,4
+false,2018-12-31T00:00:00.000Z,Intermediate,Teacher 210,teacher000210@staff.magicbus.edu,2018-12-31,true,XXXX-XXX-5704,Class Teacher,106,90,Computer Science,TCH00210,210,7
+false,2021-10-20T00:00:00.000Z,Beginner,Teacher 211,teacher000211@staff.magicbus.edu,2021-10-20,true,XXXX-XXX-7297,Subject Teacher,141,67,Languages,TCH00211,211,4
+true,2015-10-21T00:00:00.000Z,Advanced,Teacher 212,teacher000212@staff.magicbus.edu,2015-10-21,true,XXXX-XXX-5940,Subject Teacher,168,104,Social Studies,TCH00212,212,10
+false,2019-11-01T00:00:00.000Z,Beginner,Teacher 213,teacher000213@staff.magicbus.edu,2019-11-01,true,XXXX-XXX-9909,Mentor,3,149,General,TCH00213,213,6
+false,2014-01-16T00:00:00.000Z,Intermediate,Teacher 214,teacher000214@staff.magicbus.edu,2014-01-16,true,XXXX-XXX-1292,Subject Teacher,54,35,General,TCH00214,214,11
+true,2019-03-06T00:00:00.000Z,Beginner,Teacher 215,teacher000215@staff.magicbus.edu,2019-03-06,true,XXXX-XXX-3860,Subject Teacher,106,134,Social Studies,TCH00215,215,6
+true,2010-05-27T00:00:00.000Z,Intermediate,Teacher 216,teacher000216@staff.magicbus.edu,2010-05-27,true,XXXX-XXX-1980,Class Teacher,164,88,Social Studies,TCH00216,216,15
+true,2016-04-25T00:00:00.000Z,Advanced,Teacher 217,teacher000217@staff.magicbus.edu,2016-04-25,true,XXXX-XXX-2806,Subject Teacher,174,78,General,TCH00217,217,9
+true,2017-12-29T00:00:00.000Z,Intermediate,Teacher 218,teacher000218@staff.magicbus.edu,2017-12-29,true,XXXX-XXX-3048,Subject Teacher,185,82,Computer Science,TCH00218,218,8
+true,2017-11-11T00:00:00.000Z,Advanced,Teacher 219,teacher000219@staff.magicbus.edu,2017-11-11,true,XXXX-XXX-5482,Subject Teacher,82,139,Computer Science,TCH00219,219,8
+true,2017-08-23T00:00:00.000Z,Intermediate,Teacher 220,teacher000220@staff.magicbus.edu,2017-08-23,true,XXXX-XXX-8417,Subject Teacher,177,48,Computer Science,TCH00220,220,8
+false,2015-03-15T00:00:00.000Z,Beginner,Teacher 221,teacher000221@staff.magicbus.edu,2015-03-15,true,XXXX-XXX-8667,Subject Teacher,149,68,Mathematics,TCH00221,221,10
+true,2020-10-19T00:00:00.000Z,Intermediate,Teacher 222,teacher000222@staff.magicbus.edu,2020-10-19,true,XXXX-XXX-4814,Subject Teacher,137,111,Science,TCH00222,222,5
+false,2021-07-11T00:00:00.000Z,Beginner,Teacher 223,teacher000223@staff.magicbus.edu,2021-07-11,true,XXXX-XXX-6492,Mentor,76,99,Social Studies,TCH00223,223,4
+true,2017-06-29T00:00:00.000Z,Advanced,Teacher 224,teacher000224@staff.magicbus.edu,2017-06-29,false,XXXX-XXX-8059,Subject Teacher,160,107,Computer Science,TCH00224,224,8
+true,2012-11-18T00:00:00.000Z,Intermediate,Teacher 225,teacher000225@staff.magicbus.edu,2012-11-18,true,XXXX-XXX-6007,Mentor,29,104,Mathematics,TCH00225,225,13
+false,2020-06-20T00:00:00.000Z,Intermediate,Teacher 226,teacher000226@staff.magicbus.edu,2020-06-20,true,XXXX-XXX-5828,Subject Teacher,146,112,Science,TCH00226,226,5
+true,2015-03-22T00:00:00.000Z,Intermediate,Teacher 227,teacher000227@staff.magicbus.edu,2015-03-22,true,XXXX-XXX-3109,Class Teacher,147,73,General,TCH00227,227,10
+true,2014-12-20T00:00:00.000Z,Advanced,Teacher 228,teacher000228@staff.magicbus.edu,2014-12-20,true,XXXX-XXX-9563,Class Teacher,184,97,Languages,TCH00228,228,11
+true,2019-12-28T00:00:00.000Z,Advanced,Teacher 229,teacher000229@staff.magicbus.edu,2019-12-28,true,XXXX-XXX-2318,Coordinator,93,64,Languages,TCH00229,229,6
+false,2010-09-18T00:00:00.000Z,Intermediate,Teacher 230,teacher000230@staff.magicbus.edu,2010-09-18,true,XXXX-XXX-4057,Class Teacher,147,123,Mathematics,TCH00230,230,15
+false,2019-03-18T00:00:00.000Z,Advanced,Teacher 231,teacher000231@staff.magicbus.edu,2019-03-18,true,XXXX-XXX-5140,Subject Teacher,62,74,General,TCH00231,231,6
+true,2023-06-15T00:00:00.000Z,Beginner,Teacher 232,teacher000232@staff.magicbus.edu,2023-06-15,false,XXXX-XXX-9312,Subject Teacher,151,92,General,TCH00232,232,2
+true,2014-11-13T00:00:00.000Z,Advanced,Teacher 233,teacher000233@staff.magicbus.edu,2014-11-13,true,XXXX-XXX-2039,Subject Teacher,82,39,General,TCH00233,233,11
+false,2012-09-26T00:00:00.000Z,Beginner,Teacher 234,teacher000234@staff.magicbus.edu,2012-09-26,true,XXXX-XXX-5306,Class Teacher,19,99,General,TCH00234,234,13
+false,2010-05-18T00:00:00.000Z,Advanced,Teacher 235,teacher000235@staff.magicbus.edu,2010-05-18,false,XXXX-XXX-6102,Class Teacher,74,138,Mathematics,TCH00235,235,15
+true,2019-10-31T00:00:00.000Z,Intermediate,Teacher 236,teacher000236@staff.magicbus.edu,2019-10-31,true,XXXX-XXX-9815,Coordinator,158,53,Computer Science,TCH00236,236,6
+true,2023-12-12T00:00:00.000Z,Intermediate,Teacher 237,teacher000237@staff.magicbus.edu,2023-12-12,true,XXXX-XXX-3734,Subject Teacher,186,97,Mathematics,TCH00237,237,2
+false,2018-12-28T00:00:00.000Z,Advanced,Teacher 238,teacher000238@staff.magicbus.edu,2018-12-28,true,XXXX-XXX-5061,Subject Teacher,20,128,Social Studies,TCH00238,238,7
+false,2024-09-05T00:00:00.000Z,Intermediate,Teacher 239,teacher000239@staff.magicbus.edu,2024-09-05,true,XXXX-XXX-7314,Subject Teacher,104,120,Science,TCH00239,239,1
+false,2015-09-07T00:00:00.000Z,Intermediate,Teacher 240,teacher000240@staff.magicbus.edu,2015-09-07,true,XXXX-XXX-6991,Subject Teacher,85,58,Computer Science,TCH00240,240,10
+true,2011-03-20T00:00:00.000Z,Beginner,Teacher 241,teacher000241@staff.magicbus.edu,2011-03-20,false,XXXX-XXX-1773,Subject Teacher,12,49,Social Studies,TCH00241,241,14
+true,2011-11-07T00:00:00.000Z,Advanced,Teacher 242,teacher000242@staff.magicbus.edu,2011-11-07,true,XXXX-XXX-7632,Class Teacher,137,82,Computer Science,TCH00242,242,14
+true,2023-05-22T00:00:00.000Z,Intermediate,Teacher 243,teacher000243@staff.magicbus.edu,2023-05-22,true,XXXX-XXX-2708,Subject Teacher,175,73,Mathematics,TCH00243,243,2
+false,2025-03-10T00:00:00.000Z,Advanced,Teacher 244,teacher000244@staff.magicbus.edu,2025-03-10,true,XXXX-XXX-6337,Class Teacher,192,122,Mathematics,TCH00244,244,1
+false,2016-11-02T00:00:00.000Z,Beginner,Teacher 245,teacher000245@staff.magicbus.edu,2016-11-02,true,XXXX-XXX-1468,Subject Teacher,146,60,General,TCH00245,245,9
+true,2014-01-16T00:00:00.000Z,Intermediate,Teacher 246,teacher000246@staff.magicbus.edu,2014-01-16,false,XXXX-XXX-3785,Mentor,47,117,Languages,TCH00246,246,11
+true,2020-08-09T00:00:00.000Z,Intermediate,Teacher 247,teacher000247@staff.magicbus.edu,2020-08-09,true,XXXX-XXX-9921,Class Teacher,50,67,Languages,TCH00247,247,5
+true,2021-06-21T00:00:00.000Z,Advanced,Teacher 248,teacher000248@staff.magicbus.edu,2021-06-21,true,XXXX-XXX-9604,Subject Teacher,137,42,Computer Science,TCH00248,248,4
+true,2018-01-15T00:00:00.000Z,Intermediate,Teacher 249,teacher000249@staff.magicbus.edu,2018-01-15,true,XXXX-XXX-4697,Class Teacher,197,61,Languages,TCH00249,249,7
+true,2010-07-30T00:00:00.000Z,Beginner,Teacher 250,teacher000250@staff.magicbus.edu,2010-07-30,true,XXXX-XXX-5879,Subject Teacher,165,129,Mathematics,TCH00250,250,15
+true,2020-04-05T00:00:00.000Z,Intermediate,Teacher 251,teacher000251@staff.magicbus.edu,2020-04-05,true,XXXX-XXX-6692,Subject Teacher,38,87,Science,TCH00251,251,5
+true,2016-09-28T00:00:00.000Z,Intermediate,Teacher 252,teacher000252@staff.magicbus.edu,2016-09-28,true,XXXX-XXX-7634,Class Teacher,33,130,Mathematics,TCH00252,252,9
+true,2020-04-23T00:00:00.000Z,Beginner,Teacher 253,teacher000253@staff.magicbus.edu,2020-04-23,true,XXXX-XXX-8629,Subject Teacher,116,126,Social Studies,TCH00253,253,5
+true,2019-09-16T00:00:00.000Z,Beginner,Teacher 254,teacher000254@staff.magicbus.edu,2019-09-16,false,XXXX-XXX-8982,Coordinator,163,33,Computer Science,TCH00254,254,6
+true,2016-10-18T00:00:00.000Z,Beginner,Teacher 255,teacher000255@staff.magicbus.edu,2016-10-18,true,XXXX-XXX-8965,Class Teacher,41,60,General,TCH00255,255,9
+true,2024-04-28T00:00:00.000Z,Intermediate,Teacher 256,teacher000256@staff.magicbus.edu,2024-04-28,true,XXXX-XXX-4769,Class Teacher,159,149,General,TCH00256,256,1
+false,2014-10-18T00:00:00.000Z,Advanced,Teacher 257,teacher000257@staff.magicbus.edu,2014-10-18,true,XXXX-XXX-4679,Subject Teacher,74,141,Languages,TCH00257,257,11
+true,2016-05-10T00:00:00.000Z,Intermediate,Teacher 258,teacher000258@staff.magicbus.edu,2016-05-10,true,XXXX-XXX-9638,Coordinator,132,63,General,TCH00258,258,9
+false,2014-09-23T00:00:00.000Z,Intermediate,Teacher 259,teacher000259@staff.magicbus.edu,2014-09-23,true,XXXX-XXX-4246,Class Teacher,168,71,Computer Science,TCH00259,259,11
+false,2012-06-22T00:00:00.000Z,Beginner,Teacher 260,teacher000260@staff.magicbus.edu,2012-06-22,true,XXXX-XXX-1457,Subject Teacher,52,111,Languages,TCH00260,260,13
+true,2011-09-05T00:00:00.000Z,Beginner,Teacher 261,teacher000261@staff.magicbus.edu,2011-09-05,false,XXXX-XXX-6443,Mentor,32,43,Mathematics,TCH00261,261,14
+false,2016-05-08T00:00:00.000Z,Advanced,Teacher 262,teacher000262@staff.magicbus.edu,2016-05-08,true,XXXX-XXX-4960,Subject Teacher,138,86,Mathematics,TCH00262,262,9
+false,2024-02-05T00:00:00.000Z,Advanced,Teacher 263,teacher000263@staff.magicbus.edu,2024-02-05,true,XXXX-XXX-1390,Class Teacher,38,45,Computer Science,TCH00263,263,1
+true,2015-11-10T00:00:00.000Z,Intermediate,Teacher 264,teacher000264@staff.magicbus.edu,2015-11-10,true,XXXX-XXX-8924,Subject Teacher,103,33,General,TCH00264,264,10
+true,2023-01-26T00:00:00.000Z,Intermediate,Teacher 265,teacher000265@staff.magicbus.edu,2023-01-26,false,XXXX-XXX-9800,Subject Teacher,126,110,Social Studies,TCH00265,265,2
+true,2012-10-12T00:00:00.000Z,Advanced,Teacher 266,teacher000266@staff.magicbus.edu,2012-10-12,true,XXXX-XXX-6059,Subject Teacher,8,46,Science,TCH00266,266,13
+false,2014-01-16T00:00:00.000Z,Beginner,Teacher 267,teacher000267@staff.magicbus.edu,2014-01-16,true,XXXX-XXX-8169,Class Teacher,167,149,General,TCH00267,267,11
+true,2020-02-17T00:00:00.000Z,Intermediate,Teacher 268,teacher000268@staff.magicbus.edu,2020-02-17,true,XXXX-XXX-8238,Mentor,40,147,General,TCH00268,268,5
+true,2023-11-20T00:00:00.000Z,Intermediate,Teacher 269,teacher000269@staff.magicbus.edu,2023-11-20,true,XXXX-XXX-4748,Class Teacher,113,77,General,TCH00269,269,2
+true,2015-07-16T00:00:00.000Z,Intermediate,Teacher 270,teacher000270@staff.magicbus.edu,2015-07-16,true,XXXX-XXX-7102,Class Teacher,112,93,General,TCH00270,270,10
+true,2021-05-12T00:00:00.000Z,Advanced,Teacher 271,teacher000271@staff.magicbus.edu,2021-05-12,false,XXXX-XXX-6314,Subject Teacher,191,113,General,TCH00271,271,4
+true,2021-10-07T00:00:00.000Z,Intermediate,Teacher 272,teacher000272@staff.magicbus.edu,2021-10-07,true,XXXX-XXX-1421,Coordinator,27,101,Science,TCH00272,272,4
+true,2016-10-08T00:00:00.000Z,Beginner,Teacher 273,teacher000273@staff.magicbus.edu,2016-10-08,true,XXXX-XXX-2347,Class Teacher,11,145,General,TCH00273,273,9
+false,2013-11-18T00:00:00.000Z,Intermediate,Teacher 274,teacher000274@staff.magicbus.edu,2013-11-18,true,XXXX-XXX-6617,Mentor,162,91,Computer Science,TCH00274,274,12
+false,2020-09-03T00:00:00.000Z,Beginner,Teacher 275,teacher000275@staff.magicbus.edu,2020-09-03,true,XXXX-XXX-7673,Subject Teacher,156,92,General,TCH00275,275,5
+false,2013-07-24T00:00:00.000Z,Beginner,Teacher 276,teacher000276@staff.magicbus.edu,2013-07-24,false,XXXX-XXX-1656,Class Teacher,118,113,General,TCH00276,276,12
+false,2023-03-25T00:00:00.000Z,Beginner,Teacher 277,teacher000277@staff.magicbus.edu,2023-03-25,false,XXXX-XXX-6241,Class Teacher,65,111,Science,TCH00277,277,2
+true,2013-07-04T00:00:00.000Z,Intermediate,Teacher 278,teacher000278@staff.magicbus.edu,2013-07-04,true,XXXX-XXX-4776,Mentor,48,89,Languages,TCH00278,278,12
+true,2023-08-16T00:00:00.000Z,Advanced,Teacher 279,teacher000279@staff.magicbus.edu,2023-08-16,true,XXXX-XXX-4742,Class Teacher,171,76,Mathematics,TCH00279,279,2
+true,2018-02-24T00:00:00.000Z,Intermediate,Teacher 280,teacher000280@staff.magicbus.edu,2018-02-24,true,XXXX-XXX-8582,Mentor,128,84,General,TCH00280,280,7
+false,2021-11-26T00:00:00.000Z,Beginner,Teacher 281,teacher000281@staff.magicbus.edu,2021-11-26,true,XXXX-XXX-3916,Subject Teacher,154,38,Languages,TCH00281,281,4
+false,2013-08-27T00:00:00.000Z,Intermediate,Teacher 282,teacher000282@staff.magicbus.edu,2013-08-27,true,XXXX-XXX-5714,Class Teacher,150,39,Computer Science,TCH00282,282,12
+false,2011-08-08T00:00:00.000Z,Beginner,Teacher 283,teacher000283@staff.magicbus.edu,2011-08-08,true,XXXX-XXX-9805,Subject Teacher,74,95,Computer Science,TCH00283,283,14
+false,2015-09-25T00:00:00.000Z,Intermediate,Teacher 284,teacher000284@staff.magicbus.edu,2015-09-25,true,XXXX-XXX-9339,Class Teacher,11,70,Science,TCH00284,284,10
+true,2024-11-27T00:00:00.000Z,Advanced,Teacher 285,teacher000285@staff.magicbus.edu,2024-11-27,true,XXXX-XXX-9130,Subject Teacher,4,133,Social Studies,TCH00285,285,1
+false,2014-06-14T00:00:00.000Z,Beginner,Teacher 286,teacher000286@staff.magicbus.edu,2014-06-14,true,XXXX-XXX-1370,Class Teacher,114,67,Languages,TCH00286,286,11
+true,2024-12-12T00:00:00.000Z,Intermediate,Teacher 287,teacher000287@staff.magicbus.edu,2024-12-12,true,XXXX-XXX-7608,Subject Teacher,178,55,Computer Science,TCH00287,287,1
+false,2017-05-20T00:00:00.000Z,Intermediate,Teacher 288,teacher000288@staff.magicbus.edu,2017-05-20,false,XXXX-XXX-5513,Subject Teacher,52,89,General,TCH00288,288,8
+true,2024-01-04T00:00:00.000Z,Advanced,Teacher 289,teacher000289@staff.magicbus.edu,2024-01-04,false,XXXX-XXX-2304,Subject Teacher,127,142,Mathematics,TCH00289,289,1
+true,2020-09-21T00:00:00.000Z,Intermediate,Teacher 290,teacher000290@staff.magicbus.edu,2020-09-21,true,XXXX-XXX-1562,Subject Teacher,190,150,Science,TCH00290,290,5
+true,2013-08-29T00:00:00.000Z,Intermediate,Teacher 291,teacher000291@staff.magicbus.edu,2013-08-29,false,XXXX-XXX-7118,Coordinator,62,86,Computer Science,TCH00291,291,12
+false,2023-04-05T00:00:00.000Z,Intermediate,Teacher 292,teacher000292@staff.magicbus.edu,2023-04-05,true,XXXX-XXX-8492,Subject Teacher,106,129,Computer Science,TCH00292,292,2
+false,2023-09-13T00:00:00.000Z,Intermediate,Teacher 293,teacher000293@staff.magicbus.edu,2023-09-13,true,XXXX-XXX-9945,Subject Teacher,83,118,Languages,TCH00293,293,2
+false,2020-10-12T00:00:00.000Z,Intermediate,Teacher 294,teacher000294@staff.magicbus.edu,2020-10-12,true,XXXX-XXX-2606,Class Teacher,11,57,Mathematics,TCH00294,294,5
+true,2011-12-16T00:00:00.000Z,Intermediate,Teacher 295,teacher000295@staff.magicbus.edu,2011-12-16,true,XXXX-XXX-2402,Mentor,146,77,Science,TCH00295,295,14
+true,2025-01-21T00:00:00.000Z,Advanced,Teacher 296,teacher000296@staff.magicbus.edu,2025-01-21,true,XXXX-XXX-9958,Subject Teacher,163,117,Science,TCH00296,296,1
+false,2012-06-14T00:00:00.000Z,Intermediate,Teacher 297,teacher000297@staff.magicbus.edu,2012-06-14,true,XXXX-XXX-9913,Mentor,161,105,General,TCH00297,297,13
+true,2012-03-15T00:00:00.000Z,Intermediate,Teacher 298,teacher000298@staff.magicbus.edu,2012-03-15,true,XXXX-XXX-7171,Mentor,161,146,Science,TCH00298,298,13
+true,2024-10-30T00:00:00.000Z,Advanced,Teacher 299,teacher000299@staff.magicbus.edu,2024-10-30,true,XXXX-XXX-9513,Class Teacher,108,31,Computer Science,TCH00299,299,1
+true,2014-11-27T00:00:00.000Z,Advanced,Teacher 300,teacher000300@staff.magicbus.edu,2014-11-27,false,XXXX-XXX-7205,Subject Teacher,70,47,Languages,TCH00300,300,11
+false,2014-02-17T00:00:00.000Z,Advanced,Teacher 301,teacher000301@staff.magicbus.edu,2014-02-17,true,XXXX-XXX-1956,Class Teacher,60,79,Social Studies,TCH00301,301,11
+false,2020-02-17T00:00:00.000Z,Advanced,Teacher 302,teacher000302@staff.magicbus.edu,2020-02-17,true,XXXX-XXX-8422,Mentor,153,50,Languages,TCH00302,302,5
+true,2022-03-19T00:00:00.000Z,Intermediate,Teacher 303,teacher000303@staff.magicbus.edu,2022-03-19,true,XXXX-XXX-9845,Class Teacher,128,84,Computer Science,TCH00303,303,3
+true,2020-08-24T00:00:00.000Z,Intermediate,Teacher 304,teacher000304@staff.magicbus.edu,2020-08-24,true,XXXX-XXX-9493,Class Teacher,1,77,General,TCH00304,304,5
+true,2012-02-18T00:00:00.000Z,Advanced,Teacher 305,teacher000305@staff.magicbus.edu,2012-02-18,true,XXXX-XXX-7421,Mentor,72,123,Science,TCH00305,305,13
+true,2016-09-08T00:00:00.000Z,Intermediate,Teacher 306,teacher000306@staff.magicbus.edu,2016-09-08,true,XXXX-XXX-1397,Subject Teacher,47,145,Social Studies,TCH00306,306,9
+true,2012-03-23T00:00:00.000Z,Intermediate,Teacher 307,teacher000307@staff.magicbus.edu,2012-03-23,true,XXXX-XXX-9502,Class Teacher,131,70,General,TCH00307,307,13
+false,2011-05-15T00:00:00.000Z,Intermediate,Teacher 308,teacher000308@staff.magicbus.edu,2011-05-15,true,XXXX-XXX-7003,Subject Teacher,68,143,Computer Science,TCH00308,308,14
+true,2011-06-06T00:00:00.000Z,Beginner,Teacher 309,teacher000309@staff.magicbus.edu,2011-06-06,true,XXXX-XXX-8713,Subject Teacher,115,129,General,TCH00309,309,14
+true,2014-08-01T00:00:00.000Z,Intermediate,Teacher 310,teacher000310@staff.magicbus.edu,2014-08-01,true,XXXX-XXX-6021,Subject Teacher,198,65,Languages,TCH00310,310,11
+true,2023-10-06T00:00:00.000Z,Advanced,Teacher 311,teacher000311@staff.magicbus.edu,2023-10-06,true,XXXX-XXX-8439,Subject Teacher,19,91,Computer Science,TCH00311,311,2
+false,2019-06-10T00:00:00.000Z,Intermediate,Teacher 312,teacher000312@staff.magicbus.edu,2019-06-10,true,XXXX-XXX-5832,Subject Teacher,22,53,General,TCH00312,312,6
+false,2011-10-23T00:00:00.000Z,Beginner,Teacher 313,teacher000313@staff.magicbus.edu,2011-10-23,true,XXXX-XXX-9183,Subject Teacher,29,77,Computer Science,TCH00313,313,14
+true,2011-11-10T00:00:00.000Z,Intermediate,Teacher 314,teacher000314@staff.magicbus.edu,2011-11-10,true,XXXX-XXX-5439,Subject Teacher,142,139,Mathematics,TCH00314,314,14
+true,2018-12-12T00:00:00.000Z,Intermediate,Teacher 315,teacher000315@staff.magicbus.edu,2018-12-12,true,XXXX-XXX-5936,Mentor,10,81,Social Studies,TCH00315,315,7
+true,2013-10-16T00:00:00.000Z,Advanced,Teacher 316,teacher000316@staff.magicbus.edu,2013-10-16,true,XXXX-XXX-3927,Class Teacher,46,94,Social Studies,TCH00316,316,12
+true,2023-08-26T00:00:00.000Z,Intermediate,Teacher 317,teacher000317@staff.magicbus.edu,2023-08-26,true,XXXX-XXX-5117,Coordinator,173,99,Languages,TCH00317,317,2
+false,2017-09-19T00:00:00.000Z,Beginner,Teacher 318,teacher000318@staff.magicbus.edu,2017-09-19,true,XXXX-XXX-9536,Coordinator,173,43,General,TCH00318,318,8
+true,2017-05-31T00:00:00.000Z,Beginner,Teacher 319,teacher000319@staff.magicbus.edu,2017-05-31,false,XXXX-XXX-1947,Class Teacher,127,150,Computer Science,TCH00319,319,8
+false,2018-03-14T00:00:00.000Z,Beginner,Teacher 320,teacher000320@staff.magicbus.edu,2018-03-14,true,XXXX-XXX-8563,Class Teacher,12,100,Computer Science,TCH00320,320,7
+false,2022-08-08T00:00:00.000Z,Intermediate,Teacher 321,teacher000321@staff.magicbus.edu,2022-08-08,true,XXXX-XXX-5884,Class Teacher,94,35,Science,TCH00321,321,3
+false,2022-02-28T00:00:00.000Z,Beginner,Teacher 322,teacher000322@staff.magicbus.edu,2022-02-28,true,XXXX-XXX-6985,Mentor,31,86,Computer Science,TCH00322,322,3
+true,2015-04-05T00:00:00.000Z,Advanced,Teacher 323,teacher000323@staff.magicbus.edu,2015-04-05,true,XXXX-XXX-1586,Subject Teacher,10,135,General,TCH00323,323,10
+false,2023-04-13T00:00:00.000Z,Beginner,Teacher 324,teacher000324@staff.magicbus.edu,2023-04-13,true,XXXX-XXX-2623,Subject Teacher,180,105,Mathematics,TCH00324,324,2
+true,2025-05-02T00:00:00.000Z,Beginner,Teacher 325,teacher000325@staff.magicbus.edu,2025-05-02,true,XXXX-XXX-4009,Subject Teacher,7,143,Mathematics,TCH00325,325,1
+true,2015-04-28T00:00:00.000Z,Intermediate,Teacher 326,teacher000326@staff.magicbus.edu,2015-04-28,true,XXXX-XXX-5291,Coordinator,31,111,Science,TCH00326,326,10
+true,2022-05-09T00:00:00.000Z,Advanced,Teacher 327,teacher000327@staff.magicbus.edu,2022-05-09,false,XXXX-XXX-8056,Subject Teacher,169,118,Languages,TCH00327,327,3
+true,2017-08-31T00:00:00.000Z,Beginner,Teacher 328,teacher000328@staff.magicbus.edu,2017-08-31,true,XXXX-XXX-3834,Class Teacher,120,74,Mathematics,TCH00328,328,8
+true,2020-08-11T00:00:00.000Z,Intermediate,Teacher 329,teacher000329@staff.magicbus.edu,2020-08-11,true,XXXX-XXX-5635,Subject Teacher,15,73,Science,TCH00329,329,5
+true,2018-10-06T00:00:00.000Z,Advanced,Teacher 330,teacher000330@staff.magicbus.edu,2018-10-06,false,XXXX-XXX-4727,Subject Teacher,137,106,Mathematics,TCH00330,330,7
+true,2013-12-13T00:00:00.000Z,Advanced,Teacher 331,teacher000331@staff.magicbus.edu,2013-12-13,true,XXXX-XXX-4162,Subject Teacher,189,78,Languages,TCH00331,331,12
+false,2014-04-28T00:00:00.000Z,Beginner,Teacher 332,teacher000332@staff.magicbus.edu,2014-04-28,true,XXXX-XXX-4442,Subject Teacher,196,137,Computer Science,TCH00332,332,11
+true,2018-05-23T00:00:00.000Z,Intermediate,Teacher 333,teacher000333@staff.magicbus.edu,2018-05-23,true,XXXX-XXX-1264,Class Teacher,191,113,Science,TCH00333,333,7
+false,2012-05-29T00:00:00.000Z,Intermediate,Teacher 334,teacher000334@staff.magicbus.edu,2012-05-29,true,XXXX-XXX-2701,Coordinator,82,81,Social Studies,TCH00334,334,13
+false,2023-10-31T00:00:00.000Z,Advanced,Teacher 335,teacher000335@staff.magicbus.edu,2023-10-31,true,XXXX-XXX-4154,Mentor,37,84,General,TCH00335,335,2
+false,2014-11-05T00:00:00.000Z,Intermediate,Teacher 336,teacher000336@staff.magicbus.edu,2014-11-05,false,XXXX-XXX-2738,Subject Teacher,183,111,General,TCH00336,336,11
+true,2013-10-25T00:00:00.000Z,Intermediate,Teacher 337,teacher000337@staff.magicbus.edu,2013-10-25,false,XXXX-XXX-9081,Class Teacher,163,145,Languages,TCH00337,337,12
+false,2020-02-29T00:00:00.000Z,Beginner,Teacher 338,teacher000338@staff.magicbus.edu,2020-02-29,false,XXXX-XXX-1159,Class Teacher,23,64,Social Studies,TCH00338,338,5
+false,2025-03-15T00:00:00.000Z,Advanced,Teacher 339,teacher000339@staff.magicbus.edu,2025-03-15,true,XXXX-XXX-7010,Mentor,88,82,Science,TCH00339,339,1
+false,2023-04-04T00:00:00.000Z,Intermediate,Teacher 340,teacher000340@staff.magicbus.edu,2023-04-04,true,XXXX-XXX-9464,Class Teacher,199,72,Social Studies,TCH00340,340,2
+true,2020-02-01T00:00:00.000Z,Intermediate,Teacher 341,teacher000341@staff.magicbus.edu,2020-02-01,true,XXXX-XXX-5101,Subject Teacher,191,32,Computer Science,TCH00341,341,5
+true,2020-10-14T00:00:00.000Z,Intermediate,Teacher 342,teacher000342@staff.magicbus.edu,2020-10-14,true,XXXX-XXX-5219,Class Teacher,78,129,Mathematics,TCH00342,342,5
+false,2011-03-05T00:00:00.000Z,Intermediate,Teacher 343,teacher000343@staff.magicbus.edu,2011-03-05,true,XXXX-XXX-5967,Coordinator,25,82,Languages,TCH00343,343,14
+true,2016-05-04T00:00:00.000Z,Intermediate,Teacher 344,teacher000344@staff.magicbus.edu,2016-05-04,true,XXXX-XXX-4061,Coordinator,131,113,Computer Science,TCH00344,344,9
+true,2019-02-08T00:00:00.000Z,Beginner,Teacher 345,teacher000345@staff.magicbus.edu,2019-02-08,true,XXXX-XXX-2850,Class Teacher,9,94,General,TCH00345,345,6
+false,2012-02-05T00:00:00.000Z,Beginner,Teacher 346,teacher000346@staff.magicbus.edu,2012-02-05,true,XXXX-XXX-5069,Subject Teacher,183,125,Science,TCH00346,346,13
+true,2025-01-06T00:00:00.000Z,Beginner,Teacher 347,teacher000347@staff.magicbus.edu,2025-01-06,true,XXXX-XXX-6317,Subject Teacher,25,127,Mathematics,TCH00347,347,1
+true,2018-07-16T00:00:00.000Z,Advanced,Teacher 348,teacher000348@staff.magicbus.edu,2018-07-16,true,XXXX-XXX-4322,Subject Teacher,11,94,Computer Science,TCH00348,348,7
+false,2018-05-13T00:00:00.000Z,Advanced,Teacher 349,teacher000349@staff.magicbus.edu,2018-05-13,true,XXXX-XXX-7500,Subject Teacher,179,59,Computer Science,TCH00349,349,7
+true,2016-10-24T00:00:00.000Z,Advanced,Teacher 350,teacher000350@staff.magicbus.edu,2016-10-24,true,XXXX-XXX-2449,Coordinator,126,80,General,TCH00350,350,9
+true,2017-05-13T00:00:00.000Z,Intermediate,Teacher 351,teacher000351@staff.magicbus.edu,2017-05-13,true,XXXX-XXX-7189,Subject Teacher,16,78,Science,TCH00351,351,8
+false,2023-11-15T00:00:00.000Z,Beginner,Teacher 352,teacher000352@staff.magicbus.edu,2023-11-15,true,XXXX-XXX-5010,Subject Teacher,90,131,General,TCH00352,352,2
+false,2017-11-06T00:00:00.000Z,Intermediate,Teacher 353,teacher000353@staff.magicbus.edu,2017-11-06,true,XXXX-XXX-7272,Class Teacher,90,104,Languages,TCH00353,353,8
+true,2015-05-02T00:00:00.000Z,Beginner,Teacher 354,teacher000354@staff.magicbus.edu,2015-05-02,true,XXXX-XXX-7377,Subject Teacher,37,54,Computer Science,TCH00354,354,10
+true,2025-06-01T00:00:00.000Z,Beginner,Teacher 355,teacher000355@staff.magicbus.edu,2025-06-01,true,XXXX-XXX-2249,Coordinator,77,90,Computer Science,TCH00355,355,1
+false,2024-12-25T00:00:00.000Z,Intermediate,Teacher 356,teacher000356@staff.magicbus.edu,2024-12-25,true,XXXX-XXX-3447,Coordinator,175,113,General,TCH00356,356,1
+true,2022-02-16T00:00:00.000Z,Intermediate,Teacher 357,teacher000357@staff.magicbus.edu,2022-02-16,true,XXXX-XXX-7906,Class Teacher,44,42,Science,TCH00357,357,3
+true,2020-12-28T00:00:00.000Z,Beginner,Teacher 358,teacher000358@staff.magicbus.edu,2020-12-28,true,XXXX-XXX-3386,Coordinator,55,127,General,TCH00358,358,5
+true,2021-06-13T00:00:00.000Z,Intermediate,Teacher 359,teacher000359@staff.magicbus.edu,2021-06-13,true,XXXX-XXX-3024,Subject Teacher,153,75,Computer Science,TCH00359,359,4
+false,2017-10-09T00:00:00.000Z,Advanced,Teacher 360,teacher000360@staff.magicbus.edu,2017-10-09,true,XXXX-XXX-6666,Subject Teacher,72,133,Computer Science,TCH00360,360,8
+false,2020-02-15T00:00:00.000Z,Advanced,Teacher 361,teacher000361@staff.magicbus.edu,2020-02-15,false,XXXX-XXX-9569,Subject Teacher,59,134,General,TCH00361,361,5
+true,2011-04-17T00:00:00.000Z,Intermediate,Teacher 362,teacher000362@staff.magicbus.edu,2011-04-17,true,XXXX-XXX-7816,Mentor,66,117,Computer Science,TCH00362,362,14
+false,2010-03-26T00:00:00.000Z,Advanced,Teacher 363,teacher000363@staff.magicbus.edu,2010-03-26,false,XXXX-XXX-8889,Class Teacher,28,64,General,TCH00363,363,15
+true,2018-11-28T00:00:00.000Z,Beginner,Teacher 364,teacher000364@staff.magicbus.edu,2018-11-28,true,XXXX-XXX-7428,Subject Teacher,180,68,Computer Science,TCH00364,364,7
+true,2019-07-29T00:00:00.000Z,Beginner,Teacher 365,teacher000365@staff.magicbus.edu,2019-07-29,true,XXXX-XXX-3127,Class Teacher,4,66,Languages,TCH00365,365,6
+false,2016-08-30T00:00:00.000Z,Beginner,Teacher 366,teacher000366@staff.magicbus.edu,2016-08-30,true,XXXX-XXX-9384,Subject Teacher,82,131,Computer Science,TCH00366,366,9
+true,2011-05-22T00:00:00.000Z,Advanced,Teacher 367,teacher000367@staff.magicbus.edu,2011-05-22,true,XXXX-XXX-9712,Subject Teacher,104,81,Computer Science,TCH00367,367,14
+false,2014-03-07T00:00:00.000Z,Advanced,Teacher 368,teacher000368@staff.magicbus.edu,2014-03-07,true,XXXX-XXX-7031,Class Teacher,104,42,Science,TCH00368,368,11
+true,2013-02-20T00:00:00.000Z,Intermediate,Teacher 369,teacher000369@staff.magicbus.edu,2013-02-20,true,XXXX-XXX-5798,Subject Teacher,20,39,Computer Science,TCH00369,369,12
+true,2025-03-12T00:00:00.000Z,Beginner,Teacher 370,teacher000370@staff.magicbus.edu,2025-03-12,false,XXXX-XXX-3325,Subject Teacher,35,69,Computer Science,TCH00370,370,1
+false,2016-10-02T00:00:00.000Z,Beginner,Teacher 371,teacher000371@staff.magicbus.edu,2016-10-02,true,XXXX-XXX-3944,Class Teacher,155,124,Science,TCH00371,371,9
+true,2010-02-12T00:00:00.000Z,Beginner,Teacher 372,teacher000372@staff.magicbus.edu,2010-02-12,true,XXXX-XXX-2312,Class Teacher,39,120,Computer Science,TCH00372,372,15
+false,2014-01-13T00:00:00.000Z,Advanced,Teacher 373,teacher000373@staff.magicbus.edu,2014-01-13,true,XXXX-XXX-6543,Class Teacher,150,74,Computer Science,TCH00373,373,11
+true,2014-01-22T00:00:00.000Z,Intermediate,Teacher 374,teacher000374@staff.magicbus.edu,2014-01-22,false,XXXX-XXX-8846,Subject Teacher,93,32,Mathematics,TCH00374,374,11
+true,2019-05-30T00:00:00.000Z,Intermediate,Teacher 375,teacher000375@staff.magicbus.edu,2019-05-30,true,XXXX-XXX-6526,Class Teacher,128,89,Computer Science,TCH00375,375,6
+true,2024-10-31T00:00:00.000Z,Intermediate,Teacher 376,teacher000376@staff.magicbus.edu,2024-10-31,true,XXXX-XXX-9905,Class Teacher,160,34,Computer Science,TCH00376,376,1
+true,2017-08-15T00:00:00.000Z,Intermediate,Teacher 377,teacher000377@staff.magicbus.edu,2017-08-15,true,XXXX-XXX-6636,Coordinator,37,59,Mathematics,TCH00377,377,8
+true,2020-12-21T00:00:00.000Z,Beginner,Teacher 378,teacher000378@staff.magicbus.edu,2020-12-21,true,XXXX-XXX-6404,Subject Teacher,18,85,General,TCH00378,378,5
+false,2015-08-19T00:00:00.000Z,Intermediate,Teacher 379,teacher000379@staff.magicbus.edu,2015-08-19,true,XXXX-XXX-5370,Subject Teacher,158,129,General,TCH00379,379,10
+true,2021-01-21T00:00:00.000Z,Intermediate,Teacher 380,teacher000380@staff.magicbus.edu,2021-01-21,true,XXXX-XXX-7057,Subject Teacher,34,117,Social Studies,TCH00380,380,4
+false,2017-12-04T00:00:00.000Z,Advanced,Teacher 381,teacher000381@staff.magicbus.edu,2017-12-04,true,XXXX-XXX-5800,Class Teacher,33,65,Computer Science,TCH00381,381,8
+true,2012-05-01T00:00:00.000Z,Beginner,Teacher 382,teacher000382@staff.magicbus.edu,2012-05-01,true,XXXX-XXX-9264,Class Teacher,87,143,General,TCH00382,382,13
+true,2019-05-14T00:00:00.000Z,Intermediate,Teacher 383,teacher000383@staff.magicbus.edu,2019-05-14,true,XXXX-XXX-7113,Mentor,122,111,Science,TCH00383,383,6
+false,2013-12-18T00:00:00.000Z,Intermediate,Teacher 384,teacher000384@staff.magicbus.edu,2013-12-18,true,XXXX-XXX-9191,Mentor,123,118,Science,TCH00384,384,12
+false,2024-06-30T00:00:00.000Z,Advanced,Teacher 385,teacher000385@staff.magicbus.edu,2024-06-30,true,XXXX-XXX-5819,Coordinator,114,144,Mathematics,TCH00385,385,1
+true,2011-08-02T00:00:00.000Z,Intermediate,Teacher 386,teacher000386@staff.magicbus.edu,2011-08-02,true,XXXX-XXX-7516,Mentor,47,102,Science,TCH00386,386,14
+true,2025-05-31T00:00:00.000Z,Intermediate,Teacher 387,teacher000387@staff.magicbus.edu,2025-05-31,true,XXXX-XXX-8423,Class Teacher,57,81,General,TCH00387,387,1
+true,2018-06-17T00:00:00.000Z,Intermediate,Teacher 388,teacher000388@staff.magicbus.edu,2018-06-17,true,XXXX-XXX-5001,Class Teacher,175,144,General,TCH00388,388,7
+true,2020-09-18T00:00:00.000Z,Beginner,Teacher 389,teacher000389@staff.magicbus.edu,2020-09-18,true,XXXX-XXX-4757,Coordinator,80,30,General,TCH00389,389,5
+false,2020-03-19T00:00:00.000Z,Advanced,Teacher 390,teacher000390@staff.magicbus.edu,2020-03-19,true,XXXX-XXX-9891,Subject Teacher,7,63,Science,TCH00390,390,5
+true,2010-12-07T00:00:00.000Z,Intermediate,Teacher 391,teacher000391@staff.magicbus.edu,2010-12-07,true,XXXX-XXX-5675,Coordinator,77,138,Languages,TCH00391,391,15
+true,2025-02-16T00:00:00.000Z,Advanced,Teacher 392,teacher000392@staff.magicbus.edu,2025-02-16,true,XXXX-XXX-3748,Coordinator,134,101,General,TCH00392,392,1
+true,2011-07-18T00:00:00.000Z,Advanced,Teacher 393,teacher000393@staff.magicbus.edu,2011-07-18,true,XXXX-XXX-2595,Class Teacher,53,43,Science,TCH00393,393,14
+false,2012-11-28T00:00:00.000Z,Intermediate,Teacher 394,teacher000394@staff.magicbus.edu,2012-11-28,true,XXXX-XXX-7703,Coordinator,194,99,Mathematics,TCH00394,394,13
+false,2019-08-31T00:00:00.000Z,Advanced,Teacher 395,teacher000395@staff.magicbus.edu,2019-08-31,true,XXXX-XXX-2296,Coordinator,134,137,Languages,TCH00395,395,6
+true,2014-09-18T00:00:00.000Z,Advanced,Teacher 396,teacher000396@staff.magicbus.edu,2014-09-18,true,XXXX-XXX-4969,Class Teacher,185,63,Computer Science,TCH00396,396,11
+false,2013-04-11T00:00:00.000Z,Beginner,Teacher 397,teacher000397@staff.magicbus.edu,2013-04-11,true,XXXX-XXX-8859,Subject Teacher,156,47,General,TCH00397,397,12
+false,2017-01-30T00:00:00.000Z,Beginner,Teacher 398,teacher000398@staff.magicbus.edu,2017-01-30,true,XXXX-XXX-4089,Subject Teacher,51,41,General,TCH00398,398,8
+false,2015-05-03T00:00:00.000Z,Beginner,Teacher 399,teacher000399@staff.magicbus.edu,2015-05-03,true,XXXX-XXX-8476,Class Teacher,70,52,General,TCH00399,399,10
+false,2011-08-30T00:00:00.000Z,Beginner,Teacher 400,teacher000400@staff.magicbus.edu,2011-08-30,true,XXXX-XXX-3051,Class Teacher,14,59,Computer Science,TCH00400,400,14
+true,2017-03-16T00:00:00.000Z,Intermediate,Teacher 401,teacher000401@staff.magicbus.edu,2017-03-16,true,XXXX-XXX-8613,Subject Teacher,61,97,Languages,TCH00401,401,8
+true,2024-06-15T00:00:00.000Z,Intermediate,Teacher 402,teacher000402@staff.magicbus.edu,2024-06-15,true,XXXX-XXX-8961,Subject Teacher,148,48,Social Studies,TCH00402,402,1
+false,2019-09-23T00:00:00.000Z,Advanced,Teacher 403,teacher000403@staff.magicbus.edu,2019-09-23,true,XXXX-XXX-2486,Subject Teacher,62,86,General,TCH00403,403,6
+false,2017-03-16T00:00:00.000Z,Advanced,Teacher 404,teacher000404@staff.magicbus.edu,2017-03-16,true,XXXX-XXX-6071,Coordinator,28,63,Computer Science,TCH00404,404,8
+true,2011-06-30T00:00:00.000Z,Intermediate,Teacher 405,teacher000405@staff.magicbus.edu,2011-06-30,true,XXXX-XXX-1327,Coordinator,133,85,Mathematics,TCH00405,405,14
+true,2014-10-20T00:00:00.000Z,Intermediate,Teacher 406,teacher000406@staff.magicbus.edu,2014-10-20,false,XXXX-XXX-4873,Subject Teacher,92,148,Science,TCH00406,406,11
+false,2023-06-09T00:00:00.000Z,Advanced,Teacher 407,teacher000407@staff.magicbus.edu,2023-06-09,true,XXXX-XXX-6026,Class Teacher,73,126,Mathematics,TCH00407,407,2
+false,2025-01-05T00:00:00.000Z,Intermediate,Teacher 408,teacher000408@staff.magicbus.edu,2025-01-05,true,XXXX-XXX-8477,Subject Teacher,29,101,Social Studies,TCH00408,408,1
+true,2019-09-26T00:00:00.000Z,Beginner,Teacher 409,teacher000409@staff.magicbus.edu,2019-09-26,true,XXXX-XXX-3130,Subject Teacher,40,50,Languages,TCH00409,409,6
+true,2016-07-16T00:00:00.000Z,Beginner,Teacher 410,teacher000410@staff.magicbus.edu,2016-07-16,true,XXXX-XXX-3555,Class Teacher,194,36,Computer Science,TCH00410,410,9
+false,2023-09-25T00:00:00.000Z,Intermediate,Teacher 411,teacher000411@staff.magicbus.edu,2023-09-25,true,XXXX-XXX-5057,Subject Teacher,147,34,Computer Science,TCH00411,411,2
+true,2013-05-04T00:00:00.000Z,Intermediate,Teacher 412,teacher000412@staff.magicbus.edu,2013-05-04,true,XXXX-XXX-7653,Class Teacher,84,45,Computer Science,TCH00412,412,12
+true,2022-08-21T00:00:00.000Z,Beginner,Teacher 413,teacher000413@staff.magicbus.edu,2022-08-21,true,XXXX-XXX-9179,Mentor,32,111,Mathematics,TCH00413,413,3
+true,2023-12-12T00:00:00.000Z,Intermediate,Teacher 414,teacher000414@staff.magicbus.edu,2023-12-12,true,XXXX-XXX-9416,Class Teacher,162,110,Social Studies,TCH00414,414,2
+false,2016-06-07T00:00:00.000Z,Beginner,Teacher 415,teacher000415@staff.magicbus.edu,2016-06-07,true,XXXX-XXX-9499,Subject Teacher,64,60,Computer Science,TCH00415,415,9
+true,2019-10-31T00:00:00.000Z,Intermediate,Teacher 416,teacher000416@staff.magicbus.edu,2019-10-31,true,XXXX-XXX-5052,Subject Teacher,152,67,Mathematics,TCH00416,416,6
+false,2014-01-15T00:00:00.000Z,Advanced,Teacher 417,teacher000417@staff.magicbus.edu,2014-01-15,false,XXXX-XXX-8776,Class Teacher,61,58,Science,TCH00417,417,11
+true,2019-01-19T00:00:00.000Z,Beginner,Teacher 418,teacher000418@staff.magicbus.edu,2019-01-19,true,XXXX-XXX-6086,Class Teacher,180,139,Mathematics,TCH00418,418,6
+true,2011-05-25T00:00:00.000Z,Intermediate,Teacher 419,teacher000419@staff.magicbus.edu,2011-05-25,false,XXXX-XXX-3959,Coordinator,66,97,Mathematics,TCH00419,419,14
+false,2024-02-18T00:00:00.000Z,Intermediate,Teacher 420,teacher000420@staff.magicbus.edu,2024-02-18,true,XXXX-XXX-3366,Subject Teacher,22,50,Mathematics,TCH00420,420,1
+true,2016-09-13T00:00:00.000Z,Intermediate,Teacher 421,teacher000421@staff.magicbus.edu,2016-09-13,true,XXXX-XXX-2544,Class Teacher,31,140,Social Studies,TCH00421,421,9
+true,2017-02-18T00:00:00.000Z,Intermediate,Teacher 422,teacher000422@staff.magicbus.edu,2017-02-18,true,XXXX-XXX-1780,Class Teacher,81,47,General,TCH00422,422,8
+false,2010-07-31T00:00:00.000Z,Intermediate,Teacher 423,teacher000423@staff.magicbus.edu,2010-07-31,true,XXXX-XXX-1760,Class Teacher,63,111,Computer Science,TCH00423,423,15
+false,2024-05-28T00:00:00.000Z,Intermediate,Teacher 424,teacher000424@staff.magicbus.edu,2024-05-28,false,XXXX-XXX-5614,Subject Teacher,137,142,Social Studies,TCH00424,424,1
+true,2024-06-24T00:00:00.000Z,Intermediate,Teacher 425,teacher000425@staff.magicbus.edu,2024-06-24,true,XXXX-XXX-7832,Mentor,70,118,Computer Science,TCH00425,425,1
+true,2016-05-02T00:00:00.000Z,Intermediate,Teacher 426,teacher000426@staff.magicbus.edu,2016-05-02,true,XXXX-XXX-1420,Subject Teacher,42,68,Computer Science,TCH00426,426,9
+false,2010-04-09T00:00:00.000Z,Intermediate,Teacher 427,teacher000427@staff.magicbus.edu,2010-04-09,false,XXXX-XXX-1756,Coordinator,44,139,Languages,TCH00427,427,15
+false,2010-08-16T00:00:00.000Z,Beginner,Teacher 428,teacher000428@staff.magicbus.edu,2010-08-16,true,XXXX-XXX-9882,Subject Teacher,191,35,Languages,TCH00428,428,15
+true,2024-11-07T00:00:00.000Z,Beginner,Teacher 429,teacher000429@staff.magicbus.edu,2024-11-07,true,XXXX-XXX-8745,Subject Teacher,81,136,Social Studies,TCH00429,429,1
+true,2023-12-22T00:00:00.000Z,Intermediate,Teacher 430,teacher000430@staff.magicbus.edu,2023-12-22,true,XXXX-XXX-4382,Coordinator,74,104,Mathematics,TCH00430,430,2
+true,2014-10-24T00:00:00.000Z,Beginner,Teacher 431,teacher000431@staff.magicbus.edu,2014-10-24,true,XXXX-XXX-8626,Class Teacher,84,35,General,TCH00431,431,11
+false,2011-09-08T00:00:00.000Z,Intermediate,Teacher 432,teacher000432@staff.magicbus.edu,2011-09-08,true,XXXX-XXX-8328,Subject Teacher,88,41,Social Studies,TCH00432,432,14
+false,2022-11-26T00:00:00.000Z,Beginner,Teacher 433,teacher000433@staff.magicbus.edu,2022-11-26,true,XXXX-XXX-6754,Coordinator,180,119,Computer Science,TCH00433,433,3
+true,2012-07-22T00:00:00.000Z,Beginner,Teacher 434,teacher000434@staff.magicbus.edu,2012-07-22,false,XXXX-XXX-7164,Class Teacher,113,110,Social Studies,TCH00434,434,13
+false,2014-09-02T00:00:00.000Z,Beginner,Teacher 435,teacher000435@staff.magicbus.edu,2014-09-02,true,XXXX-XXX-2569,Subject Teacher,189,144,Computer Science,TCH00435,435,11
+false,2018-01-03T00:00:00.000Z,Intermediate,Teacher 436,teacher000436@staff.magicbus.edu,2018-01-03,true,XXXX-XXX-3243,Subject Teacher,25,123,General,TCH00436,436,8
+true,2025-01-26T00:00:00.000Z,Beginner,Teacher 437,teacher000437@staff.magicbus.edu,2025-01-26,true,XXXX-XXX-9823,Class Teacher,108,61,Mathematics,TCH00437,437,1
+true,2018-05-02T00:00:00.000Z,Intermediate,Teacher 438,teacher000438@staff.magicbus.edu,2018-05-02,false,XXXX-XXX-7891,Subject Teacher,48,123,Science,TCH00438,438,7
+true,2012-05-25T00:00:00.000Z,Intermediate,Teacher 439,teacher000439@staff.magicbus.edu,2012-05-25,true,XXXX-XXX-9092,Coordinator,5,120,Languages,TCH00439,439,13
+false,2014-08-20T00:00:00.000Z,Intermediate,Teacher 440,teacher000440@staff.magicbus.edu,2014-08-20,true,XXXX-XXX-2308,Coordinator,64,132,Computer Science,TCH00440,440,11
+true,2010-03-09T00:00:00.000Z,Beginner,Teacher 441,teacher000441@staff.magicbus.edu,2010-03-09,true,XXXX-XXX-6290,Subject Teacher,160,130,Computer Science,TCH00441,441,15
+true,2011-11-11T00:00:00.000Z,Advanced,Teacher 442,teacher000442@staff.magicbus.edu,2011-11-11,true,XXXX-XXX-2567,Class Teacher,127,63,General,TCH00442,442,14
+true,2013-07-05T00:00:00.000Z,Intermediate,Teacher 443,teacher000443@staff.magicbus.edu,2013-07-05,true,XXXX-XXX-6323,Subject Teacher,133,96,Social Studies,TCH00443,443,12
+true,2020-03-20T00:00:00.000Z,Beginner,Teacher 444,teacher000444@staff.magicbus.edu,2020-03-20,true,XXXX-XXX-1556,Subject Teacher,3,66,Computer Science,TCH00444,444,5
+false,2021-04-01T00:00:00.000Z,Intermediate,Teacher 445,teacher000445@staff.magicbus.edu,2021-04-01,true,XXXX-XXX-6505,Subject Teacher,160,56,Languages,TCH00445,445,4
+false,2024-03-20T00:00:00.000Z,Beginner,Teacher 446,teacher000446@staff.magicbus.edu,2024-03-20,false,XXXX-XXX-3695,Mentor,178,69,Computer Science,TCH00446,446,1
+false,2010-02-02T00:00:00.000Z,Intermediate,Teacher 447,teacher000447@staff.magicbus.edu,2010-02-02,true,XXXX-XXX-5075,Subject Teacher,161,82,Mathematics,TCH00447,447,15
+false,2021-03-01T00:00:00.000Z,Beginner,Teacher 448,teacher000448@staff.magicbus.edu,2021-03-01,true,XXXX-XXX-4127,Mentor,73,143,General,TCH00448,448,4
+true,2024-07-14T00:00:00.000Z,Beginner,Teacher 449,teacher000449@staff.magicbus.edu,2024-07-14,true,XXXX-XXX-7977,Coordinator,71,149,Science,TCH00449,449,1
+true,2021-05-11T00:00:00.000Z,Intermediate,Teacher 450,teacher000450@staff.magicbus.edu,2021-05-11,true,XXXX-XXX-8468,Subject Teacher,156,150,General,TCH00450,450,4
+false,2014-09-22T00:00:00.000Z,Intermediate,Teacher 451,teacher000451@staff.magicbus.edu,2014-09-22,true,XXXX-XXX-3241,Class Teacher,131,47,Computer Science,TCH00451,451,11
+false,2016-06-11T00:00:00.000Z,Advanced,Teacher 452,teacher000452@staff.magicbus.edu,2016-06-11,false,XXXX-XXX-6691,Subject Teacher,1,47,Computer Science,TCH00452,452,9
+false,2021-12-31T00:00:00.000Z,Beginner,Teacher 453,teacher000453@staff.magicbus.edu,2021-12-31,true,XXXX-XXX-8833,Coordinator,141,122,Mathematics,TCH00453,453,4
+true,2018-04-30T00:00:00.000Z,Intermediate,Teacher 454,teacher000454@staff.magicbus.edu,2018-04-30,true,XXXX-XXX-9896,Class Teacher,70,66,Mathematics,TCH00454,454,7
+false,2021-05-23T00:00:00.000Z,Intermediate,Teacher 455,teacher000455@staff.magicbus.edu,2021-05-23,true,XXXX-XXX-1033,Subject Teacher,80,114,Computer Science,TCH00455,455,4
+true,2018-05-27T00:00:00.000Z,Advanced,Teacher 456,teacher000456@staff.magicbus.edu,2018-05-27,true,XXXX-XXX-6387,Subject Teacher,12,149,Computer Science,TCH00456,456,7
+false,2022-05-10T00:00:00.000Z,Intermediate,Teacher 457,teacher000457@staff.magicbus.edu,2022-05-10,true,XXXX-XXX-7815,Subject Teacher,143,138,Languages,TCH00457,457,3
+false,2011-01-31T00:00:00.000Z,Intermediate,Teacher 458,teacher000458@staff.magicbus.edu,2011-01-31,true,XXXX-XXX-7959,Subject Teacher,13,102,Science,TCH00458,458,14
+true,2022-10-27T00:00:00.000Z,Beginner,Teacher 459,teacher000459@staff.magicbus.edu,2022-10-27,false,XXXX-XXX-1107,Subject Teacher,187,38,Computer Science,TCH00459,459,3
+true,2024-02-03T00:00:00.000Z,Intermediate,Teacher 460,teacher000460@staff.magicbus.edu,2024-02-03,true,XXXX-XXX-5934,Subject Teacher,64,144,Computer Science,TCH00460,460,1
+true,2019-06-15T00:00:00.000Z,Intermediate,Teacher 461,teacher000461@staff.magicbus.edu,2019-06-15,true,XXXX-XXX-6183,Mentor,109,145,Mathematics,TCH00461,461,6
+true,2021-06-14T00:00:00.000Z,Intermediate,Teacher 462,teacher000462@staff.magicbus.edu,2021-06-14,false,XXXX-XXX-8971,Class Teacher,56,123,General,TCH00462,462,4
+true,2014-01-17T00:00:00.000Z,Beginner,Teacher 463,teacher000463@staff.magicbus.edu,2014-01-17,true,XXXX-XXX-6420,Class Teacher,138,41,General,TCH00463,463,11
+true,2019-12-11T00:00:00.000Z,Beginner,Teacher 464,teacher000464@staff.magicbus.edu,2019-12-11,true,XXXX-XXX-3888,Mentor,60,44,Science,TCH00464,464,6
+true,2018-02-22T00:00:00.000Z,Intermediate,Teacher 465,teacher000465@staff.magicbus.edu,2018-02-22,true,XXXX-XXX-5622,Coordinator,178,70,Languages,TCH00465,465,7
+false,2024-10-22T00:00:00.000Z,Advanced,Teacher 466,teacher000466@staff.magicbus.edu,2024-10-22,true,XXXX-XXX-5471,Coordinator,175,50,Computer Science,TCH00466,466,1
+true,2022-10-15T00:00:00.000Z,Beginner,Teacher 467,teacher000467@staff.magicbus.edu,2022-10-15,true,XXXX-XXX-8835,Mentor,169,122,Computer Science,TCH00467,467,3
+true,2012-06-20T00:00:00.000Z,Intermediate,Teacher 468,teacher000468@staff.magicbus.edu,2012-06-20,true,XXXX-XXX-7796,Subject Teacher,74,59,General,TCH00468,468,13
+true,2015-10-12T00:00:00.000Z,Beginner,Teacher 469,teacher000469@staff.magicbus.edu,2015-10-12,true,XXXX-XXX-5283,Class Teacher,176,142,Mathematics,TCH00469,469,10
+false,2013-02-08T00:00:00.000Z,Beginner,Teacher 470,teacher000470@staff.magicbus.edu,2013-02-08,true,XXXX-XXX-8295,Class Teacher,83,109,Computer Science,TCH00470,470,12
+false,2023-11-04T00:00:00.000Z,Intermediate,Teacher 471,teacher000471@staff.magicbus.edu,2023-11-04,true,XXXX-XXX-6914,Mentor,17,44,Computer Science,TCH00471,471,2
+false,2020-02-14T00:00:00.000Z,Intermediate,Teacher 472,teacher000472@staff.magicbus.edu,2020-02-14,true,XXXX-XXX-5693,Coordinator,161,110,Science,TCH00472,472,5
+true,2010-03-24T00:00:00.000Z,Beginner,Teacher 473,teacher000473@staff.magicbus.edu,2010-03-24,true,XXXX-XXX-7767,Coordinator,160,31,Social Studies,TCH00473,473,15
+true,2015-02-17T00:00:00.000Z,Intermediate,Teacher 474,teacher000474@staff.magicbus.edu,2015-02-17,false,XXXX-XXX-4871,Subject Teacher,62,118,Mathematics,TCH00474,474,10
+true,2025-04-28T00:00:00.000Z,Beginner,Teacher 475,teacher000475@staff.magicbus.edu,2025-04-28,true,XXXX-XXX-7674,Class Teacher,106,72,Languages,TCH00475,475,1
+false,2011-10-08T00:00:00.000Z,Advanced,Teacher 476,teacher000476@staff.magicbus.edu,2011-10-08,true,XXXX-XXX-9638,Subject Teacher,91,83,Computer Science,TCH00476,476,14
+false,2014-07-31T00:00:00.000Z,Advanced,Teacher 477,teacher000477@staff.magicbus.edu,2014-07-31,true,XXXX-XXX-4581,Subject Teacher,103,34,General,TCH00477,477,11
+true,2018-11-17T00:00:00.000Z,Intermediate,Teacher 478,teacher000478@staff.magicbus.edu,2018-11-17,true,XXXX-XXX-7210,Subject Teacher,182,117,Languages,TCH00478,478,7
+false,2014-04-27T00:00:00.000Z,Beginner,Teacher 479,teacher000479@staff.magicbus.edu,2014-04-27,true,XXXX-XXX-5554,Subject Teacher,55,142,Computer Science,TCH00479,479,11
+false,2021-09-29T00:00:00.000Z,Beginner,Teacher 480,teacher000480@staff.magicbus.edu,2021-09-29,true,XXXX-XXX-5841,Subject Teacher,101,106,Science,TCH00480,480,4
+true,2021-08-15T00:00:00.000Z,Intermediate,Teacher 481,teacher000481@staff.magicbus.edu,2021-08-15,true,XXXX-XXX-6157,Coordinator,156,58,General,TCH00481,481,4
+false,2011-10-24T00:00:00.000Z,Intermediate,Teacher 482,teacher000482@staff.magicbus.edu,2011-10-24,true,XXXX-XXX-9133,Class Teacher,40,81,Computer Science,TCH00482,482,14
+true,2015-09-24T00:00:00.000Z,Beginner,Teacher 483,teacher000483@staff.magicbus.edu,2015-09-24,true,XXXX-XXX-2806,Subject Teacher,117,80,Computer Science,TCH00483,483,10
+true,2024-12-02T00:00:00.000Z,Intermediate,Teacher 484,teacher000484@staff.magicbus.edu,2024-12-02,true,XXXX-XXX-3058,Coordinator,145,46,Science,TCH00484,484,1
+true,2019-08-22T00:00:00.000Z,Intermediate,Teacher 485,teacher000485@staff.magicbus.edu,2019-08-22,true,XXXX-XXX-7620,Subject Teacher,149,115,Mathematics,TCH00485,485,6
+false,2018-05-26T00:00:00.000Z,Beginner,Teacher 486,teacher000486@staff.magicbus.edu,2018-05-26,true,XXXX-XXX-9276,Coordinator,161,142,Science,TCH00486,486,7
+true,2011-03-19T00:00:00.000Z,Intermediate,Teacher 487,teacher000487@staff.magicbus.edu,2011-03-19,true,XXXX-XXX-4592,Subject Teacher,125,103,Mathematics,TCH00487,487,14
+false,2010-07-14T00:00:00.000Z,Advanced,Teacher 488,teacher000488@staff.magicbus.edu,2010-07-14,true,XXXX-XXX-5862,Subject Teacher,162,134,Computer Science,TCH00488,488,15
+true,2010-10-04T00:00:00.000Z,Advanced,Teacher 489,teacher000489@staff.magicbus.edu,2010-10-04,true,XXXX-XXX-6019,Subject Teacher,44,41,Languages,TCH00489,489,15
+false,2011-09-04T00:00:00.000Z,Advanced,Teacher 490,teacher000490@staff.magicbus.edu,2011-09-04,true,XXXX-XXX-5382,Subject Teacher,79,88,Mathematics,TCH00490,490,14
+false,2015-12-25T00:00:00.000Z,Intermediate,Teacher 491,teacher000491@staff.magicbus.edu,2015-12-25,true,XXXX-XXX-4618,Class Teacher,188,55,Social Studies,TCH00491,491,10
+false,2010-11-02T00:00:00.000Z,Intermediate,Teacher 492,teacher000492@staff.magicbus.edu,2010-11-02,true,XXXX-XXX-8226,Class Teacher,173,54,Computer Science,TCH00492,492,15
+true,2023-03-17T00:00:00.000Z,Intermediate,Teacher 493,teacher000493@staff.magicbus.edu,2023-03-17,true,XXXX-XXX-7900,Mentor,47,75,Computer Science,TCH00493,493,2
+false,2014-05-13T00:00:00.000Z,Beginner,Teacher 494,teacher000494@staff.magicbus.edu,2014-05-13,false,XXXX-XXX-7563,Subject Teacher,173,41,General,TCH00494,494,11
+false,2024-02-18T00:00:00.000Z,Intermediate,Teacher 495,teacher000495@staff.magicbus.edu,2024-02-18,true,XXXX-XXX-4374,Subject Teacher,160,113,General,TCH00495,495,1
+false,2019-12-15T00:00:00.000Z,Intermediate,Teacher 496,teacher000496@staff.magicbus.edu,2019-12-15,false,XXXX-XXX-3472,Subject Teacher,22,96,General,TCH00496,496,6
+false,2013-08-23T00:00:00.000Z,Intermediate,Teacher 497,teacher000497@staff.magicbus.edu,2013-08-23,true,XXXX-XXX-7658,Class Teacher,160,131,Social Studies,TCH00497,497,12
+true,2023-07-17T00:00:00.000Z,Intermediate,Teacher 498,teacher000498@staff.magicbus.edu,2023-07-17,false,XXXX-XXX-8887,Subject Teacher,28,33,Computer Science,TCH00498,498,2
+true,2013-01-04T00:00:00.000Z,Intermediate,Teacher 499,teacher000499@staff.magicbus.edu,2013-01-04,true,XXXX-XXX-4770,Class Teacher,198,115,General,TCH00499,499,13
+true,2019-07-08T00:00:00.000Z,Beginner,Teacher 500,teacher000500@staff.magicbus.edu,2019-07-08,true,XXXX-XXX-3873,Class Teacher,133,62,Computer Science,TCH00500,500,6
+false,2011-02-07T00:00:00.000Z,Intermediate,Teacher 501,teacher000501@staff.magicbus.edu,2011-02-07,true,XXXX-XXX-7471,Coordinator,144,104,Science,TCH00501,501,14
+true,2015-03-23T00:00:00.000Z,Intermediate,Teacher 502,teacher000502@staff.magicbus.edu,2015-03-23,true,XXXX-XXX-8499,Subject Teacher,145,56,Science,TCH00502,502,10
+false,2018-04-11T00:00:00.000Z,Beginner,Teacher 503,teacher000503@staff.magicbus.edu,2018-04-11,false,XXXX-XXX-3699,Subject Teacher,170,79,Science,TCH00503,503,7
+false,2021-05-19T00:00:00.000Z,Intermediate,Teacher 504,teacher000504@staff.magicbus.edu,2021-05-19,true,XXXX-XXX-7747,Subject Teacher,48,80,Science,TCH00504,504,4
+false,2010-12-28T00:00:00.000Z,Intermediate,Teacher 505,teacher000505@staff.magicbus.edu,2010-12-28,true,XXXX-XXX-7873,Subject Teacher,48,111,Science,TCH00505,505,15
+true,2014-01-10T00:00:00.000Z,Beginner,Teacher 506,teacher000506@staff.magicbus.edu,2014-01-10,true,XXXX-XXX-3482,Subject Teacher,143,97,Mathematics,TCH00506,506,11
+true,2010-01-29T00:00:00.000Z,Intermediate,Teacher 507,teacher000507@staff.magicbus.edu,2010-01-29,false,XXXX-XXX-6997,Class Teacher,105,62,Mathematics,TCH00507,507,15
+true,2013-12-23T00:00:00.000Z,Intermediate,Teacher 508,teacher000508@staff.magicbus.edu,2013-12-23,true,XXXX-XXX-5015,Class Teacher,127,139,Social Studies,TCH00508,508,12
+false,2024-09-07T00:00:00.000Z,Intermediate,Teacher 509,teacher000509@staff.magicbus.edu,2024-09-07,true,XXXX-XXX-1235,Subject Teacher,73,104,Languages,TCH00509,509,1
+true,2011-02-23T00:00:00.000Z,Intermediate,Teacher 510,teacher000510@staff.magicbus.edu,2011-02-23,true,XXXX-XXX-1167,Coordinator,30,37,Mathematics,TCH00510,510,14
+true,2023-03-29T00:00:00.000Z,Intermediate,Teacher 511,teacher000511@staff.magicbus.edu,2023-03-29,true,XXXX-XXX-5758,Subject Teacher,55,130,Languages,TCH00511,511,2
+false,2016-03-12T00:00:00.000Z,Intermediate,Teacher 512,teacher000512@staff.magicbus.edu,2016-03-12,true,XXXX-XXX-6274,Subject Teacher,24,66,Computer Science,TCH00512,512,9
+true,2017-03-02T00:00:00.000Z,Intermediate,Teacher 513,teacher000513@staff.magicbus.edu,2017-03-02,true,XXXX-XXX-8851,Class Teacher,111,42,Mathematics,TCH00513,513,8
+false,2013-03-27T00:00:00.000Z,Intermediate,Teacher 514,teacher000514@staff.magicbus.edu,2013-03-27,true,XXXX-XXX-8417,Subject Teacher,101,55,Social Studies,TCH00514,514,12
+true,2013-07-02T00:00:00.000Z,Advanced,Teacher 515,teacher000515@staff.magicbus.edu,2013-07-02,true,XXXX-XXX-4214,Class Teacher,70,31,Languages,TCH00515,515,12
+true,2010-05-15T00:00:00.000Z,Advanced,Teacher 516,teacher000516@staff.magicbus.edu,2010-05-15,true,XXXX-XXX-5876,Subject Teacher,97,39,Mathematics,TCH00516,516,15
+true,2021-03-26T00:00:00.000Z,Advanced,Teacher 517,teacher000517@staff.magicbus.edu,2021-03-26,true,XXXX-XXX-6806,Subject Teacher,163,144,Computer Science,TCH00517,517,4
+true,2024-07-24T00:00:00.000Z,Intermediate,Teacher 518,teacher000518@staff.magicbus.edu,2024-07-24,true,XXXX-XXX-7739,Subject Teacher,188,32,Social Studies,TCH00518,518,1
+true,2015-11-28T00:00:00.000Z,Intermediate,Teacher 519,teacher000519@staff.magicbus.edu,2015-11-28,true,XXXX-XXX-7650,Subject Teacher,98,150,Mathematics,TCH00519,519,10
+false,2015-09-25T00:00:00.000Z,Intermediate,Teacher 520,teacher000520@staff.magicbus.edu,2015-09-25,true,XXXX-XXX-5937,Subject Teacher,141,60,Computer Science,TCH00520,520,10
+false,2014-12-31T00:00:00.000Z,Intermediate,Teacher 521,teacher000521@staff.magicbus.edu,2014-12-31,true,XXXX-XXX-4793,Coordinator,140,136,Mathematics,TCH00521,521,11
+true,2021-06-10T00:00:00.000Z,Intermediate,Teacher 522,teacher000522@staff.magicbus.edu,2021-06-10,false,XXXX-XXX-1809,Subject Teacher,3,127,General,TCH00522,522,4
+true,2012-02-24T00:00:00.000Z,Beginner,Teacher 523,teacher000523@staff.magicbus.edu,2012-02-24,false,XXXX-XXX-5648,Subject Teacher,85,80,Computer Science,TCH00523,523,13
+true,2024-03-26T00:00:00.000Z,Beginner,Teacher 524,teacher000524@staff.magicbus.edu,2024-03-26,true,XXXX-XXX-6678,Subject Teacher,188,40,Languages,TCH00524,524,1
+true,2024-09-13T00:00:00.000Z,Intermediate,Teacher 525,teacher000525@staff.magicbus.edu,2024-09-13,true,XXXX-XXX-3691,Subject Teacher,95,126,Languages,TCH00525,525,1
+true,2021-03-08T00:00:00.000Z,Intermediate,Teacher 526,teacher000526@staff.magicbus.edu,2021-03-08,false,XXXX-XXX-3667,Subject Teacher,65,91,General,TCH00526,526,4
+true,2021-11-18T00:00:00.000Z,Intermediate,Teacher 527,teacher000527@staff.magicbus.edu,2021-11-18,true,XXXX-XXX-9225,Subject Teacher,118,123,Science,TCH00527,527,4
+true,2022-01-07T00:00:00.000Z,Intermediate,Teacher 528,teacher000528@staff.magicbus.edu,2022-01-07,true,XXXX-XXX-8972,Subject Teacher,57,57,Computer Science,TCH00528,528,3
+false,2011-07-23T00:00:00.000Z,Advanced,Teacher 529,teacher000529@staff.magicbus.edu,2011-07-23,false,XXXX-XXX-4114,Coordinator,148,76,Computer Science,TCH00529,529,14
+false,2021-03-19T00:00:00.000Z,Intermediate,Teacher 530,teacher000530@staff.magicbus.edu,2021-03-19,true,XXXX-XXX-1152,Class Teacher,182,74,Mathematics,TCH00530,530,4
+false,2020-01-23T00:00:00.000Z,Intermediate,Teacher 531,teacher000531@staff.magicbus.edu,2020-01-23,true,XXXX-XXX-9433,Subject Teacher,190,139,General,TCH00531,531,5
+true,2010-06-30T00:00:00.000Z,Advanced,Teacher 532,teacher000532@staff.magicbus.edu,2010-06-30,true,XXXX-XXX-8898,Subject Teacher,168,54,Languages,TCH00532,532,15
+true,2023-07-30T00:00:00.000Z,Intermediate,Teacher 533,teacher000533@staff.magicbus.edu,2023-07-30,false,XXXX-XXX-2527,Subject Teacher,196,34,General,TCH00533,533,2
+true,2015-06-12T00:00:00.000Z,Intermediate,Teacher 534,teacher000534@staff.magicbus.edu,2015-06-12,true,XXXX-XXX-4858,Subject Teacher,39,94,Computer Science,TCH00534,534,10
+true,2013-06-20T00:00:00.000Z,Beginner,Teacher 535,teacher000535@staff.magicbus.edu,2013-06-20,true,XXXX-XXX-5845,Subject Teacher,59,136,General,TCH00535,535,12
+true,2023-01-14T00:00:00.000Z,Intermediate,Teacher 536,teacher000536@staff.magicbus.edu,2023-01-14,true,XXXX-XXX-8074,Subject Teacher,58,64,Social Studies,TCH00536,536,2
+true,2024-03-26T00:00:00.000Z,Advanced,Teacher 537,teacher000537@staff.magicbus.edu,2024-03-26,true,XXXX-XXX-9631,Subject Teacher,78,61,Social Studies,TCH00537,537,1
+true,2010-04-22T00:00:00.000Z,Intermediate,Teacher 538,teacher000538@staff.magicbus.edu,2010-04-22,true,XXXX-XXX-1976,Subject Teacher,98,44,Mathematics,TCH00538,538,15
+true,2024-04-05T00:00:00.000Z,Beginner,Teacher 539,teacher000539@staff.magicbus.edu,2024-04-05,false,XXXX-XXX-3568,Subject Teacher,32,138,Science,TCH00539,539,1
+false,2021-07-28T00:00:00.000Z,Advanced,Teacher 540,teacher000540@staff.magicbus.edu,2021-07-28,true,XXXX-XXX-7056,Subject Teacher,192,120,Computer Science,TCH00540,540,4
+true,2014-12-15T00:00:00.000Z,Intermediate,Teacher 541,teacher000541@staff.magicbus.edu,2014-12-15,true,XXXX-XXX-9892,Coordinator,50,32,Computer Science,TCH00541,541,11
+false,2025-03-31T00:00:00.000Z,Intermediate,Teacher 542,teacher000542@staff.magicbus.edu,2025-03-31,true,XXXX-XXX-6760,Subject Teacher,189,40,Social Studies,TCH00542,542,1
+true,2017-01-09T00:00:00.000Z,Beginner,Teacher 543,teacher000543@staff.magicbus.edu,2017-01-09,true,XXXX-XXX-1086,Class Teacher,29,55,Languages,TCH00543,543,8
+true,2013-02-23T00:00:00.000Z,Intermediate,Teacher 544,teacher000544@staff.magicbus.edu,2013-02-23,true,XXXX-XXX-9918,Class Teacher,17,70,Computer Science,TCH00544,544,12
+true,2016-04-30T00:00:00.000Z,Beginner,Teacher 545,teacher000545@staff.magicbus.edu,2016-04-30,true,XXXX-XXX-8782,Subject Teacher,80,124,Computer Science,TCH00545,545,9
+false,2012-11-14T00:00:00.000Z,Advanced,Teacher 546,teacher000546@staff.magicbus.edu,2012-11-14,true,XXXX-XXX-6626,Subject Teacher,96,110,Science,TCH00546,546,13
+true,2019-10-22T00:00:00.000Z,Intermediate,Teacher 547,teacher000547@staff.magicbus.edu,2019-10-22,true,XXXX-XXX-2750,Class Teacher,178,71,Computer Science,TCH00547,547,6
+false,2019-03-28T00:00:00.000Z,Advanced,Teacher 548,teacher000548@staff.magicbus.edu,2019-03-28,true,XXXX-XXX-6717,Subject Teacher,80,149,Languages,TCH00548,548,6
+false,2013-08-10T00:00:00.000Z,Intermediate,Teacher 549,teacher000549@staff.magicbus.edu,2013-08-10,true,XXXX-XXX-2815,Coordinator,156,80,General,TCH00549,549,12
+true,2010-02-26T00:00:00.000Z,Intermediate,Teacher 550,teacher000550@staff.magicbus.edu,2010-02-26,true,XXXX-XXX-9170,Subject Teacher,14,41,Science,TCH00550,550,15
+true,2019-07-13T00:00:00.000Z,Intermediate,Teacher 551,teacher000551@staff.magicbus.edu,2019-07-13,true,XXXX-XXX-8444,Subject Teacher,69,112,Computer Science,TCH00551,551,6
+true,2021-03-11T00:00:00.000Z,Beginner,Teacher 552,teacher000552@staff.magicbus.edu,2021-03-11,true,XXXX-XXX-4058,Subject Teacher,151,70,Computer Science,TCH00552,552,4
+false,2018-03-19T00:00:00.000Z,Advanced,Teacher 553,teacher000553@staff.magicbus.edu,2018-03-19,true,XXXX-XXX-1969,Subject Teacher,131,147,Social Studies,TCH00553,553,7
+true,2010-09-08T00:00:00.000Z,Intermediate,Teacher 554,teacher000554@staff.magicbus.edu,2010-09-08,true,XXXX-XXX-9978,Subject Teacher,186,100,Computer Science,TCH00554,554,15
+false,2021-01-04T00:00:00.000Z,Intermediate,Teacher 555,teacher000555@staff.magicbus.edu,2021-01-04,true,XXXX-XXX-4674,Mentor,200,71,Languages,TCH00555,555,4
+true,2014-03-18T00:00:00.000Z,Beginner,Teacher 556,teacher000556@staff.magicbus.edu,2014-03-18,true,XXXX-XXX-7011,Coordinator,86,84,Mathematics,TCH00556,556,11
+true,2014-09-01T00:00:00.000Z,Intermediate,Teacher 557,teacher000557@staff.magicbus.edu,2014-09-01,true,XXXX-XXX-4172,Subject Teacher,14,116,Mathematics,TCH00557,557,11
+false,2023-06-19T00:00:00.000Z,Advanced,Teacher 558,teacher000558@staff.magicbus.edu,2023-06-19,true,XXXX-XXX-6616,Subject Teacher,152,109,Computer Science,TCH00558,558,2
+true,2011-12-13T00:00:00.000Z,Intermediate,Teacher 559,teacher000559@staff.magicbus.edu,2011-12-13,true,XXXX-XXX-2343,Class Teacher,170,61,Social Studies,TCH00559,559,14
+true,2015-01-07T00:00:00.000Z,Intermediate,Teacher 560,teacher000560@staff.magicbus.edu,2015-01-07,true,XXXX-XXX-2610,Class Teacher,20,87,Science,TCH00560,560,10
+false,2010-02-16T00:00:00.000Z,Beginner,Teacher 561,teacher000561@staff.magicbus.edu,2010-02-16,true,XXXX-XXX-9465,Class Teacher,109,34,Languages,TCH00561,561,15
+false,2024-04-09T00:00:00.000Z,Beginner,Teacher 562,teacher000562@staff.magicbus.edu,2024-04-09,true,XXXX-XXX-1964,Mentor,75,34,Computer Science,TCH00562,562,1
+false,2010-02-01T00:00:00.000Z,Beginner,Teacher 563,teacher000563@staff.magicbus.edu,2010-02-01,true,XXXX-XXX-5185,Subject Teacher,125,49,Computer Science,TCH00563,563,15
+true,2010-07-09T00:00:00.000Z,Intermediate,Teacher 564,teacher000564@staff.magicbus.edu,2010-07-09,true,XXXX-XXX-4545,Mentor,85,142,Computer Science,TCH00564,564,15
+true,2017-05-10T00:00:00.000Z,Intermediate,Teacher 565,teacher000565@staff.magicbus.edu,2017-05-10,true,XXXX-XXX-1040,Subject Teacher,100,94,Computer Science,TCH00565,565,8
+true,2014-07-02T00:00:00.000Z,Intermediate,Teacher 566,teacher000566@staff.magicbus.edu,2014-07-02,true,XXXX-XXX-3752,Subject Teacher,51,87,Mathematics,TCH00566,566,11
+true,2019-05-09T00:00:00.000Z,Advanced,Teacher 567,teacher000567@staff.magicbus.edu,2019-05-09,true,XXXX-XXX-6345,Subject Teacher,158,81,General,TCH00567,567,6
+true,2019-06-25T00:00:00.000Z,Intermediate,Teacher 568,teacher000568@staff.magicbus.edu,2019-06-25,true,XXXX-XXX-9050,Subject Teacher,73,68,Science,TCH00568,568,6
+true,2019-01-15T00:00:00.000Z,Intermediate,Teacher 569,teacher000569@staff.magicbus.edu,2019-01-15,true,XXXX-XXX-6580,Subject Teacher,160,57,General,TCH00569,569,6
+false,2017-08-06T00:00:00.000Z,Intermediate,Teacher 570,teacher000570@staff.magicbus.edu,2017-08-06,true,XXXX-XXX-9219,Class Teacher,155,116,General,TCH00570,570,8
+false,2018-12-18T00:00:00.000Z,Intermediate,Teacher 571,teacher000571@staff.magicbus.edu,2018-12-18,true,XXXX-XXX-9625,Mentor,43,60,General,TCH00571,571,7
+false,2016-12-18T00:00:00.000Z,Intermediate,Teacher 572,teacher000572@staff.magicbus.edu,2016-12-18,true,XXXX-XXX-5827,Class Teacher,152,112,Social Studies,TCH00572,572,9
+false,2011-08-30T00:00:00.000Z,Intermediate,Teacher 573,teacher000573@staff.magicbus.edu,2011-08-30,true,XXXX-XXX-8621,Class Teacher,143,75,General,TCH00573,573,14
+false,2023-02-08T00:00:00.000Z,Beginner,Teacher 574,teacher000574@staff.magicbus.edu,2023-02-08,true,XXXX-XXX-2037,Coordinator,180,127,General,TCH00574,574,2
+false,2018-06-23T00:00:00.000Z,Intermediate,Teacher 575,teacher000575@staff.magicbus.edu,2018-06-23,true,XXXX-XXX-3419,Coordinator,34,83,Languages,TCH00575,575,7
+false,2012-04-22T00:00:00.000Z,Intermediate,Teacher 576,teacher000576@staff.magicbus.edu,2012-04-22,true,XXXX-XXX-7145,Mentor,168,77,Languages,TCH00576,576,13
+false,2020-07-02T00:00:00.000Z,Intermediate,Teacher 577,teacher000577@staff.magicbus.edu,2020-07-02,true,XXXX-XXX-8923,Subject Teacher,66,130,Computer Science,TCH00577,577,5
+true,2017-11-23T00:00:00.000Z,Beginner,Teacher 578,teacher000578@staff.magicbus.edu,2017-11-23,true,XXXX-XXX-1307,Coordinator,68,127,Computer Science,TCH00578,578,8
+true,2012-04-02T00:00:00.000Z,Intermediate,Teacher 579,teacher000579@staff.magicbus.edu,2012-04-02,true,XXXX-XXX-5489,Subject Teacher,67,73,Mathematics,TCH00579,579,13
+false,2022-03-26T00:00:00.000Z,Intermediate,Teacher 580,teacher000580@staff.magicbus.edu,2022-03-26,false,XXXX-XXX-9382,Subject Teacher,6,135,Mathematics,TCH00580,580,3
+false,2010-01-28T00:00:00.000Z,Intermediate,Teacher 581,teacher000581@staff.magicbus.edu,2010-01-28,true,XXXX-XXX-7145,Coordinator,152,38,Social Studies,TCH00581,581,15
+true,2021-01-12T00:00:00.000Z,Intermediate,Teacher 582,teacher000582@staff.magicbus.edu,2021-01-12,true,XXXX-XXX-8327,Class Teacher,112,130,Science,TCH00582,582,4
+true,2018-11-08T00:00:00.000Z,Intermediate,Teacher 583,teacher000583@staff.magicbus.edu,2018-11-08,true,XXXX-XXX-6818,Class Teacher,88,89,Languages,TCH00583,583,7
+false,2018-09-30T00:00:00.000Z,Beginner,Teacher 584,teacher000584@staff.magicbus.edu,2018-09-30,true,XXXX-XXX-5186,Coordinator,36,131,Computer Science,TCH00584,584,7
+true,2015-03-02T00:00:00.000Z,Beginner,Teacher 585,teacher000585@staff.magicbus.edu,2015-03-02,true,XXXX-XXX-7010,Subject Teacher,91,69,Mathematics,TCH00585,585,10
+true,2012-06-12T00:00:00.000Z,Intermediate,Teacher 586,teacher000586@staff.magicbus.edu,2012-06-12,true,XXXX-XXX-7172,Subject Teacher,122,114,Social Studies,TCH00586,586,13
+false,2024-06-02T00:00:00.000Z,Beginner,Teacher 587,teacher000587@staff.magicbus.edu,2024-06-02,true,XXXX-XXX-9224,Mentor,171,127,Mathematics,TCH00587,587,1
+true,2016-06-06T00:00:00.000Z,Advanced,Teacher 588,teacher000588@staff.magicbus.edu,2016-06-06,true,XXXX-XXX-1086,Subject Teacher,141,58,Science,TCH00588,588,9
+true,2015-04-30T00:00:00.000Z,Beginner,Teacher 589,teacher000589@staff.magicbus.edu,2015-04-30,true,XXXX-XXX-1971,Subject Teacher,42,82,Computer Science,TCH00589,589,10
+true,2019-07-28T00:00:00.000Z,Advanced,Teacher 590,teacher000590@staff.magicbus.edu,2019-07-28,true,XXXX-XXX-5198,Class Teacher,133,134,General,TCH00590,590,6
+true,2019-02-17T00:00:00.000Z,Advanced,Teacher 591,teacher000591@staff.magicbus.edu,2019-02-17,true,XXXX-XXX-7052,Mentor,20,118,Languages,TCH00591,591,6
+false,2014-01-25T00:00:00.000Z,Intermediate,Teacher 592,teacher000592@staff.magicbus.edu,2014-01-25,true,XXXX-XXX-2593,Subject Teacher,127,126,Social Studies,TCH00592,592,11
+false,2025-04-10T00:00:00.000Z,Intermediate,Teacher 593,teacher000593@staff.magicbus.edu,2025-04-10,true,XXXX-XXX-7182,Subject Teacher,92,130,General,TCH00593,593,1
+true,2019-06-28T00:00:00.000Z,Intermediate,Teacher 594,teacher000594@staff.magicbus.edu,2019-06-28,true,XXXX-XXX-7471,Coordinator,197,59,General,TCH00594,594,6
+false,2024-12-24T00:00:00.000Z,Beginner,Teacher 595,teacher000595@staff.magicbus.edu,2024-12-24,true,XXXX-XXX-6542,Subject Teacher,52,121,General,TCH00595,595,1
+true,2016-02-04T00:00:00.000Z,Intermediate,Teacher 596,teacher000596@staff.magicbus.edu,2016-02-04,true,XXXX-XXX-1073,Subject Teacher,70,100,Mathematics,TCH00596,596,9
+false,2022-07-02T00:00:00.000Z,Beginner,Teacher 597,teacher000597@staff.magicbus.edu,2022-07-02,true,XXXX-XXX-5263,Coordinator,7,40,Social Studies,TCH00597,597,3
+false,2014-02-08T00:00:00.000Z,Intermediate,Teacher 598,teacher000598@staff.magicbus.edu,2014-02-08,true,XXXX-XXX-6444,Mentor,114,51,General,TCH00598,598,11
+true,2013-07-10T00:00:00.000Z,Intermediate,Teacher 599,teacher000599@staff.magicbus.edu,2013-07-10,true,XXXX-XXX-9588,Class Teacher,193,68,Languages,TCH00599,599,12
+false,2012-04-28T00:00:00.000Z,Advanced,Teacher 600,teacher000600@staff.magicbus.edu,2012-04-28,true,XXXX-XXX-7184,Class Teacher,179,46,Languages,TCH00600,600,13
+false,2020-11-27T00:00:00.000Z,Intermediate,Teacher 601,teacher000601@staff.magicbus.edu,2020-11-27,true,XXXX-XXX-1617,Subject Teacher,10,145,Languages,TCH00601,601,5
+false,2020-03-13T00:00:00.000Z,Intermediate,Teacher 602,teacher000602@staff.magicbus.edu,2020-03-13,true,XXXX-XXX-1330,Subject Teacher,46,38,General,TCH00602,602,5
+true,2010-06-15T00:00:00.000Z,Intermediate,Teacher 603,teacher000603@staff.magicbus.edu,2010-06-15,true,XXXX-XXX-2367,Subject Teacher,6,76,Science,TCH00603,603,15
+true,2024-12-17T00:00:00.000Z,Intermediate,Teacher 604,teacher000604@staff.magicbus.edu,2024-12-17,true,XXXX-XXX-3365,Subject Teacher,99,75,Science,TCH00604,604,1
+false,2016-04-01T00:00:00.000Z,Intermediate,Teacher 605,teacher000605@staff.magicbus.edu,2016-04-01,false,XXXX-XXX-1637,Class Teacher,101,90,Mathematics,TCH00605,605,9
+true,2017-08-25T00:00:00.000Z,Beginner,Teacher 606,teacher000606@staff.magicbus.edu,2017-08-25,true,XXXX-XXX-1992,Subject Teacher,73,71,Languages,TCH00606,606,8
+true,2018-11-28T00:00:00.000Z,Intermediate,Teacher 607,teacher000607@staff.magicbus.edu,2018-11-28,true,XXXX-XXX-6485,Subject Teacher,110,71,Computer Science,TCH00607,607,7
+false,2013-05-15T00:00:00.000Z,Beginner,Teacher 608,teacher000608@staff.magicbus.edu,2013-05-15,true,XXXX-XXX-7992,Subject Teacher,158,118,Computer Science,TCH00608,608,12
+true,2016-11-20T00:00:00.000Z,Beginner,Teacher 609,teacher000609@staff.magicbus.edu,2016-11-20,false,XXXX-XXX-4889,Subject Teacher,9,143,Social Studies,TCH00609,609,9
+true,2023-07-12T00:00:00.000Z,Beginner,Teacher 610,teacher000610@staff.magicbus.edu,2023-07-12,true,XXXX-XXX-3121,Class Teacher,30,124,General,TCH00610,610,2
+true,2013-10-31T00:00:00.000Z,Intermediate,Teacher 611,teacher000611@staff.magicbus.edu,2013-10-31,true,XXXX-XXX-9384,Coordinator,124,149,Languages,TCH00611,611,12
+false,2013-12-08T00:00:00.000Z,Advanced,Teacher 612,teacher000612@staff.magicbus.edu,2013-12-08,true,XXXX-XXX-3009,Subject Teacher,3,146,Languages,TCH00612,612,12
+true,2022-01-19T00:00:00.000Z,Intermediate,Teacher 613,teacher000613@staff.magicbus.edu,2022-01-19,true,XXXX-XXX-8912,Coordinator,169,95,General,TCH00613,613,3
+false,2010-04-27T00:00:00.000Z,Beginner,Teacher 614,teacher000614@staff.magicbus.edu,2010-04-27,true,XXXX-XXX-2905,Class Teacher,117,35,Computer Science,TCH00614,614,15
+true,2022-03-21T00:00:00.000Z,Advanced,Teacher 615,teacher000615@staff.magicbus.edu,2022-03-21,true,XXXX-XXX-9382,Coordinator,131,46,Languages,TCH00615,615,3
+true,2019-06-10T00:00:00.000Z,Advanced,Teacher 616,teacher000616@staff.magicbus.edu,2019-06-10,true,XXXX-XXX-7272,Subject Teacher,69,90,Mathematics,TCH00616,616,6
+true,2019-03-06T00:00:00.000Z,Advanced,Teacher 617,teacher000617@staff.magicbus.edu,2019-03-06,true,XXXX-XXX-7913,Subject Teacher,197,67,Science,TCH00617,617,6
+false,2016-03-26T00:00:00.000Z,Intermediate,Teacher 618,teacher000618@staff.magicbus.edu,2016-03-26,true,XXXX-XXX-7761,Subject Teacher,61,138,General,TCH00618,618,9
+true,2023-07-27T00:00:00.000Z,Beginner,Teacher 619,teacher000619@staff.magicbus.edu,2023-07-27,false,XXXX-XXX-6254,Subject Teacher,28,40,General,TCH00619,619,2
+false,2018-07-10T00:00:00.000Z,Intermediate,Teacher 620,teacher000620@staff.magicbus.edu,2018-07-10,true,XXXX-XXX-8943,Subject Teacher,102,50,General,TCH00620,620,7
+true,2017-12-10T00:00:00.000Z,Intermediate,Teacher 621,teacher000621@staff.magicbus.edu,2017-12-10,true,XXXX-XXX-6086,Subject Teacher,150,131,Social Studies,TCH00621,621,8
+true,2020-07-10T00:00:00.000Z,Intermediate,Teacher 622,teacher000622@staff.magicbus.edu,2020-07-10,true,XXXX-XXX-7753,Class Teacher,103,150,Social Studies,TCH00622,622,5
+false,2010-09-05T00:00:00.000Z,Intermediate,Teacher 623,teacher000623@staff.magicbus.edu,2010-09-05,true,XXXX-XXX-5203,Subject Teacher,162,97,Mathematics,TCH00623,623,15
+false,2023-12-19T00:00:00.000Z,Advanced,Teacher 624,teacher000624@staff.magicbus.edu,2023-12-19,false,XXXX-XXX-7786,Subject Teacher,25,81,General,TCH00624,624,2
+true,2023-10-08T00:00:00.000Z,Beginner,Teacher 625,teacher000625@staff.magicbus.edu,2023-10-08,true,XXXX-XXX-2170,Subject Teacher,172,96,General,TCH00625,625,2
+false,2021-12-24T00:00:00.000Z,Intermediate,Teacher 626,teacher000626@staff.magicbus.edu,2021-12-24,true,XXXX-XXX-7102,Class Teacher,92,49,Computer Science,TCH00626,626,4
+false,2019-11-24T00:00:00.000Z,Intermediate,Teacher 627,teacher000627@staff.magicbus.edu,2019-11-24,true,XXXX-XXX-5830,Class Teacher,196,87,Science,TCH00627,627,6
+true,2010-07-05T00:00:00.000Z,Beginner,Teacher 628,teacher000628@staff.magicbus.edu,2010-07-05,true,XXXX-XXX-7726,Class Teacher,85,51,Languages,TCH00628,628,15
+true,2015-02-07T00:00:00.000Z,Intermediate,Teacher 629,teacher000629@staff.magicbus.edu,2015-02-07,true,XXXX-XXX-8885,Subject Teacher,178,91,Computer Science,TCH00629,629,10
+true,2022-05-12T00:00:00.000Z,Intermediate,Teacher 630,teacher000630@staff.magicbus.edu,2022-05-12,false,XXXX-XXX-3277,Class Teacher,183,66,Computer Science,TCH00630,630,3
+false,2018-04-15T00:00:00.000Z,Beginner,Teacher 631,teacher000631@staff.magicbus.edu,2018-04-15,true,XXXX-XXX-1351,Subject Teacher,152,100,Mathematics,TCH00631,631,7
+true,2020-09-14T00:00:00.000Z,Intermediate,Teacher 632,teacher000632@staff.magicbus.edu,2020-09-14,true,XXXX-XXX-9322,Subject Teacher,18,143,Computer Science,TCH00632,632,5
+true,2010-04-19T00:00:00.000Z,Beginner,Teacher 633,teacher000633@staff.magicbus.edu,2010-04-19,false,XXXX-XXX-1559,Subject Teacher,106,60,General,TCH00633,633,15
+false,2024-11-30T00:00:00.000Z,Intermediate,Teacher 634,teacher000634@staff.magicbus.edu,2024-11-30,false,XXXX-XXX-8323,Subject Teacher,21,117,Social Studies,TCH00634,634,1
+true,2013-02-28T00:00:00.000Z,Advanced,Teacher 635,teacher000635@staff.magicbus.edu,2013-02-28,true,XXXX-XXX-7726,Class Teacher,101,148,Science,TCH00635,635,12
+false,2011-05-01T00:00:00.000Z,Beginner,Teacher 636,teacher000636@staff.magicbus.edu,2011-05-01,true,XXXX-XXX-7872,Coordinator,79,77,General,TCH00636,636,14
+false,2011-04-05T00:00:00.000Z,Intermediate,Teacher 637,teacher000637@staff.magicbus.edu,2011-04-05,true,XXXX-XXX-6558,Subject Teacher,163,134,Social Studies,TCH00637,637,14
+false,2013-02-16T00:00:00.000Z,Beginner,Teacher 638,teacher000638@staff.magicbus.edu,2013-02-16,true,XXXX-XXX-7888,Class Teacher,140,149,Mathematics,TCH00638,638,12
+false,2013-03-01T00:00:00.000Z,Beginner,Teacher 639,teacher000639@staff.magicbus.edu,2013-03-01,true,XXXX-XXX-4050,Class Teacher,75,63,Social Studies,TCH00639,639,12
+true,2025-01-15T00:00:00.000Z,Advanced,Teacher 640,teacher000640@staff.magicbus.edu,2025-01-15,true,XXXX-XXX-9261,Subject Teacher,105,35,Science,TCH00640,640,1
+true,2010-09-26T00:00:00.000Z,Intermediate,Teacher 641,teacher000641@staff.magicbus.edu,2010-09-26,true,XXXX-XXX-7626,Subject Teacher,64,78,Science,TCH00641,641,15
+false,2010-10-26T00:00:00.000Z,Intermediate,Teacher 642,teacher000642@staff.magicbus.edu,2010-10-26,false,XXXX-XXX-2909,Subject Teacher,76,108,Computer Science,TCH00642,642,15
+true,2021-02-27T00:00:00.000Z,Intermediate,Teacher 643,teacher000643@staff.magicbus.edu,2021-02-27,true,XXXX-XXX-6422,Subject Teacher,119,87,Languages,TCH00643,643,4
+true,2019-11-07T00:00:00.000Z,Intermediate,Teacher 644,teacher000644@staff.magicbus.edu,2019-11-07,true,XXXX-XXX-3730,Class Teacher,71,124,Computer Science,TCH00644,644,6
+false,2010-10-25T00:00:00.000Z,Beginner,Teacher 645,teacher000645@staff.magicbus.edu,2010-10-25,true,XXXX-XXX-7251,Subject Teacher,134,82,General,TCH00645,645,15
+false,2024-09-23T00:00:00.000Z,Intermediate,Teacher 646,teacher000646@staff.magicbus.edu,2024-09-23,true,XXXX-XXX-6893,Class Teacher,77,128,Mathematics,TCH00646,646,1
+false,2017-07-13T00:00:00.000Z,Beginner,Teacher 647,teacher000647@staff.magicbus.edu,2017-07-13,true,XXXX-XXX-5131,Class Teacher,177,48,Mathematics,TCH00647,647,8
+false,2013-02-27T00:00:00.000Z,Beginner,Teacher 648,teacher000648@staff.magicbus.edu,2013-02-27,true,XXXX-XXX-4133,Mentor,153,125,Mathematics,TCH00648,648,12
+false,2023-03-10T00:00:00.000Z,Intermediate,Teacher 649,teacher000649@staff.magicbus.edu,2023-03-10,true,XXXX-XXX-4652,Class Teacher,44,104,Languages,TCH00649,649,2
+true,2018-11-09T00:00:00.000Z,Intermediate,Teacher 650,teacher000650@staff.magicbus.edu,2018-11-09,true,XXXX-XXX-3790,Subject Teacher,144,115,Mathematics,TCH00650,650,7
+true,2025-01-27T00:00:00.000Z,Advanced,Teacher 651,teacher000651@staff.magicbus.edu,2025-01-27,true,XXXX-XXX-9087,Subject Teacher,200,68,Mathematics,TCH00651,651,1
+true,2019-02-13T00:00:00.000Z,Intermediate,Teacher 652,teacher000652@staff.magicbus.edu,2019-02-13,true,XXXX-XXX-1784,Coordinator,36,107,Computer Science,TCH00652,652,6
+false,2017-09-20T00:00:00.000Z,Beginner,Teacher 653,teacher000653@staff.magicbus.edu,2017-09-20,true,XXXX-XXX-1650,Subject Teacher,3,148,Mathematics,TCH00653,653,8
+true,2013-04-19T00:00:00.000Z,Beginner,Teacher 654,teacher000654@staff.magicbus.edu,2013-04-19,true,XXXX-XXX-9693,Class Teacher,89,83,Computer Science,TCH00654,654,12
+true,2012-02-06T00:00:00.000Z,Intermediate,Teacher 655,teacher000655@staff.magicbus.edu,2012-02-06,true,XXXX-XXX-9328,Mentor,50,41,Science,TCH00655,655,13
+false,2017-04-05T00:00:00.000Z,Beginner,Teacher 656,teacher000656@staff.magicbus.edu,2017-04-05,true,XXXX-XXX-5867,Subject Teacher,96,36,Computer Science,TCH00656,656,8
+true,2012-08-14T00:00:00.000Z,Advanced,Teacher 657,teacher000657@staff.magicbus.edu,2012-08-14,true,XXXX-XXX-4944,Coordinator,156,139,General,TCH00657,657,13
+true,2019-04-09T00:00:00.000Z,Intermediate,Teacher 658,teacher000658@staff.magicbus.edu,2019-04-09,true,XXXX-XXX-9956,Mentor,64,107,Science,TCH00658,658,6
+true,2025-05-10T00:00:00.000Z,Advanced,Teacher 659,teacher000659@staff.magicbus.edu,2025-05-10,true,XXXX-XXX-8850,Mentor,170,64,Computer Science,TCH00659,659,1
+false,2017-10-11T00:00:00.000Z,Advanced,Teacher 660,teacher000660@staff.magicbus.edu,2017-10-11,true,XXXX-XXX-8693,Class Teacher,16,66,Computer Science,TCH00660,660,8
+true,2023-12-29T00:00:00.000Z,Intermediate,Teacher 661,teacher000661@staff.magicbus.edu,2023-12-29,true,XXXX-XXX-7562,Coordinator,58,60,General,TCH00661,661,2
+false,2015-09-15T00:00:00.000Z,Intermediate,Teacher 662,teacher000662@staff.magicbus.edu,2015-09-15,false,XXXX-XXX-2848,Coordinator,73,123,Languages,TCH00662,662,10
+true,2019-10-14T00:00:00.000Z,Advanced,Teacher 663,teacher000663@staff.magicbus.edu,2019-10-14,true,XXXX-XXX-9193,Class Teacher,98,45,Languages,TCH00663,663,6
+false,2023-10-19T00:00:00.000Z,Intermediate,Teacher 664,teacher000664@staff.magicbus.edu,2023-10-19,true,XXXX-XXX-5844,Subject Teacher,192,82,Computer Science,TCH00664,664,2
+false,2025-02-13T00:00:00.000Z,Beginner,Teacher 665,teacher000665@staff.magicbus.edu,2025-02-13,true,XXXX-XXX-1241,Coordinator,61,72,General,TCH00665,665,1
+true,2016-03-12T00:00:00.000Z,Beginner,Teacher 666,teacher000666@staff.magicbus.edu,2016-03-12,true,XXXX-XXX-5676,Subject Teacher,150,96,Computer Science,TCH00666,666,9
+false,2020-08-23T00:00:00.000Z,Intermediate,Teacher 667,teacher000667@staff.magicbus.edu,2020-08-23,false,XXXX-XXX-1542,Coordinator,191,127,Languages,TCH00667,667,5
+true,2019-01-12T00:00:00.000Z,Beginner,Teacher 668,teacher000668@staff.magicbus.edu,2019-01-12,true,XXXX-XXX-2577,Subject Teacher,119,105,Computer Science,TCH00668,668,6
+true,2024-11-24T00:00:00.000Z,Intermediate,Teacher 669,teacher000669@staff.magicbus.edu,2024-11-24,true,XXXX-XXX-2820,Class Teacher,63,83,Languages,TCH00669,669,1
+true,2017-09-03T00:00:00.000Z,Intermediate,Teacher 670,teacher000670@staff.magicbus.edu,2017-09-03,false,XXXX-XXX-6005,Class Teacher,24,120,Science,TCH00670,670,8
+false,2017-10-06T00:00:00.000Z,Beginner,Teacher 671,teacher000671@staff.magicbus.edu,2017-10-06,true,XXXX-XXX-6899,Subject Teacher,36,136,Science,TCH00671,671,8
+false,2010-05-21T00:00:00.000Z,Beginner,Teacher 672,teacher000672@staff.magicbus.edu,2010-05-21,false,XXXX-XXX-2304,Class Teacher,176,94,Languages,TCH00672,672,15
+true,2014-02-17T00:00:00.000Z,Beginner,Teacher 673,teacher000673@staff.magicbus.edu,2014-02-17,false,XXXX-XXX-1900,Subject Teacher,45,143,Computer Science,TCH00673,673,11
+true,2020-09-01T00:00:00.000Z,Intermediate,Teacher 674,teacher000674@staff.magicbus.edu,2020-09-01,true,XXXX-XXX-6628,Subject Teacher,93,138,General,TCH00674,674,5
+true,2013-05-28T00:00:00.000Z,Intermediate,Teacher 675,teacher000675@staff.magicbus.edu,2013-05-28,true,XXXX-XXX-7222,Coordinator,64,105,Social Studies,TCH00675,675,12
+true,2021-05-13T00:00:00.000Z,Intermediate,Teacher 676,teacher000676@staff.magicbus.edu,2021-05-13,true,XXXX-XXX-5971,Class Teacher,5,85,Computer Science,TCH00676,676,4
+true,2011-02-07T00:00:00.000Z,Advanced,Teacher 677,teacher000677@staff.magicbus.edu,2011-02-07,true,XXXX-XXX-8348,Class Teacher,97,39,General,TCH00677,677,14
+false,2012-02-05T00:00:00.000Z,Intermediate,Teacher 678,teacher000678@staff.magicbus.edu,2012-02-05,true,XXXX-XXX-2035,Subject Teacher,42,85,Languages,TCH00678,678,13
+false,2023-06-13T00:00:00.000Z,Beginner,Teacher 679,teacher000679@staff.magicbus.edu,2023-06-13,true,XXXX-XXX-5189,Class Teacher,64,50,Languages,TCH00679,679,2
+true,2013-05-30T00:00:00.000Z,Intermediate,Teacher 680,teacher000680@staff.magicbus.edu,2013-05-30,false,XXXX-XXX-8555,Subject Teacher,93,99,Social Studies,TCH00680,680,12
+true,2022-08-16T00:00:00.000Z,Advanced,Teacher 681,teacher000681@staff.magicbus.edu,2022-08-16,true,XXXX-XXX-5528,Subject Teacher,127,62,Mathematics,TCH00681,681,3
+false,2023-07-02T00:00:00.000Z,Beginner,Teacher 682,teacher000682@staff.magicbus.edu,2023-07-02,true,XXXX-XXX-8552,Subject Teacher,15,134,Computer Science,TCH00682,682,2
+true,2020-06-15T00:00:00.000Z,Intermediate,Teacher 683,teacher000683@staff.magicbus.edu,2020-06-15,true,XXXX-XXX-9330,Subject Teacher,76,54,Mathematics,TCH00683,683,5
+true,2012-09-26T00:00:00.000Z,Intermediate,Teacher 684,teacher000684@staff.magicbus.edu,2012-09-26,false,XXXX-XXX-4619,Class Teacher,134,118,Science,TCH00684,684,13
+true,2017-11-03T00:00:00.000Z,Advanced,Teacher 685,teacher000685@staff.magicbus.edu,2017-11-03,true,XXXX-XXX-7835,Coordinator,108,68,Computer Science,TCH00685,685,8
+true,2015-12-21T00:00:00.000Z,Advanced,Teacher 686,teacher000686@staff.magicbus.edu,2015-12-21,true,XXXX-XXX-2628,Subject Teacher,78,75,Mathematics,TCH00686,686,10
+true,2011-04-12T00:00:00.000Z,Intermediate,Teacher 687,teacher000687@staff.magicbus.edu,2011-04-12,true,XXXX-XXX-1113,Class Teacher,30,70,Mathematics,TCH00687,687,14
+true,2024-11-08T00:00:00.000Z,Intermediate,Teacher 688,teacher000688@staff.magicbus.edu,2024-11-08,true,XXXX-XXX-9201,Class Teacher,63,129,General,TCH00688,688,1
+true,2013-04-30T00:00:00.000Z,Beginner,Teacher 689,teacher000689@staff.magicbus.edu,2013-04-30,true,XXXX-XXX-5564,Class Teacher,166,83,Social Studies,TCH00689,689,12
+true,2011-11-26T00:00:00.000Z,Advanced,Teacher 690,teacher000690@staff.magicbus.edu,2011-11-26,true,XXXX-XXX-2789,Subject Teacher,96,48,General,TCH00690,690,14
+true,2023-12-10T00:00:00.000Z,Advanced,Teacher 691,teacher000691@staff.magicbus.edu,2023-12-10,true,XXXX-XXX-2629,Class Teacher,35,30,Languages,TCH00691,691,2
+true,2011-07-20T00:00:00.000Z,Intermediate,Teacher 692,teacher000692@staff.magicbus.edu,2011-07-20,true,XXXX-XXX-2233,Subject Teacher,174,78,Computer Science,TCH00692,692,14
+true,2017-07-14T00:00:00.000Z,Advanced,Teacher 693,teacher000693@staff.magicbus.edu,2017-07-14,true,XXXX-XXX-4815,Class Teacher,2,71,Languages,TCH00693,693,8
+true,2018-07-07T00:00:00.000Z,Advanced,Teacher 694,teacher000694@staff.magicbus.edu,2018-07-07,true,XXXX-XXX-1288,Subject Teacher,195,116,Mathematics,TCH00694,694,7
+true,2024-09-11T00:00:00.000Z,Intermediate,Teacher 695,teacher000695@staff.magicbus.edu,2024-09-11,true,XXXX-XXX-8477,Subject Teacher,78,65,Mathematics,TCH00695,695,1
+true,2017-11-06T00:00:00.000Z,Intermediate,Teacher 696,teacher000696@staff.magicbus.edu,2017-11-06,true,XXXX-XXX-7569,Class Teacher,98,58,Mathematics,TCH00696,696,8
+true,2019-12-16T00:00:00.000Z,Beginner,Teacher 697,teacher000697@staff.magicbus.edu,2019-12-16,true,XXXX-XXX-4537,Class Teacher,180,114,Computer Science,TCH00697,697,6
+true,2014-12-09T00:00:00.000Z,Intermediate,Teacher 698,teacher000698@staff.magicbus.edu,2014-12-09,true,XXXX-XXX-8593,Subject Teacher,193,125,Social Studies,TCH00698,698,11
+true,2021-12-20T00:00:00.000Z,Intermediate,Teacher 699,teacher000699@staff.magicbus.edu,2021-12-20,true,XXXX-XXX-8178,Mentor,90,33,Science,TCH00699,699,4
+true,2025-03-28T00:00:00.000Z,Intermediate,Teacher 700,teacher000700@staff.magicbus.edu,2025-03-28,true,XXXX-XXX-5138,Coordinator,40,108,Mathematics,TCH00700,700,1
+false,2013-03-04T00:00:00.000Z,Intermediate,Teacher 701,teacher000701@staff.magicbus.edu,2013-03-04,true,XXXX-XXX-9415,Coordinator,198,97,Languages,TCH00701,701,12
+false,2021-09-15T00:00:00.000Z,Beginner,Teacher 702,teacher000702@staff.magicbus.edu,2021-09-15,true,XXXX-XXX-4418,Subject Teacher,11,142,General,TCH00702,702,4
+true,2021-10-08T00:00:00.000Z,Advanced,Teacher 703,teacher000703@staff.magicbus.edu,2021-10-08,true,XXXX-XXX-2450,Subject Teacher,145,71,Mathematics,TCH00703,703,4
+false,2024-02-19T00:00:00.000Z,Advanced,Teacher 704,teacher000704@staff.magicbus.edu,2024-02-19,true,XXXX-XXX-3656,Mentor,65,124,Computer Science,TCH00704,704,1
+true,2017-03-16T00:00:00.000Z,Intermediate,Teacher 705,teacher000705@staff.magicbus.edu,2017-03-16,true,XXXX-XXX-9297,Coordinator,160,110,Computer Science,TCH00705,705,8
+true,2021-06-09T00:00:00.000Z,Beginner,Teacher 706,teacher000706@staff.magicbus.edu,2021-06-09,true,XXXX-XXX-7359,Class Teacher,116,120,Mathematics,TCH00706,706,4
+false,2014-06-18T00:00:00.000Z,Beginner,Teacher 707,teacher000707@staff.magicbus.edu,2014-06-18,true,XXXX-XXX-1968,Subject Teacher,47,54,Science,TCH00707,707,11
+false,2016-02-14T00:00:00.000Z,Intermediate,Teacher 708,teacher000708@staff.magicbus.edu,2016-02-14,true,XXXX-XXX-8134,Mentor,19,77,Computer Science,TCH00708,708,9
+true,2018-09-24T00:00:00.000Z,Beginner,Teacher 709,teacher000709@staff.magicbus.edu,2018-09-24,true,XXXX-XXX-1520,Subject Teacher,38,36,General,TCH00709,709,7
+false,2014-08-07T00:00:00.000Z,Beginner,Teacher 710,teacher000710@staff.magicbus.edu,2014-08-07,true,XXXX-XXX-9822,Subject Teacher,77,105,Mathematics,TCH00710,710,11
+true,2014-11-18T00:00:00.000Z,Intermediate,Teacher 711,teacher000711@staff.magicbus.edu,2014-11-18,true,XXXX-XXX-5467,Subject Teacher,141,145,Science,TCH00711,711,11
+true,2013-07-11T00:00:00.000Z,Intermediate,Teacher 712,teacher000712@staff.magicbus.edu,2013-07-11,true,XXXX-XXX-3205,Subject Teacher,31,141,Social Studies,TCH00712,712,12
+true,2016-04-03T00:00:00.000Z,Intermediate,Teacher 713,teacher000713@staff.magicbus.edu,2016-04-03,true,XXXX-XXX-3551,Subject Teacher,142,119,Computer Science,TCH00713,713,9
+true,2018-06-07T00:00:00.000Z,Intermediate,Teacher 714,teacher000714@staff.magicbus.edu,2018-06-07,true,XXXX-XXX-6632,Coordinator,177,96,Social Studies,TCH00714,714,7
+false,2021-05-26T00:00:00.000Z,Intermediate,Teacher 715,teacher000715@staff.magicbus.edu,2021-05-26,true,XXXX-XXX-8364,Subject Teacher,156,33,General,TCH00715,715,4
+true,2018-05-27T00:00:00.000Z,Intermediate,Teacher 716,teacher000716@staff.magicbus.edu,2018-05-27,true,XXXX-XXX-8822,Coordinator,143,106,Computer Science,TCH00716,716,7
+true,2013-07-07T00:00:00.000Z,Intermediate,Teacher 717,teacher000717@staff.magicbus.edu,2013-07-07,true,XXXX-XXX-3868,Subject Teacher,10,74,General,TCH00717,717,12
+true,2010-01-18T00:00:00.000Z,Intermediate,Teacher 718,teacher000718@staff.magicbus.edu,2010-01-18,true,XXXX-XXX-4637,Class Teacher,2,56,Computer Science,TCH00718,718,15
+false,2019-06-07T00:00:00.000Z,Intermediate,Teacher 719,teacher000719@staff.magicbus.edu,2019-06-07,true,XXXX-XXX-3645,Coordinator,142,126,Social Studies,TCH00719,719,6
+true,2024-04-07T00:00:00.000Z,Beginner,Teacher 720,teacher000720@staff.magicbus.edu,2024-04-07,true,XXXX-XXX-8817,Mentor,155,120,Mathematics,TCH00720,720,1
+false,2015-06-28T00:00:00.000Z,Intermediate,Teacher 721,teacher000721@staff.magicbus.edu,2015-06-28,true,XXXX-XXX-7103,Coordinator,40,44,General,TCH00721,721,10
+false,2017-04-23T00:00:00.000Z,Intermediate,Teacher 722,teacher000722@staff.magicbus.edu,2017-04-23,true,XXXX-XXX-8709,Coordinator,19,77,General,TCH00722,722,8
+false,2019-04-17T00:00:00.000Z,Advanced,Teacher 723,teacher000723@staff.magicbus.edu,2019-04-17,false,XXXX-XXX-2734,Subject Teacher,98,64,Science,TCH00723,723,6
+false,2019-03-10T00:00:00.000Z,Beginner,Teacher 724,teacher000724@staff.magicbus.edu,2019-03-10,true,XXXX-XXX-8300,Class Teacher,173,129,Science,TCH00724,724,6
+true,2022-06-01T00:00:00.000Z,Intermediate,Teacher 725,teacher000725@staff.magicbus.edu,2022-06-01,true,XXXX-XXX-2139,Subject Teacher,187,41,General,TCH00725,725,3
+false,2017-06-28T00:00:00.000Z,Intermediate,Teacher 726,teacher000726@staff.magicbus.edu,2017-06-28,false,XXXX-XXX-6676,Class Teacher,133,75,General,TCH00726,726,8
+false,2016-04-01T00:00:00.000Z,Advanced,Teacher 727,teacher000727@staff.magicbus.edu,2016-04-01,true,XXXX-XXX-8623,Subject Teacher,67,49,Science,TCH00727,727,9
+false,2025-02-13T00:00:00.000Z,Beginner,Teacher 728,teacher000728@staff.magicbus.edu,2025-02-13,true,XXXX-XXX-3520,Subject Teacher,28,59,Computer Science,TCH00728,728,1
+true,2012-01-24T00:00:00.000Z,Beginner,Teacher 729,teacher000729@staff.magicbus.edu,2012-01-24,true,XXXX-XXX-3914,Class Teacher,199,147,Computer Science,TCH00729,729,13
+true,2024-09-07T00:00:00.000Z,Intermediate,Teacher 730,teacher000730@staff.magicbus.edu,2024-09-07,true,XXXX-XXX-8186,Mentor,189,150,Computer Science,TCH00730,730,1
+false,2024-02-17T00:00:00.000Z,Intermediate,Teacher 731,teacher000731@staff.magicbus.edu,2024-02-17,true,XXXX-XXX-5619,Class Teacher,44,118,Mathematics,TCH00731,731,1
+false,2014-02-25T00:00:00.000Z,Beginner,Teacher 732,teacher000732@staff.magicbus.edu,2014-02-25,true,XXXX-XXX-2590,Subject Teacher,25,84,Science,TCH00732,732,11
+false,2017-04-29T00:00:00.000Z,Advanced,Teacher 733,teacher000733@staff.magicbus.edu,2017-04-29,true,XXXX-XXX-9798,Subject Teacher,26,141,Mathematics,TCH00733,733,8
+true,2023-02-27T00:00:00.000Z,Advanced,Teacher 734,teacher000734@staff.magicbus.edu,2023-02-27,true,XXXX-XXX-2307,Subject Teacher,125,70,General,TCH00734,734,2
+true,2023-12-14T00:00:00.000Z,Intermediate,Teacher 735,teacher000735@staff.magicbus.edu,2023-12-14,true,XXXX-XXX-9707,Subject Teacher,190,97,Science,TCH00735,735,2
+true,2013-11-18T00:00:00.000Z,Beginner,Teacher 736,teacher000736@staff.magicbus.edu,2013-11-18,true,XXXX-XXX-9069,Subject Teacher,88,52,Languages,TCH00736,736,12
+false,2013-05-06T00:00:00.000Z,Beginner,Teacher 737,teacher000737@staff.magicbus.edu,2013-05-06,true,XXXX-XXX-1597,Subject Teacher,95,132,Computer Science,TCH00737,737,12
+false,2016-07-01T00:00:00.000Z,Beginner,Teacher 738,teacher000738@staff.magicbus.edu,2016-07-01,true,XXXX-XXX-5428,Class Teacher,130,50,Mathematics,TCH00738,738,9
+true,2011-07-14T00:00:00.000Z,Intermediate,Teacher 739,teacher000739@staff.magicbus.edu,2011-07-14,true,XXXX-XXX-6636,Subject Teacher,9,47,Social Studies,TCH00739,739,14
+true,2025-05-20T00:00:00.000Z,Beginner,Teacher 740,teacher000740@staff.magicbus.edu,2025-05-20,true,XXXX-XXX-3358,Class Teacher,93,140,Computer Science,TCH00740,740,1
+true,2013-10-10T00:00:00.000Z,Intermediate,Teacher 741,teacher000741@staff.magicbus.edu,2013-10-10,false,XXXX-XXX-7881,Subject Teacher,26,86,Computer Science,TCH00741,741,12
+true,2022-09-02T00:00:00.000Z,Intermediate,Teacher 742,teacher000742@staff.magicbus.edu,2022-09-02,true,XXXX-XXX-2314,Coordinator,74,117,Computer Science,TCH00742,742,3
+false,2012-08-10T00:00:00.000Z,Advanced,Teacher 743,teacher000743@staff.magicbus.edu,2012-08-10,true,XXXX-XXX-5290,Subject Teacher,103,39,Computer Science,TCH00743,743,13
+true,2011-06-27T00:00:00.000Z,Beginner,Teacher 744,teacher000744@staff.magicbus.edu,2011-06-27,true,XXXX-XXX-6239,Class Teacher,120,51,Languages,TCH00744,744,14
+false,2021-07-29T00:00:00.000Z,Advanced,Teacher 745,teacher000745@staff.magicbus.edu,2021-07-29,true,XXXX-XXX-7783,Mentor,89,127,Science,TCH00745,745,4
+true,2024-05-12T00:00:00.000Z,Advanced,Teacher 746,teacher000746@staff.magicbus.edu,2024-05-12,true,XXXX-XXX-8038,Subject Teacher,72,124,Computer Science,TCH00746,746,1
+false,2012-04-21T00:00:00.000Z,Beginner,Teacher 747,teacher000747@staff.magicbus.edu,2012-04-21,true,XXXX-XXX-8375,Subject Teacher,163,104,Mathematics,TCH00747,747,13
+false,2019-09-16T00:00:00.000Z,Intermediate,Teacher 748,teacher000748@staff.magicbus.edu,2019-09-16,true,XXXX-XXX-1851,Coordinator,9,125,Languages,TCH00748,748,6
+true,2015-01-14T00:00:00.000Z,Beginner,Teacher 749,teacher000749@staff.magicbus.edu,2015-01-14,true,XXXX-XXX-9527,Mentor,51,109,Computer Science,TCH00749,749,10
+true,2024-08-11T00:00:00.000Z,Intermediate,Teacher 750,teacher000750@staff.magicbus.edu,2024-08-11,true,XXXX-XXX-2461,Class Teacher,178,79,Science,TCH00750,750,1
+true,2011-08-18T00:00:00.000Z,Intermediate,Teacher 751,teacher000751@staff.magicbus.edu,2011-08-18,true,XXXX-XXX-9744,Coordinator,103,102,General,TCH00751,751,14
+true,2019-02-25T00:00:00.000Z,Intermediate,Teacher 752,teacher000752@staff.magicbus.edu,2019-02-25,true,XXXX-XXX-4538,Subject Teacher,147,47,Languages,TCH00752,752,6
+false,2015-04-08T00:00:00.000Z,Intermediate,Teacher 753,teacher000753@staff.magicbus.edu,2015-04-08,false,XXXX-XXX-3664,Mentor,151,40,Computer Science,TCH00753,753,10
+true,2015-03-09T00:00:00.000Z,Intermediate,Teacher 754,teacher000754@staff.magicbus.edu,2015-03-09,true,XXXX-XXX-5348,Coordinator,37,123,Computer Science,TCH00754,754,10
+false,2018-07-16T00:00:00.000Z,Advanced,Teacher 755,teacher000755@staff.magicbus.edu,2018-07-16,true,XXXX-XXX-1431,Class Teacher,194,121,Computer Science,TCH00755,755,7
+true,2017-11-30T00:00:00.000Z,Beginner,Teacher 756,teacher000756@staff.magicbus.edu,2017-11-30,true,XXXX-XXX-4530,Coordinator,51,102,Mathematics,TCH00756,756,8
+true,2020-02-03T00:00:00.000Z,Beginner,Teacher 757,teacher000757@staff.magicbus.edu,2020-02-03,true,XXXX-XXX-1164,Coordinator,168,119,General,TCH00757,757,5
+true,2023-05-04T00:00:00.000Z,Intermediate,Teacher 758,teacher000758@staff.magicbus.edu,2023-05-04,true,XXXX-XXX-8995,Class Teacher,119,73,Computer Science,TCH00758,758,2
+false,2017-08-01T00:00:00.000Z,Intermediate,Teacher 759,teacher000759@staff.magicbus.edu,2017-08-01,true,XXXX-XXX-5030,Class Teacher,186,124,Mathematics,TCH00759,759,8
+true,2010-09-20T00:00:00.000Z,Intermediate,Teacher 760,teacher000760@staff.magicbus.edu,2010-09-20,true,XXXX-XXX-7619,Class Teacher,184,74,Languages,TCH00760,760,15
+true,2012-04-17T00:00:00.000Z,Advanced,Teacher 761,teacher000761@staff.magicbus.edu,2012-04-17,true,XXXX-XXX-9297,Class Teacher,94,34,Languages,TCH00761,761,13
+true,2023-11-03T00:00:00.000Z,Beginner,Teacher 762,teacher000762@staff.magicbus.edu,2023-11-03,true,XXXX-XXX-9534,Subject Teacher,143,112,Science,TCH00762,762,2
+true,2020-12-10T00:00:00.000Z,Intermediate,Teacher 763,teacher000763@staff.magicbus.edu,2020-12-10,true,XXXX-XXX-9800,Subject Teacher,196,68,Social Studies,TCH00763,763,5
+true,2010-03-12T00:00:00.000Z,Intermediate,Teacher 764,teacher000764@staff.magicbus.edu,2010-03-12,true,XXXX-XXX-1058,Subject Teacher,140,144,Science,TCH00764,764,15
+false,2017-11-04T00:00:00.000Z,Intermediate,Teacher 765,teacher000765@staff.magicbus.edu,2017-11-04,true,XXXX-XXX-1100,Subject Teacher,52,71,Social Studies,TCH00765,765,8
+false,2017-01-18T00:00:00.000Z,Beginner,Teacher 766,teacher000766@staff.magicbus.edu,2017-01-18,true,XXXX-XXX-3051,Subject Teacher,194,100,Computer Science,TCH00766,766,8
+false,2012-01-26T00:00:00.000Z,Intermediate,Teacher 767,teacher000767@staff.magicbus.edu,2012-01-26,true,XXXX-XXX-8311,Subject Teacher,99,124,Computer Science,TCH00767,767,13
+false,2014-02-11T00:00:00.000Z,Beginner,Teacher 768,teacher000768@staff.magicbus.edu,2014-02-11,true,XXXX-XXX-6134,Subject Teacher,5,150,Mathematics,TCH00768,768,11
+false,2020-06-17T00:00:00.000Z,Intermediate,Teacher 769,teacher000769@staff.magicbus.edu,2020-06-17,true,XXXX-XXX-5152,Subject Teacher,25,137,Computer Science,TCH00769,769,5
+true,2015-06-11T00:00:00.000Z,Intermediate,Teacher 770,teacher000770@staff.magicbus.edu,2015-06-11,true,XXXX-XXX-7546,Class Teacher,86,122,Languages,TCH00770,770,10
+true,2023-10-01T00:00:00.000Z,Intermediate,Teacher 771,teacher000771@staff.magicbus.edu,2023-10-01,false,XXXX-XXX-8612,Subject Teacher,57,63,Computer Science,TCH00771,771,2
+true,2022-02-02T00:00:00.000Z,Intermediate,Teacher 772,teacher000772@staff.magicbus.edu,2022-02-02,true,XXXX-XXX-9398,Mentor,89,135,Mathematics,TCH00772,772,3
+true,2011-02-06T00:00:00.000Z,Beginner,Teacher 773,teacher000773@staff.magicbus.edu,2011-02-06,true,XXXX-XXX-6916,Coordinator,125,81,General,TCH00773,773,14
+false,2014-04-22T00:00:00.000Z,Beginner,Teacher 774,teacher000774@staff.magicbus.edu,2014-04-22,true,XXXX-XXX-9784,Subject Teacher,126,110,General,TCH00774,774,11
+true,2015-12-06T00:00:00.000Z,Intermediate,Teacher 775,teacher000775@staff.magicbus.edu,2015-12-06,true,XXXX-XXX-5890,Subject Teacher,163,53,Computer Science,TCH00775,775,10
+false,2011-08-01T00:00:00.000Z,Advanced,Teacher 776,teacher000776@staff.magicbus.edu,2011-08-01,true,XXXX-XXX-6605,Class Teacher,133,140,General,TCH00776,776,14
+true,2022-01-30T00:00:00.000Z,Advanced,Teacher 777,teacher000777@staff.magicbus.edu,2022-01-30,true,XXXX-XXX-1480,Mentor,170,115,Mathematics,TCH00777,777,3
+true,2018-04-15T00:00:00.000Z,Beginner,Teacher 778,teacher000778@staff.magicbus.edu,2018-04-15,true,XXXX-XXX-3963,Subject Teacher,84,83,Languages,TCH00778,778,7
+true,2021-02-07T00:00:00.000Z,Beginner,Teacher 779,teacher000779@staff.magicbus.edu,2021-02-07,true,XXXX-XXX-3819,Subject Teacher,88,126,Computer Science,TCH00779,779,4
+true,2012-01-08T00:00:00.000Z,Beginner,Teacher 780,teacher000780@staff.magicbus.edu,2012-01-08,true,XXXX-XXX-2655,Subject Teacher,73,99,Mathematics,TCH00780,780,13
+true,2022-03-01T00:00:00.000Z,Beginner,Teacher 781,teacher000781@staff.magicbus.edu,2022-03-01,true,XXXX-XXX-9576,Subject Teacher,29,144,Science,TCH00781,781,3
+false,2023-05-11T00:00:00.000Z,Intermediate,Teacher 782,teacher000782@staff.magicbus.edu,2023-05-11,true,XXXX-XXX-4994,Subject Teacher,11,146,Languages,TCH00782,782,2
+true,2022-09-23T00:00:00.000Z,Beginner,Teacher 783,teacher000783@staff.magicbus.edu,2022-09-23,true,XXXX-XXX-4499,Subject Teacher,81,50,Mathematics,TCH00783,783,3
+true,2015-12-29T00:00:00.000Z,Intermediate,Teacher 784,teacher000784@staff.magicbus.edu,2015-12-29,true,XXXX-XXX-4716,Class Teacher,153,34,General,TCH00784,784,10
+true,2018-12-28T00:00:00.000Z,Intermediate,Teacher 785,teacher000785@staff.magicbus.edu,2018-12-28,true,XXXX-XXX-2890,Subject Teacher,60,115,Computer Science,TCH00785,785,7
+false,2019-05-20T00:00:00.000Z,Intermediate,Teacher 786,teacher000786@staff.magicbus.edu,2019-05-20,true,XXXX-XXX-5223,Subject Teacher,132,100,General,TCH00786,786,6
+false,2021-10-23T00:00:00.000Z,Advanced,Teacher 787,teacher000787@staff.magicbus.edu,2021-10-23,true,XXXX-XXX-9556,Subject Teacher,100,132,Computer Science,TCH00787,787,4
+true,2013-02-12T00:00:00.000Z,Advanced,Teacher 788,teacher000788@staff.magicbus.edu,2013-02-12,true,XXXX-XXX-7697,Class Teacher,193,85,General,TCH00788,788,12
+true,2023-04-13T00:00:00.000Z,Intermediate,Teacher 789,teacher000789@staff.magicbus.edu,2023-04-13,true,XXXX-XXX-1426,Class Teacher,10,43,General,TCH00789,789,2
+true,2018-09-03T00:00:00.000Z,Advanced,Teacher 790,teacher000790@staff.magicbus.edu,2018-09-03,true,XXXX-XXX-7598,Class Teacher,53,103,Computer Science,TCH00790,790,7
+true,2021-05-02T00:00:00.000Z,Intermediate,Teacher 791,teacher000791@staff.magicbus.edu,2021-05-02,true,XXXX-XXX-7494,Subject Teacher,51,109,General,TCH00791,791,4
+false,2013-12-09T00:00:00.000Z,Beginner,Teacher 792,teacher000792@staff.magicbus.edu,2013-12-09,false,XXXX-XXX-4574,Subject Teacher,50,140,Computer Science,TCH00792,792,12
+false,2015-11-08T00:00:00.000Z,Beginner,Teacher 793,teacher000793@staff.magicbus.edu,2015-11-08,true,XXXX-XXX-1361,Class Teacher,100,139,Languages,TCH00793,793,10
+false,2016-04-13T00:00:00.000Z,Beginner,Teacher 794,teacher000794@staff.magicbus.edu,2016-04-13,true,XXXX-XXX-9203,Subject Teacher,60,76,Science,TCH00794,794,9
+true,2017-11-27T00:00:00.000Z,Intermediate,Teacher 795,teacher000795@staff.magicbus.edu,2017-11-27,true,XXXX-XXX-3047,Subject Teacher,158,142,Computer Science,TCH00795,795,8
+true,2014-02-20T00:00:00.000Z,Intermediate,Teacher 796,teacher000796@staff.magicbus.edu,2014-02-20,true,XXXX-XXX-8237,Class Teacher,142,114,Social Studies,TCH00796,796,11
+true,2012-11-15T00:00:00.000Z,Intermediate,Teacher 797,teacher000797@staff.magicbus.edu,2012-11-15,true,XXXX-XXX-6293,Subject Teacher,124,96,Science,TCH00797,797,13
+true,2013-12-29T00:00:00.000Z,Intermediate,Teacher 798,teacher000798@staff.magicbus.edu,2013-12-29,true,XXXX-XXX-4661,Subject Teacher,168,59,Science,TCH00798,798,12
+true,2020-05-11T00:00:00.000Z,Intermediate,Teacher 799,teacher000799@staff.magicbus.edu,2020-05-11,true,XXXX-XXX-8306,Subject Teacher,26,127,Languages,TCH00799,799,5
+false,2015-09-24T00:00:00.000Z,Intermediate,Teacher 800,teacher000800@staff.magicbus.edu,2015-09-24,true,XXXX-XXX-9394,Subject Teacher,98,101,General,TCH00800,800,10

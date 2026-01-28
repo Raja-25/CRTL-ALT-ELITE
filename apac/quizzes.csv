@@ -1,0 +1,121 @@
+created_at,description,is_active,lesson_id,max_attempts,passing_score,points_reward,quiz_code,quiz_id,quiz_title,quiz_type,show_correct_answers,shuffle_questions,time_limit_minutes,total_questions
+2023-04-07T19:38:00.000Z,Test your understanding of computer basics,true,1,3,60,20,QZ0001,1,Computer Basics Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of file management,true,2,3,60,20,QZ0002,2,File Management Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of web browsers,true,3,3,60,20,QZ0003,3,Web Browsers Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of search engines,true,4,3,60,20,QZ0004,4,Search Engines Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of typing skills,true,5,3,60,20,QZ0005,5,Typing Skills Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of document creation,true,6,3,60,20,QZ0006,6,Document Creation Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of spreadsheets intro,true,7,3,60,20,QZ0007,7,Spreadsheets Intro Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of presentations,true,8,3,60,20,QZ0008,8,Presentations Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of email setup,true,9,3,60,20,QZ0009,9,Email Setup Quiz,lesson_quiz,true,true,10,5
+2023-04-07T19:38:00.000Z,Test your understanding of cloud storage,true,10,3,60,20,QZ0010,10,Cloud Storage Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of password basics,true,11,3,60,20,QZ0011,11,Password Basics Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of strong passwords,true,12,3,60,20,QZ0012,12,Strong Passwords Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of phishing awareness,true,13,3,60,20,QZ0013,13,Phishing Awareness Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of safe browsing,true,14,3,60,20,QZ0014,14,Safe Browsing Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of secure websites,true,15,3,60,20,QZ0015,15,Secure Websites Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of personal info protection,true,16,3,60,20,QZ0016,16,Personal Info Protection Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of privacy settings,true,17,3,60,20,QZ0017,17,Privacy Settings Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of two-factor auth,true,18,3,60,20,QZ0018,18,Two-Factor Auth Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of software updates,true,19,3,60,20,QZ0019,19,Software Updates Quiz,lesson_quiz,true,true,10,5
+2023-06-04T18:24:00.000Z,Test your understanding of backup basics,true,20,3,60,20,QZ0020,20,Backup Basics Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of social media overview,true,21,3,60,20,QZ0021,21,Social Media Overview Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of profile privacy,true,22,3,60,20,QZ0022,22,Profile Privacy Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of digital footprint,true,23,3,60,20,QZ0023,23,Digital Footprint Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of responsible posting,true,24,3,60,20,QZ0024,24,Responsible Posting Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of cyberbullying,true,25,3,60,20,QZ0025,25,Cyberbullying Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of reporting tools,true,26,3,60,20,QZ0026,26,Reporting Tools Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of fake accounts,true,27,3,60,20,QZ0027,27,Fake Accounts Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of screen time,true,28,3,60,20,QZ0028,28,Screen Time Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of online reputation,true,29,3,60,20,QZ0029,29,Online Reputation Quiz,lesson_quiz,true,true,10,5
+2023-04-08T11:37:00.000Z,Test your understanding of healthy habits,true,30,3,60,20,QZ0030,30,Healthy Habits Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of what is ai,true,31,3,60,20,QZ0031,31,What is AI Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of ai history,true,32,3,60,20,QZ0032,32,AI History Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of machine learning basics,true,33,3,60,20,QZ0033,33,Machine Learning Basics Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of neural networks intro,true,34,3,60,20,QZ0034,34,Neural Networks Intro Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of ai applications,true,35,3,60,20,QZ0035,35,AI Applications Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of chatbots explained,true,36,3,60,20,QZ0036,36,ChatBots Explained Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of computer vision,true,37,3,60,20,QZ0037,37,Computer Vision Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of voice recognition,true,38,3,60,20,QZ0038,38,Voice Recognition Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of ai limitations,true,39,3,60,20,QZ0039,39,AI Limitations Quiz,lesson_quiz,true,true,10,5
+2023-05-29T06:28:00.000Z,Test your understanding of ai ethics,true,40,3,60,20,QZ0040,40,AI Ethics Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of ai in your phone,true,41,3,60,20,QZ0041,41,AI in Your Phone Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of smart assistants,true,42,3,60,20,QZ0042,42,Smart Assistants Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of recommendation systems,true,43,3,60,20,QZ0043,43,Recommendation Systems Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of ai in games,true,44,3,60,20,QZ0044,44,AI in Games Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of ai in photos,true,45,3,60,20,QZ0045,45,AI in Photos Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of autocomplete & ai,true,46,3,60,20,QZ0046,46,Autocomplete & AI Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of ai in navigation,true,47,3,60,20,QZ0047,47,AI in Navigation Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of smart home devices,true,48,3,60,20,QZ0048,48,Smart Home Devices Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of ai in healthcare,true,49,3,60,20,QZ0049,49,AI in Healthcare Quiz,lesson_quiz,true,true,10,5
+2023-05-02T11:57:00.000Z,Test your understanding of future ai,true,50,3,60,20,QZ0050,50,Future AI Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of changing workplace,true,51,3,60,20,QZ0051,51,Changing Workplace Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of new job types,true,52,3,60,20,QZ0052,52,New Job Types Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of skills for tomorrow,true,53,3,60,20,QZ0053,53,Skills for Tomorrow Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of remote work,true,54,3,60,20,QZ0054,54,Remote Work Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of automation impact,true,55,3,60,20,QZ0055,55,Automation Impact Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of gig economy,true,56,3,60,20,QZ0056,56,Gig Economy Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of entrepreneurship,true,57,3,60,20,QZ0057,57,Entrepreneurship Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of lifelong learning,true,58,3,60,20,QZ0058,58,Lifelong Learning Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of career adaptability,true,59,3,60,20,QZ0059,59,Career Adaptability Quiz,lesson_quiz,true,true,10,5
+2023-05-30T22:59:00.000Z,Test your understanding of future planning,true,60,3,60,20,QZ0060,60,Future Planning Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of what is coding,true,61,3,60,20,QZ0061,61,What is Coding Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of logic & sequences,true,62,3,60,20,QZ0062,62,Logic & Sequences Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of variables,true,63,3,60,20,QZ0063,63,Variables Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of loops,true,64,3,60,20,QZ0064,64,Loops Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of conditionals,true,65,3,60,20,QZ0065,65,Conditionals Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of functions,true,66,3,60,20,QZ0066,66,Functions Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of debugging,true,67,3,60,20,QZ0067,67,Debugging Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of problem decomposition,true,68,3,60,20,QZ0068,68,Problem Decomposition Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of algorithms intro,true,69,3,60,20,QZ0069,69,Algorithms Intro Quiz,lesson_quiz,true,true,10,5
+2023-06-03T11:20:00.000Z,Test your understanding of first program,true,70,3,60,20,QZ0070,70,First Program Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of what is data,true,71,3,60,20,QZ0071,71,What is Data Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of types of data,true,72,3,60,20,QZ0072,72,Types of Data Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of reading charts,true,73,3,60,20,QZ0073,73,Reading Charts Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of making graphs,true,74,3,60,20,QZ0074,74,Making Graphs Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of averages & percentages,true,75,3,60,20,QZ0075,75,Averages & Percentages Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of data collection,true,76,3,60,20,QZ0076,76,Data Collection Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of survey design,true,77,3,60,20,QZ0077,77,Survey Design Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of data cleaning,true,78,3,60,20,QZ0078,78,Data Cleaning Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of drawing conclusions,true,79,3,60,20,QZ0079,79,Drawing Conclusions Quiz,lesson_quiz,true,true,10,5
+2023-02-02T20:33:00.000Z,Test your understanding of data stories,true,80,3,60,20,QZ0080,80,Data Stories Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of email etiquette,true,81,3,60,20,QZ0081,81,Email Etiquette Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of professional writing,true,82,3,60,20,QZ0082,82,Professional Writing Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of video calls,true,83,3,60,20,QZ0083,83,Video Calls Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of screen sharing,true,84,3,60,20,QZ0084,84,Screen Sharing Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of online collaboration,true,85,3,60,20,QZ0085,85,Online Collaboration Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of meeting netiquette,true,86,3,60,20,QZ0086,86,Meeting Netiquette Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of digital presentations,true,87,3,60,20,QZ0087,87,Digital Presentations Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of feedback online,true,88,3,60,20,QZ0088,88,Feedback Online Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of time zones,true,89,3,60,20,QZ0089,89,Time Zones Quiz,lesson_quiz,true,true,10,5
+2023-03-20T09:57:00.000Z,Test your understanding of communication tools,true,90,3,60,20,QZ0090,90,Communication Tools Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of self assessment,true,91,3,60,20,QZ0091,91,Self Assessment Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of interest discovery,true,92,3,60,20,QZ0092,92,Interest Discovery Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of career research,true,93,3,60,20,QZ0093,93,Career Research Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of education paths,true,94,3,60,20,QZ0094,94,Education Paths Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of skill mapping,true,95,3,60,20,QZ0095,95,Skill Mapping Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of industry overview,true,96,3,60,20,QZ0096,96,Industry Overview Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of networking basics,true,97,3,60,20,QZ0097,97,Networking Basics Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of resume intro,true,98,3,60,20,QZ0098,98,Resume Intro Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of interview prep,true,99,3,60,20,QZ0099,99,Interview Prep Quiz,lesson_quiz,true,true,10,5
+2023-06-26T12:02:00.000Z,Test your understanding of goal setting,true,100,3,60,20,QZ0100,100,Goal Setting Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of money basics,true,101,3,60,20,QZ0101,101,Money Basics Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of digital payments,true,102,3,60,20,QZ0102,102,Digital Payments Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of upi & wallets,true,103,3,60,20,QZ0103,103,UPI & Wallets Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of online banking safety,true,104,3,60,20,QZ0104,104,Online Banking Safety Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of budgeting,true,105,3,60,20,QZ0105,105,Budgeting Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of saving habits,true,106,3,60,20,QZ0106,106,Saving Habits Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of wants vs needs,true,107,3,60,20,QZ0107,107,Wants vs Needs Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of scam prevention,true,108,3,60,20,QZ0108,108,Scam Prevention Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of smart shopping,true,109,3,60,20,QZ0109,109,Smart Shopping Quiz,lesson_quiz,true,true,10,5
+2023-06-01T10:27:00.000Z,Test your understanding of financial planning,true,110,3,60,20,QZ0110,110,Financial Planning Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of design principles,true,111,3,60,20,QZ0111,111,Design Principles Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of color & typography,true,112,3,60,20,QZ0112,112,Color & Typography Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of canva basics,true,113,3,60,20,QZ0113,113,Canva Basics Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of photo editing,true,114,3,60,20,QZ0114,114,Photo Editing Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of creating posts,true,115,3,60,20,QZ0115,115,Creating Posts Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of infographics,true,116,3,60,20,QZ0116,116,Infographics Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of video basics,true,117,3,60,20,QZ0117,117,Video Basics Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of content planning,true,118,3,60,20,QZ0118,118,Content Planning Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of copyright,true,119,3,60,20,QZ0119,119,Copyright Quiz,lesson_quiz,true,true,10,5
+2023-01-31T16:24:00.000Z,Test your understanding of building portfolio,true,120,3,60,20,QZ0120,120,Building Portfolio Quiz,lesson_quiz,true,true,10,5

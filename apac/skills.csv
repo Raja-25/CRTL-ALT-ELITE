@@ -1,0 +1,81 @@
+skill_id,category_id,skill_name,skill_code,description,proficiency_levels,difficulty_to_acquire,estimated_hours,points_per_level,prerequisite_skill_id,industry_relevance,future_demand,is_active,created_at
+1,1,File Management,SKL0001,Ability to apply file management concepts effectively,5,Easy,5,10,,High,Stable,true,2023-04-06T06:18:00.000Z
+2,1,Web Browsing,SKL0002,Ability to apply web browsing concepts effectively,5,Easy,5,10,,High,Stable,true,2023-06-16T10:01:00.000Z
+3,1,Keyboard Proficiency,SKL0003,Ability to apply keyboard proficiency concepts effectively,5,Easy,5,10,,Medium,Growing,true,2023-03-15T07:08:00.000Z
+4,1,Document Creation,SKL0004,Ability to apply document creation concepts effectively,5,Medium,10,15,,Low,Stable,true,2023-04-17T20:04:00.000Z
+5,1,Spreadsheet Basics,SKL0005,Ability to apply spreadsheet basics concepts effectively,5,Medium,10,15,,Medium,Growing,true,2023-01-11T09:22:00.000Z
+6,1,Cloud Storage,SKL0006,Ability to apply cloud storage concepts effectively,5,Easy,5,10,,High,Growing,true,2023-01-17T07:01:00.000Z
+7,1,Software Installation,SKL0007,Ability to apply software installation concepts effectively,5,Medium,10,15,,High,Growing,true,2023-02-20T22:28:00.000Z
+8,1,OS Navigation,SKL0008,Ability to apply os navigation concepts effectively,5,Easy,5,10,,High,Growing,true,2023-05-16T09:01:00.000Z
+9,1,Presentation Skills,SKL0009,Ability to apply presentation skills concepts effectively,5,Medium,10,15,,High,Growing,true,2023-01-10T20:14:00.000Z
+10,1,Device Troubleshooting,SKL0010,Ability to apply device troubleshooting concepts effectively,5,Hard,20,25,,High,Growing,true,2023-05-23T17:20:00.000Z
+11,2,Password Management,SKL0011,Ability to apply password management concepts effectively,5,Easy,5,10,,Medium,Growing,true,2023-02-14T22:24:00.000Z
+12,2,Phishing Recognition,SKL0012,Ability to apply phishing recognition concepts effectively,5,Medium,10,15,,High,Growing,true,2023-04-01T22:59:00.000Z
+13,2,Privacy Settings,SKL0013,Ability to apply privacy settings concepts effectively,5,Medium,10,15,,High,Growing,true,2023-03-21T06:34:00.000Z
+14,2,Safe Browsing,SKL0014,Ability to apply safe browsing concepts effectively,5,Easy,5,10,,High,Growing,true,2023-03-28T18:10:00.000Z
+15,2,Data Protection,SKL0015,Ability to apply data protection concepts effectively,5,Medium,10,15,,High,Stable,true,2023-02-03T09:33:00.000Z
+16,2,Social Media Safety,SKL0016,Ability to apply social media safety concepts effectively,5,Medium,10,15,,High,Stable,true,2023-02-02T22:35:00.000Z
+17,2,Cyberbullying Prevention,SKL0017,Ability to apply cyberbullying prevention concepts effectively,5,Medium,10,15,,Medium,Growing,true,2023-06-14T21:21:00.000Z
+18,2,Identity Protection,SKL0018,Ability to apply identity protection concepts effectively,5,Hard,20,25,,Medium,Stable,true,2023-04-19T12:33:00.000Z
+19,2,Scam Awareness,SKL0019,Ability to apply scam awareness concepts effectively,5,Easy,5,10,,Low,Growing,true,2023-06-25T07:00:00.000Z
+20,2,Secure Communication,SKL0020,Ability to apply secure communication concepts effectively,5,Medium,10,15,,High,Stable,true,2023-03-26T09:52:00.000Z
+21,3,AI Concepts,SKL0021,Ability to apply ai concepts concepts effectively,5,Medium,10,15,,Medium,Stable,true,2023-04-30T15:20:00.000Z
+22,3,Chatbot Usage,SKL0022,Ability to apply chatbot usage concepts effectively,5,Easy,5,10,,Medium,Growing,true,2023-06-08T06:03:00.000Z
+23,3,Voice Assistants,SKL0023,Ability to apply voice assistants concepts effectively,5,Easy,5,10,,High,Stable,true,2023-05-25T13:17:00.000Z
+24,3,ML Basics,SKL0024,Ability to apply ml basics concepts effectively,5,Hard,20,25,,Medium,Growing,true,2023-03-04T13:08:00.000Z
+25,3,AI Ethics,SKL0025,Ability to apply ai ethics concepts effectively,5,Medium,10,15,,High,Growing,true,2023-06-28T14:53:00.000Z
+26,3,Automation Understanding,SKL0026,Ability to apply automation understanding concepts effectively,5,Medium,10,15,,High,Growing,true,2023-05-14T08:37:00.000Z
+27,3,Smart Devices,SKL0027,Ability to apply smart devices concepts effectively,5,Easy,5,10,,High,Growing,true,2023-06-23T16:18:00.000Z
+28,3,AI Tools,SKL0028,Ability to apply ai tools concepts effectively,5,Medium,10,15,,High,Growing,true,2023-02-09T12:53:00.000Z
+29,3,Future Tech,SKL0029,Ability to apply future tech concepts effectively,5,Easy,5,10,,High,Growing,true,2023-05-28T09:56:00.000Z
+30,3,Recommendation Systems,SKL0030,Ability to apply recommendation systems concepts effectively,5,Medium,10,15,,Medium,Growing,true,2023-05-27T15:11:00.000Z
+31,4,Email Writing,SKL0031,Ability to apply email writing concepts effectively,5,Easy,5,10,,Medium,Growing,true,2023-04-21T08:27:00.000Z
+32,4,Video Conferencing,SKL0032,Ability to apply video conferencing concepts effectively,5,Easy,5,10,,Medium,Declining,true,2023-05-24T11:52:00.000Z
+33,4,Online Collaboration,SKL0033,Ability to apply online collaboration concepts effectively,5,Medium,10,15,,Medium,Growing,true,2023-01-24T10:37:00.000Z
+34,4,Digital Etiquette,SKL0034,Ability to apply digital etiquette concepts effectively,5,Easy,5,10,,Medium,Growing,true,2023-05-03T08:21:00.000Z
+35,4,Professional Messaging,SKL0035,Ability to apply professional messaging concepts effectively,5,Medium,10,15,,Medium,Growing,true,2023-05-28T21:10:00.000Z
+36,4,Virtual Presentation,SKL0036,Ability to apply virtual presentation concepts effectively,5,Medium,10,15,,Low,Stable,true,2023-01-13T15:26:00.000Z
+37,4,Active Listening,SKL0037,Ability to apply active listening concepts effectively,5,Medium,10,15,,High,Stable,true,2023-03-11T19:10:00.000Z
+38,4,Cross-cultural Comm,SKL0038,Ability to apply cross-cultural comm concepts effectively,5,Hard,20,25,,High,Growing,true,2023-04-23T07:32:00.000Z
+39,4,Feedback Skills,SKL0039,Ability to apply feedback skills concepts effectively,5,Medium,10,15,,Low,Growing,true,2023-03-13T19:51:00.000Z
+40,4,Conflict Resolution,SKL0040,Ability to apply conflict resolution concepts effectively,5,Hard,20,25,,High,Stable,true,2023-06-11T22:09:00.000Z
+41,5,Logical Thinking,SKL0041,Ability to apply logical thinking concepts effectively,5,Medium,10,15,,Medium,Declining,true,2023-05-03T16:06:00.000Z
+42,5,Algorithm Design,SKL0042,Ability to apply algorithm design concepts effectively,5,Hard,20,25,,High,Growing,true,2023-01-30T06:23:00.000Z
+43,5,Debugging,SKL0043,Ability to apply debugging concepts effectively,5,Medium,10,15,,High,Stable,true,2023-02-24T15:27:00.000Z
+44,5,Pattern Recognition,SKL0044,Ability to apply pattern recognition concepts effectively,5,Medium,10,15,,High,Stable,true,2023-01-22T09:02:00.000Z
+45,5,Root Cause Analysis,SKL0045,Ability to apply root cause analysis concepts effectively,5,Hard,20,25,,Medium,Growing,true,2023-01-21T19:05:00.000Z
+46,5,Decision Making,SKL0046,Ability to apply decision making concepts effectively,5,Medium,10,15,,High,Growing,true,2023-04-02T18:28:00.000Z
+47,5,Critical Thinking,SKL0047,Ability to apply critical thinking concepts effectively,5,Hard,20,25,,Low,Growing,true,2023-06-17T19:25:00.000Z
+48,5,Research Skills,SKL0048,Ability to apply research skills concepts effectively,5,Medium,10,15,,High,Growing,true,2023-06-21T16:57:00.000Z
+49,5,Hypothesis Testing,SKL0049,Ability to apply hypothesis testing concepts effectively,5,Hard,20,25,,Low,Growing,true,2023-02-25T08:02:00.000Z
+50,5,Solution Design,SKL0050,Ability to apply solution design concepts effectively,5,Hard,20,25,,High,Growing,true,2023-03-29T22:46:00.000Z
+51,6,Digital Design,SKL0051,Ability to apply digital design concepts effectively,5,Medium,10,15,,Medium,Growing,true,2023-06-10T20:32:00.000Z
+52,6,Photo Editing,SKL0052,Ability to apply photo editing concepts effectively,5,Medium,10,15,,High,Growing,true,2023-04-09T11:32:00.000Z
+53,6,Content Creation,SKL0053,Ability to apply content creation concepts effectively,5,Medium,10,15,,Medium,Stable,true,2023-01-22T18:04:00.000Z
+54,6,Storytelling,SKL0054,Ability to apply storytelling concepts effectively,5,Easy,5,10,,High,Declining,true,2023-06-12T16:12:00.000Z
+55,6,Visual Communication,SKL0055,Ability to apply visual communication concepts effectively,5,Medium,10,15,,High,Growing,true,2023-01-10T07:43:00.000Z
+56,6,Creative Problem Solving,SKL0056,Ability to apply creative problem solving concepts effectively,5,Hard,20,25,,High,Growing,true,2023-04-13T16:50:00.000Z
+57,6,Brainstorming,SKL0057,Ability to apply brainstorming concepts effectively,5,Easy,5,10,,High,Growing,true,2023-01-09T18:36:00.000Z
+58,6,Prototyping,SKL0058,Ability to apply prototyping concepts effectively,5,Hard,20,25,,Medium,Growing,true,2023-05-14T17:42:00.000Z
+59,6,UX Thinking,SKL0059,Ability to apply ux thinking concepts effectively,5,Hard,20,25,,High,Growing,true,2023-02-06T10:23:00.000Z
+60,6,Innovation Mindset,SKL0060,Ability to apply innovation mindset concepts effectively,5,Medium,10,15,,High,Growing,true,2023-01-19T08:12:00.000Z
+61,7,Data Reading,SKL0061,Ability to apply data reading concepts effectively,5,Easy,5,10,,Medium,Growing,true,2023-02-27T18:02:00.000Z
+62,7,Chart Interpretation,SKL0062,Ability to apply chart interpretation concepts effectively,5,Easy,5,10,,Medium,Growing,true,2023-03-08T15:17:00.000Z
+63,7,Basic Statistics,SKL0063,Ability to apply basic statistics concepts effectively,5,Medium,10,15,,High,Stable,true,2023-03-11T09:23:00.000Z
+64,7,Data Collection,SKL0064,Ability to apply data collection concepts effectively,5,Medium,10,15,,Medium,Stable,true,2023-01-20T15:10:00.000Z
+65,7,Data Cleaning,SKL0065,Ability to apply data cleaning concepts effectively,5,Hard,20,25,,Medium,Stable,true,2023-05-16T22:23:00.000Z
+66,7,Trend Analysis,SKL0066,Ability to apply trend analysis concepts effectively,5,Medium,10,15,,High,Stable,true,2023-02-04T17:20:00.000Z
+67,7,Report Creation,SKL0067,Ability to apply report creation concepts effectively,5,Medium,10,15,,Low,Stable,true,2023-05-06T13:14:00.000Z
+68,7,Data Visualization,SKL0068,Ability to apply data visualization concepts effectively,5,Medium,10,15,,Low,Growing,true,2023-04-05T06:42:00.000Z
+69,7,Survey Design,SKL0069,Ability to apply survey design concepts effectively,5,Medium,10,15,,Medium,Growing,true,2023-03-14T21:01:00.000Z
+70,7,Data-driven Decisions,SKL0070,Ability to apply data-driven decisions concepts effectively,5,Hard,20,25,,High,Growing,true,2023-03-21T08:08:00.000Z
+71,8,Resume Building,SKL0071,Ability to apply resume building concepts effectively,5,Medium,10,15,,Medium,Growing,true,2023-06-07T16:48:00.000Z
+72,8,Interview Skills,SKL0072,Ability to apply interview skills concepts effectively,5,Medium,10,15,,High,Growing,true,2023-01-09T13:45:00.000Z
+73,8,Networking,SKL0073,Ability to apply networking concepts effectively,5,Medium,10,15,,High,Stable,true,2023-06-15T13:35:00.000Z
+74,8,Goal Setting,SKL0074,Ability to apply goal setting concepts effectively,5,Easy,5,10,,Medium,Growing,true,2023-05-28T06:55:00.000Z
+75,8,Time Management,SKL0075,Ability to apply time management concepts effectively,5,Medium,10,15,,Low,Stable,true,2023-02-06T14:01:00.000Z
+76,8,Self Assessment,SKL0076,Ability to apply self assessment concepts effectively,5,Easy,5,10,,Medium,Stable,true,2023-01-15T20:08:00.000Z
+77,8,Industry Awareness,SKL0077,Ability to apply industry awareness concepts effectively,5,Medium,10,15,,High,Growing,true,2023-01-14T09:38:00.000Z
+78,8,Entrepreneurship,SKL0078,Ability to apply entrepreneurship concepts effectively,5,Hard,20,25,,Medium,Stable,true,2023-02-27T20:55:00.000Z
+79,8,Workplace Ethics,SKL0079,Ability to apply workplace ethics concepts effectively,5,Easy,5,10,,High,Growing,true,2023-05-15T12:46:00.000Z
+80,8,Continuous Learning,SKL0080,Ability to apply continuous learning concepts effectively,5,Easy,5,10,,High,Growing,true,2023-03-14T14:44:00.000Z

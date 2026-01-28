@@ -1,0 +1,6 @@
+node_modules
+.env
+venv
+_IGNORE_session
+*.pyc
+__pycache__/
