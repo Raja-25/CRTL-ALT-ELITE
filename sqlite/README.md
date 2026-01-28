@@ -30,6 +30,14 @@ INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
 
 ## 📊 API Endpoints
 
+### To insert in USERS table
+ INSERT INTO users 
+        (name, phone_number, aadhaar_number, date_of_birth, 
+         education_level, parents_occupation, interests, 
+         previous_experience, skills)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+
 ### 1. List All Tables
 ```
 GET /tables
