@@ -4,6 +4,7 @@ from openai import AzureOpenAI
 from app.models.env import Environment
 import re
 import json
+import base64
 
 class Roles:
     SYSTEM: str = "system"
@@ -90,7 +91,45 @@ class LLM():
         except json.JSONDecodeError as e:
             raise ValueError("Extracted content is not valid JSON." + str(e))
         
-# llm = LLM(model_name="gpt-4o", session="test_session")
+    def image_inference(self, image_path: str, system_prompt: str) -> str:
+        """
+        Perform inference on an image.
+
+        Args:
+            image_path (str): Path to the image file.
+            system_prompt (str): System prompt to guide the inference.
+
+        Returns:
+            str: The response from the model.
+        """
+        if not path.exists(image_path):
+            raise FileNotFoundError(f"Image file not found: {image_path}")
+
+        # Read the image file as binary and encode it as base64
+        with open(image_path, "rb") as image_file:
+            image_data = base64.b64encode(image_file.read()).decode("utf-8")
+
+        # Prepare the messages for the model
+        messages = [
+            {
+                self.ROLE: Roles.SYSTEM,
+                self.CONTENT: system_prompt
+            },
+            {
+                self.ROLE: Roles.USER,
+                self.CONTENT: f"Please analyze the attached image.\n\n[BASE64_IMAGE_START]{image_data}[BASE64_IMAGE_END]"
+            }
+        ]
+
+        # Perform inference
+        response = self.__client.chat.completions.create(
+            model=self.__model,
+            messages=messages
+        )
+
+        return response.choices[0].message.content
+    
+llm = LLM(model_name="gpt-4o", session="test_session")
 # response = llm.chat(
 #     system_prompt="You are a helpful assistant.",
 #     user_prompt="Hello, how are you?"
@@ -100,5 +139,10 @@ class LLM():
 # response = llm.chat(
 #     system_prompt="You are a helpful assistant.",
 #     user_prompt="Can you summarize our previous conversation?"
+# )
+# print(response)
+# response = llm.image_inference(
+#     image_path=fr"decoded_image_Simarpreet Singh.jpg",
+#     system_prompt="You are an expert image analyst. Describe the contents of the image in detail."
 # )
 # print(response)

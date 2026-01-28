@@ -1,5 +1,6 @@
 from app.whatsapp import WhatsAppClient
 from app.tools.onboarding import OnboardingTool
+from app.tools.screen import ScreeningTool
 from app.models.User import User, UserInfo
 from app.repository import UserRepository
 
@@ -10,6 +11,8 @@ class Orchestrator():
         self.messages: list[dict] = []
         self.messages_to_process = []
         self.users_to_load = []
+        self.images_to_process = []
+        self.screening_results = []
 
 
     def extract(self):
@@ -26,6 +29,10 @@ class Orchestrator():
                     User.PHONE_NUMBER: message.get('from', 'PhoneNumber'),
                     User.MESSAGE: message.get('body', 'Message')
                 })
+
+            elif message.get('type', '') == 'image':
+                image_path = self.__whatsapp_client.save_image(message, session=message.get('notifyName', 'Name'))
+                self.images_to_process.append((message.get('notifyName', 'Name'), image_path, message.get('from', 'PhoneNumber')))
 
     def transform(self):
         
@@ -57,17 +64,38 @@ class Orchestrator():
                     message=followup_message
                 )
 
+        for name, image_path, number in self.images_to_process:
+            screening_tool = ScreeningTool(session=name)
+            score, analysis_message = screening_tool.analyze_image(session=name)
+            self.screening_results.append({
+                "name": name,
+                "score": score,
+                "message": analysis_message,
+                "phone_number": number
+            })
+
+
     def load(self):
         for user in self.users_to_load:
-            self.followup(user[User.PHONE_NUMBER], user[User.NAME], "You are now onboarded on Magic Bus!!!")
+            self.followup(user[User.PHONE_NUMBER], user[User.NAME], "You are now in process of being onboarded. Please send a clear picture of your Aadhar card for verification.")
             print()
             print()
             print()
             print(user)
-            self.Repository.add_user(user)
+            try:
+                self.Repository.add_user(user)
+            except Exception as e:
+                print(f"Error adding user {user[User.NAME]}: {str(e)}")
             print()
             print()
             print()
+
+        for result in self.screening_results:
+            self.followup(
+                phone_number=result["phone_number"],
+                name=result["name"],
+                message=result["message"]
+            )
 
 
     def followup(self, phone_number: str, name: str, message: str):

@@ -1,6 +1,8 @@
 import requests
 import json
 from datetime import datetime
+import base64
+from os import makedirs, path
 
 class WhatsAppClient():
 
@@ -60,6 +62,42 @@ class WhatsAppClient():
         else:
             print(f"Error marking messages as read: {responseAck.status_code}")
 
+    def save_image(self, message, session, file_path="images/"):
+
+        makedirs(file_path, exist_ok=True)
+
+        url = "http://localhost:8080/decryptMedia"
+        payload = json.dumps({
+            "args": {
+                "message": message
+            }
+        })
+        headers = {
+            'Content-Type': 'application/json',
+            'accept': '*/*'
+        }
+
+        response = requests.post(url, headers=headers, data=payload)
+
+        if response.status_code == 200:
+            print("Image download initiated.")
+            # with open(f"imageresponse_{session}.json", "w") as file:
+            #     json.dump(response.json(), file, indent=4)
+            response = response.json()
+            response = response.get('response','')
+            # Remove the data:image/jpeg;base64, prefix
+            image_data = response.split(",")[1]
+
+            # Decode the base64 string
+            image_bytes = base64.b64decode(image_data)
+
+            # Save the decoded image to a file
+            with open(path.join(file_path, session+'.jpg'), "wb") as image_file:
+                image_file.write(image_bytes)
+            return path.join(file_path, session+'.jpg')
+        else:
+            print(f"Error: {response.status_code}, Response: {response.text}")
+            return None
 
 # wc = WhatsAppClient()
 # response = wc.get_messages()
