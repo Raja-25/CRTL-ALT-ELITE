@@ -1,0 +1,121 @@
+created_at,description,difficulty_level,duration_minutes,has_activity,has_quiz,is_active,lesson_code,lesson_id,lesson_title,lesson_type,min_completion_percentage,module_id,points_reward,sequence_order
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about computer basics and how to apply these concepts.",Beginner,10,false,true,true,LES0001,1,Computer Basics,Interactive,80,1,5,1
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about file management and how to apply these concepts.",Beginner,21,true,true,true,LES0002,2,File Management,Interactive,70,1,10,2
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about web browsers and how to apply these concepts.",Beginner,18,false,true,true,LES0003,3,Web Browsers,Activity,80,1,5,3
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about search engines and how to apply these concepts.",Beginner,26,true,true,true,LES0004,4,Search Engines,Reading,70,1,15,4
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about typing skills and how to apply these concepts.",Beginner,21,false,true,true,LES0005,5,Typing Skills,Video,80,1,5,5
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about document creation and how to apply these concepts.",Beginner,16,true,true,true,LES0006,6,Document Creation,Interactive,70,1,10,6
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about spreadsheets intro and how to apply these concepts.",Beginner,11,true,true,true,LES0007,7,Spreadsheets Intro,Video,70,1,15,7
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about presentations and how to apply these concepts.",Beginner,30,false,true,true,LES0008,8,Presentations,Interactive,70,1,10,8
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about email setup and how to apply these concepts.",Beginner,29,true,true,true,LES0009,9,Email Setup,Activity,70,1,5,9
+2023-04-07T19:38:00.000Z,"In this lesson, you will learn about cloud storage and how to apply these concepts.",Beginner,18,true,true,true,LES0010,10,Cloud Storage,Reading,80,1,5,10
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about password basics and how to apply these concepts.",Beginner,26,false,true,true,LES0011,11,Password Basics,Interactive,70,2,5,1
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about strong passwords and how to apply these concepts.",Beginner,23,false,true,true,LES0012,12,Strong Passwords,Video,80,2,15,2
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about phishing awareness and how to apply these concepts.",Beginner,13,true,true,true,LES0013,13,Phishing Awareness,Activity,80,2,15,3
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about safe browsing and how to apply these concepts.",Beginner,25,true,true,true,LES0014,14,Safe Browsing,Activity,70,2,15,4
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about secure websites and how to apply these concepts.",Beginner,25,false,true,true,LES0015,15,Secure Websites,Activity,80,2,10,5
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about personal info protection and how to apply these concepts.",Beginner,11,true,true,true,LES0016,16,Personal Info Protection,Video,80,2,5,6
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about privacy settings and how to apply these concepts.",Beginner,10,false,true,true,LES0017,17,Privacy Settings,Interactive,80,2,10,7
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about two-factor auth and how to apply these concepts.",Beginner,17,true,true,true,LES0018,18,Two-Factor Auth,Activity,70,2,5,8
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about software updates and how to apply these concepts.",Beginner,21,true,true,true,LES0019,19,Software Updates,Activity,80,2,5,9
+2023-06-04T18:24:00.000Z,"In this lesson, you will learn about backup basics and how to apply these concepts.",Beginner,24,true,true,true,LES0020,20,Backup Basics,Interactive,70,2,15,10
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about social media overview and how to apply these concepts.",Beginner,20,true,true,true,LES0021,21,Social Media Overview,Interactive,80,3,5,1
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about profile privacy and how to apply these concepts.",Beginner,20,true,true,true,LES0022,22,Profile Privacy,Reading,80,3,10,2
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about digital footprint and how to apply these concepts.",Beginner,11,false,true,true,LES0023,23,Digital Footprint,Activity,80,3,15,3
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about responsible posting and how to apply these concepts.",Beginner,23,true,true,true,LES0024,24,Responsible Posting,Activity,70,3,5,4
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about cyberbullying and how to apply these concepts.",Beginner,19,false,true,true,LES0025,25,Cyberbullying,Activity,70,3,5,5
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about reporting tools and how to apply these concepts.",Beginner,12,false,true,true,LES0026,26,Reporting Tools,Video,70,3,15,6
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about fake accounts and how to apply these concepts.",Beginner,18,false,true,true,LES0027,27,Fake Accounts,Reading,70,3,5,7
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about screen time and how to apply these concepts.",Beginner,22,true,true,true,LES0028,28,Screen Time,Video,70,3,10,8
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about online reputation and how to apply these concepts.",Beginner,28,false,true,true,LES0029,29,Online Reputation,Video,80,3,5,9
+2023-04-08T11:37:00.000Z,"In this lesson, you will learn about healthy habits and how to apply these concepts.",Beginner,28,true,true,true,LES0030,30,Healthy Habits,Video,80,3,15,10
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about what is ai and how to apply these concepts.",Intermediate,14,false,true,true,LES0031,31,What is AI,Reading,80,4,10,1
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about ai history and how to apply these concepts.",Intermediate,18,true,true,true,LES0032,32,AI History,Interactive,80,4,15,2
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about machine learning basics and how to apply these concepts.",Intermediate,12,false,true,true,LES0033,33,Machine Learning Basics,Interactive,70,4,5,3
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about neural networks intro and how to apply these concepts.",Intermediate,17,false,true,true,LES0034,34,Neural Networks Intro,Video,70,4,10,4
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about ai applications and how to apply these concepts.",Intermediate,20,true,true,true,LES0035,35,AI Applications,Reading,80,4,10,5
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about chatbots explained and how to apply these concepts.",Intermediate,25,true,true,true,LES0036,36,ChatBots Explained,Interactive,70,4,10,6
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about computer vision and how to apply these concepts.",Intermediate,29,false,true,true,LES0037,37,Computer Vision,Interactive,80,4,15,7
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about voice recognition and how to apply these concepts.",Intermediate,15,true,true,true,LES0038,38,Voice Recognition,Reading,80,4,15,8
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about ai limitations and how to apply these concepts.",Intermediate,23,true,true,true,LES0039,39,AI Limitations,Interactive,70,4,10,9
+2023-05-29T06:28:00.000Z,"In this lesson, you will learn about ai ethics and how to apply these concepts.",Intermediate,21,true,true,true,LES0040,40,AI Ethics,Interactive,70,4,10,10
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about ai in your phone and how to apply these concepts.",Beginner,29,false,true,true,LES0041,41,AI in Your Phone,Video,70,5,10,1
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about smart assistants and how to apply these concepts.",Beginner,25,false,true,true,LES0042,42,Smart Assistants,Activity,80,5,15,2
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about recommendation systems and how to apply these concepts.",Beginner,11,true,true,true,LES0043,43,Recommendation Systems,Reading,80,5,5,3
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about ai in games and how to apply these concepts.",Beginner,12,true,true,true,LES0044,44,AI in Games,Reading,70,5,15,4
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about ai in photos and how to apply these concepts.",Beginner,29,false,true,true,LES0045,45,AI in Photos,Interactive,80,5,10,5
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about autocomplete & ai and how to apply these concepts.",Beginner,29,true,true,true,LES0046,46,Autocomplete & AI,Activity,70,5,15,6
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about ai in navigation and how to apply these concepts.",Beginner,24,false,true,true,LES0047,47,AI in Navigation,Activity,70,5,15,7
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about smart home devices and how to apply these concepts.",Beginner,14,true,true,true,LES0048,48,Smart Home Devices,Reading,70,5,5,8
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about ai in healthcare and how to apply these concepts.",Beginner,29,false,true,true,LES0049,49,AI in Healthcare,Reading,70,5,15,9
+2023-05-02T11:57:00.000Z,"In this lesson, you will learn about future ai and how to apply these concepts.",Beginner,18,true,true,true,LES0050,50,Future AI,Video,80,5,15,10
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about changing workplace and how to apply these concepts.",Intermediate,30,true,true,true,LES0051,51,Changing Workplace,Video,70,6,5,1
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about new job types and how to apply these concepts.",Intermediate,12,true,true,true,LES0052,52,New Job Types,Activity,70,6,15,2
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about skills for tomorrow and how to apply these concepts.",Intermediate,28,true,true,true,LES0053,53,Skills for Tomorrow,Video,70,6,5,3
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about remote work and how to apply these concepts.",Intermediate,20,true,true,true,LES0054,54,Remote Work,Activity,70,6,15,4
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about automation impact and how to apply these concepts.",Intermediate,26,false,true,true,LES0055,55,Automation Impact,Interactive,80,6,15,5
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about gig economy and how to apply these concepts.",Intermediate,10,true,true,true,LES0056,56,Gig Economy,Activity,70,6,5,6
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about entrepreneurship and how to apply these concepts.",Intermediate,15,true,true,true,LES0057,57,Entrepreneurship,Video,70,6,10,7
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about lifelong learning and how to apply these concepts.",Intermediate,14,true,true,true,LES0058,58,Lifelong Learning,Reading,80,6,15,8
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about career adaptability and how to apply these concepts.",Intermediate,18,false,true,true,LES0059,59,Career Adaptability,Video,80,6,10,9
+2023-05-30T22:59:00.000Z,"In this lesson, you will learn about future planning and how to apply these concepts.",Intermediate,19,true,true,true,LES0060,60,Future Planning,Video,80,6,10,10
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about what is coding and how to apply these concepts.",Intermediate,10,true,true,true,LES0061,61,What is Coding,Reading,70,7,15,1
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about logic & sequences and how to apply these concepts.",Intermediate,20,false,true,true,LES0062,62,Logic & Sequences,Activity,70,7,15,2
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about variables and how to apply these concepts.",Intermediate,22,true,true,true,LES0063,63,Variables,Video,70,7,5,3
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about loops and how to apply these concepts.",Intermediate,25,true,true,true,LES0064,64,Loops,Reading,80,7,5,4
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about conditionals and how to apply these concepts.",Intermediate,15,false,true,true,LES0065,65,Conditionals,Video,70,7,5,5
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about functions and how to apply these concepts.",Intermediate,13,true,true,true,LES0066,66,Functions,Interactive,80,7,10,6
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about debugging and how to apply these concepts.",Intermediate,29,false,true,true,LES0067,67,Debugging,Activity,70,7,5,7
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about problem decomposition and how to apply these concepts.",Intermediate,22,true,true,true,LES0068,68,Problem Decomposition,Interactive,70,7,10,8
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about algorithms intro and how to apply these concepts.",Intermediate,16,true,true,true,LES0069,69,Algorithms Intro,Reading,70,7,10,9
+2023-06-03T11:20:00.000Z,"In this lesson, you will learn about first program and how to apply these concepts.",Intermediate,12,false,true,true,LES0070,70,First Program,Interactive,70,7,15,10
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about what is data and how to apply these concepts.",Intermediate,21,false,true,true,LES0071,71,What is Data,Activity,70,8,15,1
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about types of data and how to apply these concepts.",Intermediate,20,false,true,true,LES0072,72,Types of Data,Activity,80,8,10,2
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about reading charts and how to apply these concepts.",Intermediate,18,false,true,true,LES0073,73,Reading Charts,Video,70,8,15,3
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about making graphs and how to apply these concepts.",Intermediate,25,false,true,true,LES0074,74,Making Graphs,Reading,80,8,15,4
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about averages & percentages and how to apply these concepts.",Intermediate,13,true,true,true,LES0075,75,Averages & Percentages,Activity,80,8,15,5
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about data collection and how to apply these concepts.",Intermediate,29,true,true,true,LES0076,76,Data Collection,Activity,70,8,15,6
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about survey design and how to apply these concepts.",Intermediate,12,true,true,true,LES0077,77,Survey Design,Activity,70,8,5,7
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about data cleaning and how to apply these concepts.",Intermediate,29,false,true,true,LES0078,78,Data Cleaning,Video,80,8,10,8
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about drawing conclusions and how to apply these concepts.",Intermediate,18,false,true,true,LES0079,79,Drawing Conclusions,Video,80,8,15,9
+2023-02-02T20:33:00.000Z,"In this lesson, you will learn about data stories and how to apply these concepts.",Intermediate,21,true,true,true,LES0080,80,Data Stories,Video,80,8,10,10
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about email etiquette and how to apply these concepts.",Beginner,12,true,true,true,LES0081,81,Email Etiquette,Video,80,9,15,1
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about professional writing and how to apply these concepts.",Beginner,21,true,true,true,LES0082,82,Professional Writing,Video,70,9,5,2
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about video calls and how to apply these concepts.",Beginner,21,false,true,true,LES0083,83,Video Calls,Activity,70,9,10,3
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about screen sharing and how to apply these concepts.",Beginner,11,false,true,true,LES0084,84,Screen Sharing,Activity,80,9,10,4
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about online collaboration and how to apply these concepts.",Beginner,16,false,true,true,LES0085,85,Online Collaboration,Reading,80,9,10,5
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about meeting netiquette and how to apply these concepts.",Beginner,10,true,true,true,LES0086,86,Meeting Netiquette,Reading,80,9,5,6
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about digital presentations and how to apply these concepts.",Beginner,30,true,true,true,LES0087,87,Digital Presentations,Activity,80,9,15,7
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about feedback online and how to apply these concepts.",Beginner,11,true,true,true,LES0088,88,Feedback Online,Reading,80,9,5,8
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about time zones and how to apply these concepts.",Beginner,28,true,true,true,LES0089,89,Time Zones,Activity,70,9,5,9
+2023-03-20T09:57:00.000Z,"In this lesson, you will learn about communication tools and how to apply these concepts.",Beginner,22,false,true,true,LES0090,90,Communication Tools,Reading,70,9,10,10
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about self assessment and how to apply these concepts.",Beginner,15,false,true,true,LES0091,91,Self Assessment,Video,70,10,5,1
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about interest discovery and how to apply these concepts.",Beginner,18,false,true,true,LES0092,92,Interest Discovery,Video,80,10,5,2
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about career research and how to apply these concepts.",Beginner,17,false,true,true,LES0093,93,Career Research,Video,70,10,5,3
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about education paths and how to apply these concepts.",Beginner,30,false,true,true,LES0094,94,Education Paths,Reading,70,10,5,4
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about skill mapping and how to apply these concepts.",Beginner,19,true,true,true,LES0095,95,Skill Mapping,Reading,80,10,10,5
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about industry overview and how to apply these concepts.",Beginner,26,false,true,true,LES0096,96,Industry Overview,Interactive,70,10,5,6
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about networking basics and how to apply these concepts.",Beginner,18,false,true,true,LES0097,97,Networking Basics,Reading,70,10,5,7
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about resume intro and how to apply these concepts.",Beginner,18,true,true,true,LES0098,98,Resume Intro,Reading,70,10,15,8
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about interview prep and how to apply these concepts.",Beginner,29,true,true,true,LES0099,99,Interview Prep,Activity,80,10,5,9
+2023-06-26T12:02:00.000Z,"In this lesson, you will learn about goal setting and how to apply these concepts.",Beginner,22,false,true,true,LES0100,100,Goal Setting,Reading,80,10,15,10
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about money basics and how to apply these concepts.",Intermediate,16,true,true,true,LES0101,101,Money Basics,Interactive,80,11,15,1
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about digital payments and how to apply these concepts.",Intermediate,15,true,true,true,LES0102,102,Digital Payments,Interactive,70,11,5,2
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about upi & wallets and how to apply these concepts.",Intermediate,10,false,true,true,LES0103,103,UPI & Wallets,Reading,70,11,15,3
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about online banking safety and how to apply these concepts.",Intermediate,15,false,true,true,LES0104,104,Online Banking Safety,Activity,70,11,15,4
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about budgeting and how to apply these concepts.",Intermediate,24,true,true,true,LES0105,105,Budgeting,Video,80,11,10,5
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about saving habits and how to apply these concepts.",Intermediate,18,false,true,true,LES0106,106,Saving Habits,Reading,80,11,15,6
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about wants vs needs and how to apply these concepts.",Intermediate,17,true,true,true,LES0107,107,Wants vs Needs,Activity,80,11,15,7
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about scam prevention and how to apply these concepts.",Intermediate,26,false,true,true,LES0108,108,Scam Prevention,Activity,80,11,10,8
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about smart shopping and how to apply these concepts.",Intermediate,14,false,true,true,LES0109,109,Smart Shopping,Activity,80,11,5,9
+2023-06-01T10:27:00.000Z,"In this lesson, you will learn about financial planning and how to apply these concepts.",Intermediate,13,false,true,true,LES0110,110,Financial Planning,Interactive,70,11,15,10
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about design principles and how to apply these concepts.",Intermediate,25,false,true,true,LES0111,111,Design Principles,Reading,80,12,15,1
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about color & typography and how to apply these concepts.",Intermediate,12,true,true,true,LES0112,112,Color & Typography,Video,80,12,5,2
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about canva basics and how to apply these concepts.",Intermediate,21,true,true,true,LES0113,113,Canva Basics,Activity,70,12,15,3
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about photo editing and how to apply these concepts.",Intermediate,19,true,true,true,LES0114,114,Photo Editing,Video,80,12,5,4
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about creating posts and how to apply these concepts.",Intermediate,25,false,true,true,LES0115,115,Creating Posts,Reading,70,12,10,5
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about infographics and how to apply these concepts.",Intermediate,26,true,true,true,LES0116,116,Infographics,Activity,70,12,5,6
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about video basics and how to apply these concepts.",Intermediate,23,false,true,true,LES0117,117,Video Basics,Reading,70,12,5,7
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about content planning and how to apply these concepts.",Intermediate,21,false,true,true,LES0118,118,Content Planning,Activity,70,12,15,8
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about copyright and how to apply these concepts.",Intermediate,15,false,true,true,LES0119,119,Copyright,Activity,80,12,5,9
+2023-01-31T16:24:00.000Z,"In this lesson, you will learn about building portfolio and how to apply these concepts.",Intermediate,10,true,true,true,LES0120,120,Building Portfolio,Interactive,70,12,10,10
