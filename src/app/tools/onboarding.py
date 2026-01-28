@@ -35,6 +35,8 @@ IMPORTANT:
 - Do not include any explanations or additional text.
 - Focus solely on extracting and formatting the information.
 - Do not add any fields other than those specified.
+- You can also use context which has session history.
+- ALWWAYS INCLUDE ABOVE JSON OUTPUT IN YOUR RESPONSE IRRESPECTIVE IF DETAILS ARE PRESENT ARE NOT.
 """
         self.__session = session
         self.llm = LLM(model_name="gpt-4o", session=self.__session)
@@ -45,7 +47,7 @@ IMPORTANT:
             user_prompt=user_input
         )
 
-        extracted_json = self.llm._LLM__json_extractor(response)
+        extracted_json = self.llm.json_extractor(response)
         return extracted_json
     
     def onboard(self, user_input: str) -> tuple[dict, str, bool]:
@@ -57,7 +59,7 @@ IMPORTANT:
 
         for key, value in user_info.items():
             # print(f"{key}: {value}")
-            field_provided = False if value == "Not Provided" else True
+            field_provided = False if "Not Provided".lower() in value.lower() else True
             if not field_provided or follow_up_neceassary:
                 follow_up_neceassary = True
             if not field_provided:
@@ -67,8 +69,8 @@ IMPORTANT:
 
         return user_info, successful_onboarding_message if not follow_up_neceassary else followup_response_for_inputs, follow_up_neceassary
     
-# Example usage:
-onboarding_tool = OnboardingTool(session="onboarding_session")
-user_input = """My Aadhar number is 1234-5678-9012. I have completed my high school education. My father is a farmer and my mother is a homemaker. I am interested in pursuing a career in computer science and I enjoy playing football. I have previously interned at a local IT firm. My skills include basic programming in Python and good communication skills."""
+# # Example usage:
+# onboarding_tool = OnboardingTool(session="onboarding_session")
+# user_input = """My Aadhar number is 1234-5678-9012. I have completed my high school education. My father is a farmer and my mother is a homemaker. I am interested in pursuing a career in computer science and I enjoy playing football. I have previously interned at a local IT firm. My skills include basic programming in Python and good communication skills."""
 
-print(onboarding_tool.onboard(user_input))
+# print(onboarding_tool.onboard(user_input))

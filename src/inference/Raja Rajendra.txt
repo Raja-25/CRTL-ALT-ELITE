@@ -1,0 +1,61 @@
+Role: user
+Content: Hi
+
+
+Role: assistant
+Content: ```json
+{
+"Aadhar Number": "Not Provided",
+"Date of Birth": "Not Provided",
+"Education Level": "Not Provided",
+"Parents' occupation": "Not Provided",
+"Interests": "Not Provided",
+"Previous experience": "Not Provided",
+"Skills": "Not Provided"
+}
+```
+
+
+Role: user
+Content: - Aadhar Number : 628384848566
+- Education Level:  high school
+- Parents' occupation: Agri
+- Interests : Coding 
+- Previous experience 
+- Skills: Software Dev
+- previous  experience  : missing
+
+
+Role: assistant
+Content: ```json
+{
+"Aadhar Number": "628384848566",
+"Date of Birth": "Not Provided",
+"Education Level": "high school",
+"Parents' occupation": "Agri",
+"Interests": "Coding",
+"Previous experience": "Not Provided",
+"Skills": "Software Dev"
+}
+```
+
+
+Role: user
+Content: Experience : clerk
+Dob : june 5th 2005
+
+
+Role: assistant
+Content: ```json
+{
+"Aadhar Number": "628384848566",
+"Date of Birth": "2005-06-05",
+"Education Level": "high school",
+"Parents' occupation": "Agri",
+"Interests": "Coding",
+"Previous experience": "clerk",
+"Skills": "Software Dev"
+}
+```
+
+

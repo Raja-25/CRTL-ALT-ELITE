@@ -1,0 +1,20 @@
+class User:
+    NAME: str = "Name"
+    PHONE_NUMBER: str = "PhoneNumber"
+    MESSAGE: str = "Message"
+    AADHAR_NUMBER: str = "Aadhar Number"
+    DATE_OF_BIRTH: str = "Date of Birth"
+    EDUCATION_LEVEL: str = "Education Level"
+    PARENTS_OCCUPATION: str = "Parents' occupation"
+    INTERESTS: str = "Interests"
+    PREVIOUS_EXPERIENCE: str = "Previous experience"
+    SKILLS: str = "Skills"
+
+class UserInfo:
+    AADHAR_NUMBER: str = "Aadhar Number"
+    DATE_OF_BIRTH: str = "Date of Birth"
+    EDUCATION_LEVEL: str = "Education Level"
+    PARENTS_OCCUPATION: str = "Parents' occupation"
+    INTERESTS: str = "Interests"
+    PREVIOUS_EXPERIENCE: str = "Previous experience"
+    SKILLS: str = "Skills"
