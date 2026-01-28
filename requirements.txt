@@ -9,4 +9,4 @@ pycryptodome
 cryptography
 pytesseract
 pillow
-easyocr
+pandas
