@@ -1,0 +1,87 @@
+<div class="screening-container" *ngIf="!showQuiz">
+  <h1 class="screening-title">Enter Your Details</h1>
+
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input
+      id="name"
+      type="text"
+      [(ngModel)]="candidateName"
+      placeholder="Your Name"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Phone Number:</label>
+    <input
+      id="phone"
+      type="tel"
+      [(ngModel)]="candidatePhone"
+      placeholder="+91XXXXXXXXXX"
+      maxlength="13"
+    />
+    <small class="hint">Enter a valid 10-digit number (e.g., +919876543210)</small>
+  </div>
+
+  <div class="form-group">
+    <label for="grade">Grade:</label>
+    <select id="grade" [(ngModel)]="candidateGrade">
+      <option value="">Select Grade</option>
+      <option *ngFor="let g of grades" [value]="g">{{ g }}</option>
+    </select>
+  </div>
+
+  <button
+    class="btn submit-btn"
+    (click)="startQuiz()"
+    [disabled]="!candidateName || !candidatePhone || !candidateGrade || !isValidPhone()"
+  >
+    Start Quiz
+  </button>
+</div>
+
+<div class="screening-container" *ngIf="showQuiz && !showResult && questions.length">
+  <h1 class="screening-title">Job Readiness Quiz</h1>
+  <h3 class="question-number">
+    Question {{ currentIndex + 1 }} / {{ questions.length }}
+  </h3>
+
+  <p class="question-text">
+    {{ questions[currentIndex].question }}
+  </p>
+
+  <div class="options">
+    <label *ngFor="let option of questions[currentIndex].options; let i = index" class="option">
+      <input
+        type="radio"
+        name="answer-{{currentIndex}}"
+        [value]="i"
+        [(ngModel)]="answers[currentIndex]"
+      />
+      {{ option }}
+    </label>
+  </div>
+
+  <div class="buttons">
+    <button *ngIf="currentIndex > 0" (click)="goPrevious()" class="btn">Previous</button>
+    <button *ngIf="!isLastQuestion()" [disabled]="answers[currentIndex] === null" (click)="goNext()" class="btn">Next</button>
+    <button *ngIf="isLastQuestion()" [disabled]="answers[currentIndex] === null" (click)="submit()" class="btn submit-btn">Submit</button>
+  </div>
+</div>
+
+<div class="result-card" *ngIf="showResult">
+  <h1 class="result-title">Quiz Completed!</h1>
+  <p class="result-text">Your Score: <strong>{{ score }}/10</strong></p>
+  <p class="result-text">
+    Eligible: <strong>{{ result?.eligible ? 'Yes' : 'No' }}</strong>
+  </p>
+  <p class="result-text" *ngIf="result?.eligible">
+    Level: <strong>{{ result?.level }}</strong>
+  </p>
+  <p class="result-msg" *ngIf="result?.eligible">
+    🎉 Great job! You're ready for the next training module.
+  </p>
+  <p class="result-msg" *ngIf="!result?.eligible">
+    😔 Don't worry! Keep practicing and try again.
+  </p>
+</div>
