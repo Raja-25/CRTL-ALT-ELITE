@@ -12,6 +12,7 @@ from app.dropout import DROPOUT_SQL
 # Add current directory to path to import database module
 sys.path.insert(0, os.path.dirname(__file__))
 from app.database import Database
+from app.whatsapp import WhatsAppClient
 
 
 # Add current directory to path to import database module
@@ -394,9 +395,11 @@ async def passing_candidates(payload: dict):
             raise HTTPException(status_code=409, detail="Phone number already exists")
         raise HTTPException(status_code=500, detail=error_message)
 
-@app.post("sendnotification")
+@app.post("/sendnotification")
 async def send_notification():
-    return ""
+    whatsapp_client = WhatsAppClient()
+    whatsapp_client.send_text("919912399409@c.us","We have noticed irregular activity in learning courses. Please start again to do the courses and complete them on time.")
+    return {"message": "Notification sent successfully"}
 
 
 
