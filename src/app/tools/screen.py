@@ -1,76 +1,90 @@
+import pytesseract
+from PIL import Image
 from app.llm import LLM
 
 class ScreeningTool():
-    def __init__(self, session: str):
-        
-        self.SYSTEM_PROMPT_INITIAL: str = """
-You are an expert onboarding assistant from NGO "Magic Bus" whose mission is to To equip vulnerable young people with life skills and employability training to break the cycle of poverty.
-User will provide you with their personal details in a simple natural language format.
-Your task is to analyse below user information about user's following details:
-- Aadhar Number
-- Date of Birth
-- Education Level
-- Parents' occupation
-- Interests (job aspirations, hobbies)
-- Previous experience if available
-- Skills (technical, soft skills)
+    
+    def __init__(self, session):
+        self.session = session
 
-your response should be in the following format:
+    def scan_image(self, image_path: str = "") -> str:
+        """
+        Perform OCR (Optical Character Recognition) on the given image using Tesseract.
+
+        Args:
+            image_path (str): Path to the image file.
+
+        Returns:
+            str: Extracted text from the image.
+        """
+
+        if image_path == "":
+            image_path = f"images/{self.session}.jpg"
+
+        try:
+            # Open the image file
+            image = Image.open(image_path)
+
+            # Perform OCR using Tesseract
+            extracted_text = pytesseract.image_to_string(image)
+
+            return extracted_text
+        except Exception as e:
+            return f"An error occurred during OCR: {str(e)}"
+        
+    def analyze_image(self, session: str) -> tuple[int, str]:
+        system_prompt = """
+You are an expert reconciler.
+You will be provided with text extracted from an image using pytesseract OCR.
+Your task is to verify the authenticity of the claims made by the user in their conversation with you based on the extracted text.
+Please return a score between 0 and 10 indicating the authenticity of the claims, where 0 means completely false and 100 means completely true.
+Note that the extracted text may contain OCR errors, so use your judgment to interpret the text accurately.
+
+Your response should be in the following JSON format:
 ```json
 {{
-"Aadhar Number": "<Aadhar Number>",
-"Date of Birth": "<Date of Birth> (YYYY-MM-DD)",
-"Education Level": "<Education Level>",
-"Parents' occupation": "<Parents' occupation>",
-"Interests": "<Interests>",
-"Previous experience": "<Previous experience>",
-"Skills": "<Skills>"
+"score": <authenticity_score_between_0_and_10>
 }}
 ```
 
-if some information is missing, please mention "Not Provided" for that field.
-
-IMPORTANT:
+Important Notes:
+- You only need to verify Aadhar Number, Name, and Date of Birth claims
 - Ensure the output is valid JSON format as shown above.
 - Do not include any explanations or additional text.
-- Focus solely on extracting and formatting the information.
+- Focus solely on providing the authenticity score based on the extracted text.
 - Do not add any fields other than those specified.
-- You can also use context which has session history.
-- ALWWAYS INCLUDE ABOVE JSON OUTPUT IN YOUR RESPONSE IRRESPECTIVE IF DETAILS ARE PRESENT ARE NOT.
+- You should use context section to see claimed user details which has neceassary history.
 """
-        self.__session = session
-        self.llm = LLM(model_name="gpt-4o", session=self.__session)
 
-    def extract_user_info(self, user_input: str) -> dict:
-        response = self.llm.chat(
-            system_prompt=self.SYSTEM_PROMPT_INITIAL,
-            user_prompt=user_input
+        llm = LLM(model_name="gpt-4o", session=session)
+
+        ocr_text = self.scan_image()
+        user_prompt = f"""
+Here is the extracted text from the image:
+{ocr_text}
+"""
+        response = llm.chat(
+            system_prompt=system_prompt,
+            user_prompt=user_prompt
         )
 
-        extracted_json = self.llm.json_extractor(response)
-        return extracted_json
-    
-    def onboard(self, user_input: str) -> tuple[dict, str, bool]:
-        user_info = self.extract_user_info(user_input)
+        # Extract the score from the response
+        try:
+            response_json = llm.json_extractor(response)
+            score = int(response_json.get("score", 0))
+            if score >= 7:
+                return score, "The document appears to be authentic.\nYou are now onboarded on Magic Bus!!!"
+            elif score >= 4:
+                return score, "The document is partially authentic. We will engage a Magic Bus member with you."
+            else:
+                return score, "The document appears to be inauthentic."
+        except Exception as e:
+            print(f"Error parsing LLM response: {str(e)}")
+            return 0, "An error occurred while analyzing the document. Please try again later."
 
-        followup_response_for_inputs = "Thanks for your information. But I noticed that some fields are missing. Please add the following details:\n"
-        follow_up_neceassary = False
-        successful_onboarding_message = "Thank you for providing all the necessary information. Your onboarding is now complete!\nPlease share your resume if available."
 
-        for key, value in user_info.items():
-            # print(f"{key}: {value}")
-            field_provided = False if "Not Provided".lower() in value.lower() else True
-            if not field_provided or follow_up_neceassary:
-                follow_up_neceassary = True
-            if not field_provided:
-                followup_response_for_inputs += f"- {key}\n"
 
-        print(followup_response_for_inputs)
-
-        return user_info, successful_onboarding_message if not follow_up_neceassary else followup_response_for_inputs, follow_up_neceassary
-    
-# # Example usage:
-# onboarding_tool = OnboardingTool(session="onboarding_session")
-# user_input = """My Aadhar number is 1234-5678-9012. I have completed my high school education. My father is a farmer and my mother is a homemaker. I am interested in pursuing a career in computer science and I enjoy playing football. I have previously interned at a local IT firm. My skills include basic programming in Python and good communication skills."""
-
-# print(onboarding_tool.onboard(user_input))
+# Example usage:
+# screening_tool = ScreeningTool(session="Simarpreet Singh")
+# text = screening_tool.scan_image()
+# print(text)
