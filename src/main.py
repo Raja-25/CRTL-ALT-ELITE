@@ -25,7 +25,7 @@ app.add_middleware(
 )
 
 # Initialize database
-db = Database(os.path.join(os.path.dirname(__file__), "apac_data.db"))
+db = Database(os.path.join(os.path.dirname(__file__), "app","apac_data.db"))
 
 # ============ Pydantic Models ============
 
