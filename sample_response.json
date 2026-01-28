@@ -1,0 +1,114 @@
+{
+  "Personal Development": {
+    "Goal Setting": {
+      "questions": [
+        {
+          "question": "Describe a recent goal you set for yourself and explain the steps you took to achieve it.",
+          "sample_response": "I set a goal to improve my math grades. First, I reviewed the topics where I was struggling. Then, I dedicated an hour each day to practicing problems. I also asked my teacher for extra help when I needed it. By staying consistent and focused, I was able to raise my grade from a C to a B."
+        },
+        {
+          "question": "What do you think is the most important factor in achieving your goals?",
+          "sample_response": "I believe consistency is the most important factor. If you stay committed to the process, even small progress adds up over time. Having a clear plan and regularly reviewing it also helps keep me on track."
+        }
+      ]
+    }
+  },
+  "Communication Skills": {
+    "Active Listening": {
+      "questions": [
+        {
+          "question": "Imagine a friend is telling you about their stressful day. How would you respond to show that you are actively listening?",
+          "sample_response": "I would make sure to listen without interrupting. I’d nod occasionally and ask questions like, 'What happened next?' or 'How did that make you feel?' I would also repeat parts of what they said to confirm that I understood, like saying, 'So it was really stressful for you when that happened.'"
+        },
+        {
+          "question": "If someone is explaining something and you're not fully understanding, how would you respond to show you’re trying to understand?",
+          "sample_response": "I would politely ask them to clarify by saying something like, 'Can you explain that part again?' or 'Could you give me an example?' I would also try to summarize what I understood to see if I got it right."
+        }
+      ]
+    }
+  },
+  "Social Skills": {
+    "Empathy": {
+      "questions": [
+        {
+          "question": "How would you comfort a friend who has failed an important test?",
+          "sample_response": "I’d start by telling them that everyone has setbacks and that one test doesn’t define their worth. I would listen to how they feel and reassure them that it’s okay to feel upset but that they can improve with effort. I would also offer to study with them for the next test."
+        },
+        {
+          "question": "Can you recall a time when you helped someone feel better during a tough time? How did you approach it?",
+          "sample_response": "A friend was feeling down after losing their job. I listened to their concerns without judging, gave them some space to vent, and then encouraged them to look at the situation as an opportunity to learn and grow. I also helped them find job openings and connected them with some people I knew."
+        }
+      ]
+    }
+  },
+  "Financial Literacy": {
+    "Budgeting": {
+      "questions": [
+        {
+          "question": "How would you go about creating a monthly budget for yourself?",
+          "sample_response": "I would list all my income sources and monthly expenses, such as rent, utilities, and food. Then, I’d allocate a certain amount for each category, making sure to save a portion of my income for emergencies. I would also track my spending throughout the month to stay within my budget."
+        },
+        {
+          "question": "What would you do if you realized you were spending more than your income each month?",
+          "sample_response": "First, I would analyze where my money is going and cut back on unnecessary expenses like eating out or subscription services. Then, I would look for ways to increase my income, like finding a part-time job or freelancing."
+        }
+      ]
+    }
+  },
+  "Career Skills": {
+    "Job Interview Preparation": {
+      "questions": [
+        {
+          "question": "What is one common interview question you might face, and how would you answer it?",
+          "sample_response": "A common question is, 'Tell me about yourself.' I would answer by briefly introducing my background, mentioning my education, skills, and any relevant experience. I’d keep it short and then explain why I’m interested in the job and how I can contribute to the company’s success."
+        },
+        {
+          "question": "How do you prepare for an interview to make sure you stand out?",
+          "sample_response": "I research the company and the role to understand what they are looking for. I practice common interview questions, but I also prepare questions to ask the interviewer to show my interest. I also make sure to dress appropriately and arrive on time."
+        }
+      ]
+    }
+  },
+  "Health and Wellness": {
+    "Stress Management": {
+      "questions": [
+        {
+          "question": "When you're feeling overwhelmed, what steps do you take to reduce your stress?",
+          "sample_response": "I usually take a break and go for a walk to clear my head. I also try breathing exercises or listening to music to relax. Sometimes, I talk to someone about what’s bothering me to get it off my chest. It helps me feel better and get back to work with a clear mind."
+        },
+        {
+          "question": "Can you share a time when you successfully managed stress in a difficult situation?",
+          "sample_response": "During exam week, I was feeling a lot of pressure. I managed my stress by setting a study schedule, taking breaks in between, and doing deep breathing exercises. It helped me stay focused and calm during my exams."
+        }
+      ]
+    }
+  },
+  "Leadership Skills": {
+    "Delegation": {
+      "questions": [
+        {
+          "question": "How would you handle a group project where one member is not contributing?",
+          "sample_response": "I’d first approach the person privately to understand if there’s something preventing them from contributing. I’d offer help or assign them smaller tasks to get them started. If the issue persists, I would discuss it with the team to figure out a fair solution that ensures the project gets done."
+        },
+        {
+          "question": "If you were the leader of a team, how would you ensure that all members are motivated and on track?",
+          "sample_response": "I would communicate clearly from the start about each person’s role and the deadlines. I would also check in regularly, provide feedback, and make sure to recognize everyone’s contributions. If someone is struggling, I’d offer support or adjustments to help them succeed."
+        }
+      ]
+    }
+  },
+  "Practical Life Skills": {
+    "Time Management": {
+      "questions": [
+        {
+          "question": "How do you ensure that you meet deadlines for your tasks or assignments?",
+          "sample_response": "I make a to-do list every morning and prioritize the most urgent tasks first. I set a time limit for each task and avoid distractions by focusing only on the current task. I also try to break larger tasks into smaller steps so that they’re easier to handle. If I’m running behind, I ask for an extension early."
+        },
+        {
+          "question": "What tools or methods do you use to stay organized and manage your time effectively?",
+          "sample_response": "I use a combination of a digital calendar and a task management app to keep track of important deadlines. I also set reminders for tasks and break my work into smaller chunks to avoid feeling overwhelmed. I review my schedule daily to stay on track."
+        }
+      ]
+    }
+  }
+}
