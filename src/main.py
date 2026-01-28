@@ -7,7 +7,9 @@ import sys
 
 # Add current directory to path to import database module
 sys.path.insert(0, os.path.dirname(__file__))
+from app.dropout import DROPOUT_SQL
 from app.database import Database
+# from app.dropout import DropoutAnalysis
 
 app = FastAPI(
     title="APAC SQLite API",
@@ -168,6 +170,21 @@ async def create_table(request: CreateTableRequest):
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/dropout-risk")
+async def get_dropout_risk():
+    """Get dropout risk predictions for all students"""
+    try:
+        # Execute the dropout prediction SQL query
+        rows = db.execute_query(DROPOUT_SQL)
+        
+        # Return the fetched rows
+        return {"data": rows}
+    except Exception as e:
+        # If any error occurs, raise HTTPException with status 500
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 
 @app.delete("/tables/{table_name}")
 async def delete_table(table_name: str):
