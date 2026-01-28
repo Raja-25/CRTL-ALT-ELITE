@@ -30,13 +30,33 @@ INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
 
 ## 📊 API Endpoints
 
-### To insert in USERS table
+### Insert into users table
+```sql
  INSERT INTO users 
         (name, phone_number, aadhaar_number, date_of_birth, 
          education_level, parents_occupation, interests, 
          previous_experience, skills)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+```
 
+**Example using the API:**
+```bash
+curl -X POST http://127.0.0.1:8001/tables/users/insert \
+  -H "Content-Type: application/json" \
+  -d '{
+    "data": {
+      "name": "Raja Rajendra",
+      "phone_number": "9912399409",
+      "aadhaar_number": "1234567890123458",
+      "date_of_birth": "2003-11-25",
+      "education_level": "Class 10",
+      "parents_occupation": "Teacher",
+      "interests": "Cricket, Coding, Reading",
+      "previous_experience": "Participated in school coding competition",
+      "skills": "Python, Problem Solving"
+    }
+  }'
+```
 
 ### 1. List All Tables
 ```
