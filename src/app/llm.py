@@ -68,7 +68,7 @@ class LLM():
         with open(self.__session_path, "r") as file:
             return file.read()
         
-    def __json_extractor(self, text: str) -> dict:
+    def json_extractor(self, text: str) -> dict:
 
         markdown_pattern = r'```(?:json)?\s*([\s\S]*?)\s*```'
         markdown_match = re.search(markdown_pattern, text)
