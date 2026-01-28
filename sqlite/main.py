@@ -4,10 +4,15 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 import os
 import sys
+# from Databricks import DatabricksClient
+import pandas as pd
+import json
+from collections import defaultdict
 
 # Add current directory to path to import database module
 sys.path.insert(0, os.path.dirname(__file__))
 from database import Database
+from llm import LLM
 
 app = FastAPI(
     title="APAC SQLite API",
@@ -47,6 +52,17 @@ class InsertManyRequest(BaseModel):
 class QueryRequest(BaseModel):
     query: str
     params: Optional[List[Any]] = []
+
+class SkillRatingRequest(BaseModel):
+    csv_file: str = "sqlite\\test_data.csv"
+    sample_size: int = 10
+
+class SkillRatingResponse(BaseModel):
+    skill: str
+    rating: float
+
+class SkillRatingsResponse(BaseModel):
+    top_5_skills: List[SkillRatingResponse]
 
 # ============ Health & Info Endpoints ============
 
@@ -347,6 +363,118 @@ async def count_rows(table_name: str):
     except HTTPException:
         raise
     except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+# ============ Skill Ratings Endpoints ============
+
+@app.get("/skill-ratings")
+async def get_skill_ratings(
+    csv_file: str = Query("sqlite\\test_data.csv"),
+    sample_size: int = Query(10, ge=1, le=100)
+):
+    """
+    Calculate skill ratings based on quiz performance data.
+    Uses LLM to evaluate proficiency across different skill categories.
+    """
+    try:
+        # cli = DatabricksClient()
+        model = LLM("gpt-4.1-mini")
+        
+        # Load data from CSV
+        if not os.path.exists(csv_file):
+            raise HTTPException(status_code=404, detail=f"CSV file '{csv_file}' not found")
+        
+        df = pd.read_csv(csv_file)
+        
+        if df.empty:
+            raise HTTPException(status_code=400, detail="CSV file is empty")
+        
+        # Group and sample the data
+        df = df.groupby('quiz_title').apply(
+            lambda x: x.sample(n=min(sample_size, len(x)), random_state=42)
+        ).reset_index(drop=True)
+        
+        # Prepare quiz data
+        grouped = df.drop(["quiz_id", "question_id"], axis=1).groupby('quiz_title')
+        
+        quiz_data = {}
+        for quiz_title, group in grouped:
+            quiz_data[quiz_title] = group[[
+                'question_text', 'is_correct', 'attempt_number',
+                'hint_used', 'confidence_level', 'time_taken_seconds'
+            ]].to_dict(orient='records')
+        
+        # Convert to JSON
+        json_data = json.dumps(quiz_data, indent=2)
+        
+        # Define prompts
+        system_prompt = """You are an expert skill assessment evaluator.
+
+    INPUT:
+    You will receive a JSON object where:
+    - Each top-level key represents a skill (quiz title).
+    - The value for each key is a list of question attempts related to that skill.
+    - Each question attempt contains behavioral data such as correctness, confidence, hint usage, and time taken.
+
+    TASK:
+    For each quiz title (skill):
+    1. Analyze the associated attempts.
+    2. Assign a proficiency rating for that skill on a scale from 0 to 10.
+
+    SCORING SCALE:
+    - 0–2  : Very weak
+    - 3–4  : Weak
+    - 5–6  : Average
+    - 7–8  : Strong
+    - 9–10 : Excellent
+
+    GROUPING:
+    Group skills into **general categories**:
+    - AI (e.g., "AI Applications Quiz", "AI Ethics Quiz")
+    - Life Skills (e.g., "Career Research Quiz", "Budgeting Quiz", "Goal Setting Quiz")
+    - Social Media (e.g., "Creating Posts Quiz", "Social Media Overview Quiz")
+    - Technical Skills (e.g., "Web Browsers Quiz", "Spreadsheets Intro Quiz")
+    - Security Awareness (e.g., "Password Basics Quiz", "Phishing Awareness Quiz")
+
+    Return **only the top 5 general skill categories** with their corresponding rating.
+
+    OUTPUT FORMAT (STRICT):
+    {
+    "top_5_skills": [
+        {"skill": "<Skill Category>", "rating": <rating out of 10>},
+        ...
+    ]
+    }
+
+    The output should be **strictly** in this format, and you should include only the **top 5 skills** based on their proficiency ratings.
+
+    """
+
+        user_prompt = "Evaluate the following skill data and return the skill ratings as instructed."
+        
+        # Send request to model
+        response = model.chat(system_prompt, user_prompt + str(json_data))
+        
+        # Parse response
+        try:
+            scores = json.loads(response)
+            return {
+                "status": "success",
+                "top_5_skills": scores.get("top_5_skills", [])
+            }
+        except json.JSONDecodeError:
+            print("Model response:", response)
+            raise HTTPException(
+                status_code=500,
+                detail="Error parsing the model response. Response was not valid JSON."
+            )
+    
+    except HTTPException:
+        raise
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=f"File not found: {str(e)}")
+    except Exception as e:
+        print("Error:", str(e))
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
