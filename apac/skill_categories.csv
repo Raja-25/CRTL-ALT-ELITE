@@ -1,0 +1,9 @@
+category_code,category_id,category_name,color_code,created_at,description,display_order,icon_name,is_active,total_skills
+CAT001,1,Digital Fundamentals,#3498db,2023-06-14T08:46:00.000Z,Skills related to digital fundamentals in the digital world,1,computer,true,10
+CAT002,2,Online Safety,#e74c3c,2023-04-28T10:34:00.000Z,Skills related to online safety in the digital world,2,shield,true,10
+CAT003,3,AI & Technology,#9b59b6,2023-02-10T11:55:00.000Z,Skills related to ai & technology in the digital world,3,brain,true,10
+CAT004,4,Communication,#2ecc71,2023-02-03T21:31:00.000Z,Skills related to communication in the digital world,4,chat,true,10
+CAT005,5,Problem Solving,#f39c12,2023-06-30T22:46:00.000Z,Skills related to problem solving in the digital world,5,lightbulb,true,10
+CAT006,6,Creativity,#1abc9c,2023-01-18T19:31:00.000Z,Skills related to creativity in the digital world,6,palette,true,10
+CAT007,7,Data Skills,#e67e22,2023-06-23T09:16:00.000Z,Skills related to data skills in the digital world,7,chart,true,10
+CAT008,8,Career Readiness,#34495e,2023-06-18T20:35:00.000Z,Skills related to career readiness in the digital world,8,briefcase,true,10
