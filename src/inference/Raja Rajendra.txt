@@ -6,7 +6,7 @@ Role: assistant
 Content: ```json
 {
 "Aadhar Number": "Not Provided",
-"Date of Birth": "Not Provided",
+"Date of Birth": "Not Provided (YYYY-MM-DD)",
 "Education Level": "Not Provided",
 "Parents' occupation": "Not Provided",
 "Interests": "Not Provided",
@@ -23,37 +23,19 @@ Content: - Aadhar Number : 628384848566
 - Interests : Coding 
 - Previous experience 
 - Skills: Software Dev
-- previous  experience  : missing
+- previous  experience  : clerk
+- dob : 6th july 2003
 
 
 Role: assistant
 Content: ```json
 {
 "Aadhar Number": "628384848566",
-"Date of Birth": "Not Provided",
-"Education Level": "high school",
+"Date of Birth": "2003-07-06",
+"Education Level": "High School",
 "Parents' occupation": "Agri",
 "Interests": "Coding",
-"Previous experience": "Not Provided",
-"Skills": "Software Dev"
-}
-```
-
-
-Role: user
-Content: Experience : clerk
-Dob : june 5th 2005
-
-
-Role: assistant
-Content: ```json
-{
-"Aadhar Number": "628384848566",
-"Date of Birth": "2005-06-05",
-"Education Level": "high school",
-"Parents' occupation": "Agri",
-"Interests": "Coding",
-"Previous experience": "clerk",
+"Previous experience": "Clerk",
 "Skills": "Software Dev"
 }
 ```

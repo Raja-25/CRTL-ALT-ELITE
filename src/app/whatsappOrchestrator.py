@@ -1,8 +1,8 @@
 from app.whatsapp import WhatsAppClient
 from app.tools.onboarding import OnboardingTool
 from app.models.User import User, UserInfo
-
 from app.repository import UserRepository
+
 class Orchestrator():
     def __init__(self):
         self.__whatsapp_client = WhatsAppClient()
