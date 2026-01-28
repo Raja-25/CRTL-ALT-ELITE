@@ -218,6 +218,32 @@ async def get_table_rows(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
+@app.post("/passing_candidates")
+async def passing_candidates(payload: dict):
+    """Insert candidate passing data into passing_candidates table"""
+    try:
+        number="91"+payload.get("phoneNumber")+"@c.us"
+        # Prepare data for insertion (only phoneNumber and passingScore)
+        data = {
+            "phone_Number": number,
+            "score": payload.get("passingScore")
+        }
+        
+        # Insert data into passing_candidates table
+        rows_inserted = db.insert_data("passing_candidates", data)
+        
+        return {
+            "message": "Candidate data inserted successfully",
+            "success": True
+        }
+    
+    except Exception as e:
+        error_message = str(e)
+        if "UNIQUE constraint failed" in error_message:
+            raise HTTPException(status_code=409, detail="Phone number already exists")
+        raise HTTPException(status_code=500, detail=error_message)
+
 @app.post("/query")
 async def execute_query(request: QueryRequest):
     """Execute a custom SQL SELECT query"""
@@ -309,6 +335,9 @@ async def insert_many_rows(table_name: str, request: InsertManyRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 # ============ Update & Delete Endpoints ============
+
+
+
 
 @app.put("/query")
 async def execute_update(request: QueryRequest):
