@@ -8,7 +8,7 @@ import sys
 import pandas as pd
 import json
 from collections import defaultdict
-
+from app.dropout import DROPOUT_SQL
 # Add current directory to path to import database module
 sys.path.insert(0, os.path.dirname(__file__))
 from app.database import Database
@@ -355,6 +355,20 @@ Return **only the top 5 general skill categories** with their corresponding rati
         print("Error:", str(e))
         raise HTTPException(status_code=500, detail=str(e))
 
+
+@app.get("/dropout-risk")
+async def get_dropout_risk():
+    """Get dropout risk predictions for all students"""
+    try:
+        # Execute the dropout prediction SQL query
+        rows = db.execute_query(DROPOUT_SQL)
+        
+        # Return the fetched rows
+        return {"data": rows}
+    except Exception as e:
+        # If any error occurs, raise HTTPException with status 500
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.post("/passing_candidates")
 async def passing_candidates(payload: dict):
     """Insert candidate passing data into passing_candidates table"""
@@ -379,6 +393,13 @@ async def passing_candidates(payload: dict):
         if "UNIQUE constraint failed" in error_message:
             raise HTTPException(status_code=409, detail="Phone number already exists")
         raise HTTPException(status_code=500, detail=error_message)
+
+@app.post("sendnotification")
+async def send_notification():
+    return ""
+
+
+
 
 @app.post("/query")
 async def execute_query(request: QueryRequest):
