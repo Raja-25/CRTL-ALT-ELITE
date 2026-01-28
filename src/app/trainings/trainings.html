@@ -1,0 +1,77 @@
+<!-- Trainings Component Template -->
+
+<!-- Header -->
+<header class="header" >
+  <div class="container">
+    <div class="logo">
+      <!-- Correct the image path if necessary -->
+      <!-- <img src="C:\UpSkills\magicSkills\src\assets\MagicBusLogo.png" alt="MagicBus Logo" class="logo-img"> -->
+
+      <h1>MagicBus Skills</h1>
+    </div>
+  </div>
+</header>
+
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a [routerLink]="['/']" routerLinkActive="active" aria-current="page" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/courses']" routerLinkActive="active" class="nav-link">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/contact']" routerLinkActive="active" class="nav-link">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Main Content -->
+<main class="main-content">
+  <!-- Profile Section -->
+  <section class="profile-section" aria-labelledby="profile-heading">
+    <div class="container">
+      <div class="profile-card">
+        <h2 id="profile-heading">{{ profile.name }}</h2>
+        <p><strong>Role:</strong> {{ profile.role }}</p>
+        <p>{{ profile.bio }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Modules -->
+  <section class="modules-section" aria-labelledby="modules-heading">
+    <div class="container">
+      <h2 id="modules-heading">Learning Modules</h2>
+      <div class="module-grid">
+        <div class="module-card" *ngFor="let module of modules; trackBy: trackByModuleId" tabindex="0" role="button" aria-label="Module: {{ module.name }}, Progress: {{ module.progress }}%" style="margin-top: 40px;">
+          <h3>{{ module.name }}</h3>
+          <p>Progress: <span class="progress-text">{{ module.progress }}%</span></p>
+          <div class="progress-bar-container">
+            <div class="progress-bar" [style.width]="getProgressBarWidth(module.progress)"></div>
+          </div>
+          <div class="lessons">
+            <h4>Lessons:</h4>
+            <ul class="lesson-list">
+              <li class="lesson-item" *ngFor="let lesson of module.lessons; trackBy: trackByLessonId" (click)="onLessonClick(lesson)" (keydown.enter)="onLessonClick(lesson)" tabindex="0" role="button" aria-label="Lesson: {{ lesson }}">
+                <p>{{ lesson }}</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2026 My Training Portal. All rights reserved.</p>
+  </div>
+</footer>

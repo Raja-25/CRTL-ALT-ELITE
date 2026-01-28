@@ -1,0 +1,269 @@
+/* Global Styles for Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background for a clean, NGO-friendly look */
+  color: #333333; /* Dark text for contrast */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the page takes the full height */
+  overflow: hidden; /* Prevent scrolling if we have a perfectly fitting layout */
+}
+
+/* Container for responsive layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 100%; /* Ensure container takes full width */
+}
+
+/* Header */
+.header {
+  background-color: #ffffff; /* White background */
+  color: #007bff; /* Professional blue accent for NGO branding */
+  padding: 20px 30px;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center logo and text */
+  justify-content: flex-start; /* Align content to the left */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-bottom: 1px solid #e9ecef; /* Light border */
+}
+
+/* Logo */
+.header .logo {
+  display: flex;
+  align-items: center; /* Ensure logo and text align vertically */
+  gap: 10px; /* Space between logo image and text */
+}
+
+.logo-image {
+  height: 40px; /* Adjust height as needed for the logo */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.header .logo h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #000080; /* Dark navy blue for MagicBus Skills */
+  margin-left: -150px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f9fa; /* Light gray background */
+  width: 100%;
+  position: fixed;
+  top: 60px; /* Adjust based on header height */
+  left: 0;
+  z-index: 999;
+  border-top: 1px solid #dee2e6; /* Subtle border */
+  border-bottom: 1px solid #dee2e6; /* Subtle border */
+  padding-top: 10px; /* Added margin above navbar contents */
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  color: #495057; /* Dark gray for navbar items */
+  padding: 16px 24px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 3px solid transparent; /* Default border for underline */
+  transition: color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #007bff; /* Blue accent for active/hover */
+  border-color: #007bff; /* Underline on hover or when active */
+}
+
+/* Main Content - Two-column layout: Profile on left, Modules on right */
+.main-content {
+  margin-top: 120px; /* Push below header and navbar */
+  margin-bottom: 60px; /* Push above footer */
+  flex: 1;
+  display: flex;
+  flex-direction: row; /* Horizontal layout for left-right split */
+  background-color: #ffffff; /* White background to cover entire area */
+  min-height: calc(100vh - 180px); /* Ensure it fills the screen minus header/navbar/footer */
+}
+
+/* Profile Section - Left side, full height */
+.profile-section {
+  background-color: #ffffff; /* White background */
+  padding: 40px 20px;
+  flex: 1; /* Take up left half */
+  display: flex;
+  align-items: flex-start; /* Align to top-left */
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.profile-card {
+  width: 100%;
+  text-align: left;
+}
+
+.profile-card h2 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  color: #333333; /* Dark text */
+}
+
+.profile-card p {
+  font-size: 16px;
+  color: #6c757d; /* Medium gray for description */
+  margin: 8px 0;
+}
+
+/* Learning Modules Section - Right side, no card styling */
+.modules-section {
+  background-color: #f0f8ff; /* Very light blue background */
+  padding: 20px;
+  flex: 2; /* Take up right half, more space for modules */
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.modules-section h2 {
+  border-bottom: 1px solid #dee2e6; /* Grey line below the heading */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #333333; /* Dark text for heading */
+}
+
+.module-grid {
+  display: flex; /* Horizontal layout for modules side by side */
+  gap: 30px; /* Increased gap to prevent overlap */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  padding: 0 10px; /* Added horizontal padding to grid for better spacing */
+  flex: 1; /* Fill available space */
+  margin-top: 20px; /* Added margin above module cards to prevent overlap with heading on hover */
+}
+
+.module-card {
+  background-color: #f8f9fa; /* Light gray background for individual module cards */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #dee2e6; /* Light border */
+  min-width: 300px; /* Minimum width for each card */
+  flex-shrink: 0; /* Prevent shrinking */
+  margin: 0; /* Ensure no extra margins */
+}
+
+.module-card:hover,
+.module-card:focus {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: 2px solid #007bff; /* Blue focus outline */
+}
+
+.module-card h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333333; /* Dark text */
+}
+
+.module-card p {
+  font-size: 14px;
+  color: #495057; /* Dark gray */
+}
+
+.progress-text {
+  font-weight: bold;
+  color: #28a745; /* Green accent for progress */
+}
+
+.progress-bar-container {
+  height: 10px;
+  background-color: #e9ecef; /* Light gray background for progress bar */
+  border-radius: 5px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #28a745; /* Green for progress */
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+/* Lesson List */
+.lesson-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.lesson-item {
+  background-color: #ffffff; /* White background for lesson items */
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 1px solid #dee2e6; /* Light border */
+}
+
+.lesson-item:hover,
+.lesson-item:focus {
+  background-color: #f8f9fa; /* Light gray on hover/focus */
+  outline: 2px solid #007bff; /* Blue focus outline */
+}
+
+.lesson-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #333333; /* Dark text */
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f9fa; /* Light gray */
+  color: #495057; /* Dark gray text */
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  border-top: 1px solid #dee2e6; /* Subtle border */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* /* Responsive */
