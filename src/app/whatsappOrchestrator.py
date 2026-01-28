@@ -2,11 +2,11 @@ from app.whatsapp import WhatsAppClient
 from app.tools.onboarding import OnboardingTool
 from app.models.User import User, UserInfo
 
-
+from app.repository import UserRepository
 class Orchestrator():
     def __init__(self):
         self.__whatsapp_client = WhatsAppClient()
-
+        self.Repository=UserRepository()
         self.messages: list[dict] = []
         self.messages_to_process = []
         self.users_to_load = []
@@ -64,6 +64,7 @@ class Orchestrator():
             print()
             print()
             print(user)
+            self.Repository.add_user(user)
             print()
             print()
             print()
