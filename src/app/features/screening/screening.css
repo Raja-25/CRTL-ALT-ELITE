@@ -1,9 +1,44 @@
-
 body, input, select, button, label, h1, p, small {
   font-family: 'Robota', sans-serif;
   margin: 0;
   padding: 0.5rem;
   box-sizing: border-box;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e9ecef;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #000080;
 }
 
 .screening-container {
@@ -19,7 +54,7 @@ body, input, select, button, label, h1, p, small {
 .screening-title, .result-title {
   font-size: 28px;
   font-weight: 600;
-  color: #1a73e8; /* NGO-blue */
+  color: #1a73e8; 
   margin-bottom: 20px;
   text-align: center;
 }
@@ -37,7 +72,6 @@ body, input, select, button, label, h1, p, small {
   line-height: 1.5;
 }
 
-/* ---------------- Options ---------------- */
 .options {
   display: flex;
   flex-direction: column;
@@ -64,7 +98,6 @@ body, input, select, button, label, h1, p, small {
   accent-color: #1a73e8;
 }
 
-/* ---------------- Buttons ---------------- */
 .buttons {
   display: flex;
   justify-content: space-between;
@@ -80,6 +113,7 @@ body, input, select, button, label, h1, p, small {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.2s;
+  font-weight: 500;
 }
 
 .btn:hover:not(:disabled) {
@@ -95,7 +129,6 @@ body, input, select, button, label, h1, p, small {
   flex: 1;
 }
 
-/* ---------------- Candidate Form ---------------- */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -115,7 +148,6 @@ body, input, select, button, label, h1, p, small {
   font-size: 16px;
 }
 
-/* ---------------- Result Card ---------------- */
 .result-card {
   max-width: 600px;
   margin: 50px auto;
