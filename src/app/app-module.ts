@@ -1,5 +1,6 @@
 import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { BrowserModule, provideClientHydration, withEventReplay } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
@@ -7,6 +8,10 @@ import { Trainings } from './trainings/trainings';
 import { Contact } from './contact/contact';
 import { ModuleDetails } from './module-details/module-details';
 import { LessonDetails } from './lesson-details/lesson-details';
+import { DashboardComponent } from './dashboard/dashboard';
+import { DropoutComponent } from './dropout/dropout';
+import { ScreeningComponent } from './screening/screening';
+import { SkillRatingsComponent } from './skill-ratings/skill-ratings';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,16 @@ import { LessonDetails } from './lesson-details/lesson-details';
     Trainings,
     Contact,
     ModuleDetails,
-    LessonDetails
+    LessonDetails,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    DashboardComponent,
+    DropoutComponent,
+    ScreeningComponent,
+    SkillRatingsComponent
   ],
   providers: [
     provideBrowserGlobalErrorListeners(),

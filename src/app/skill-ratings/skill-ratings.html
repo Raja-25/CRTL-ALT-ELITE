@@ -1,0 +1,150 @@
+<div class="skill-ratings-container">
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <h1>🎯 Skills & Job Recommendations</h1>
+      <p>Your skill ratings and best-fit career opportunities</p>
+    </div>
+  </header>
+
+  <!-- Controls -->
+  <div class="controls-section">
+    <button 
+      class="btn btn-secondary refresh-btn"
+      (click)="loadSkillRatings()"
+      [disabled]="loading"
+    >
+      <span *ngIf="!loading">🔄 Refresh</span>
+      <span *ngIf="loading">⏳ Loading...</span>
+    </button>
+  </div>
+
+  <!-- Error Message -->
+  <div *ngIf="error" class="alert alert-error">
+    ✕ {{ error }}
+  </div>
+
+  <!-- Loading State -->
+  <div *ngIf="loading" class="loading-state">
+    <div class="spinner"></div>
+    <p>Loading skill ratings and job recommendations...</p>
+  </div>
+
+  <!-- Main Content -->
+  <div *ngIf="!loading" class="content-wrapper">
+    <!-- Skills Section -->
+    <section class="skills-section">
+      <div class="section-header">
+        <h2>📊 Your Top 5 Skills</h2>
+        <p>Here's how you're rated in each skill area</p>
+      </div>
+
+      <!-- Skill Chart -->
+      <div class="chart-card">
+        <div class="chart-container">
+          <canvas id="skillChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Skill Ratings List -->
+      <div class="skills-list">
+        <div *ngFor="let skill of top5Skills" class="skill-item">
+          <div class="skill-name">{{ skill.skill }}</div>
+          <div class="skill-rating-bar">
+            <div class="rating-fill" [style.width.%]="(skill.rating / 5) * 100"></div>
+          </div>
+          <div class="rating-text">{{ skill.rating }}/5</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Job Recommendations Section -->
+    <section class="jobs-section">
+      <div class="section-header">
+        <h2>💼 Recommended Job Roles</h2>
+        <p>These roles match your skill profile</p>
+      </div>
+
+      <div class="jobs-grid">
+        <div *ngFor="let job of relevantJobRoles" class="job-card">
+          <!-- Job Header -->
+          <div class="job-header">
+            <h3>{{ job.role }}</h3>
+            <div 
+              class="match-badge"
+              [style.backgroundColor]="getMatchColor(getJobMatchPercentage(job))"
+            >
+              {{ getJobMatchPercentage(job) }}%
+            </div>
+          </div>
+
+          <!-- Match Label -->
+          <div class="match-label" [style.color]="getMatchColor(getJobMatchPercentage(job))">
+            {{ getMatchLabel(getJobMatchPercentage(job)) }}
+          </div>
+
+          <!-- Required Skills -->
+          <div class="skills-required">
+            <p class="skills-label">Required Skills:</p>
+            <div class="skill-tags">
+              <span 
+                *ngFor="let requiredSkill of job.required_skills"
+                class="skill-tag"
+                [class.matched]="isSkillMatched(requiredSkill)"
+              >
+                {{ requiredSkill }}
+                <span *ngIf="isSkillMatched(requiredSkill)" class="check-icon">✓</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Skill Gap Analysis -->
+          <div class="skill-gap">
+            <div class="gap-title">Your Skills Match:</div>
+            <div 
+              class="gap-bar"
+              [style.backgroundColor]="getMatchColor(getJobMatchPercentage(job))"
+            >
+              <div class="gap-fill" [style.width.%]="getJobMatchPercentage(job)"></div>
+            </div>
+            <div class="gap-text">
+              {{ getMatchedSkillsCount(job.required_skills) }} 
+              of {{ job.required_skills.length }} skills matched
+            </div>
+          </div>
+
+          <!-- Action Button -->
+          <button class="btn btn-job-apply">
+            <span *ngIf="getJobMatchPercentage(job) === 100">✓ Apply Now</span>
+            <span *ngIf="getJobMatchPercentage(job) !== 100">📋 View Details</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section class="summary-section">
+      <div class="summary-card">
+        <h3>📈 Summary</h3>
+        <div class="summary-stats">
+          <div class="stat">
+            <div class="stat-value">{{ top5Skills.length }}</div>
+            <div class="stat-label">Skills Rated</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">{{ relevantJobRoles.length }}</div>
+            <div class="stat-label">Job Matches Found</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">{{ getPerfectMatchCount() }}</div>
+            <div class="stat-label">Perfect Matches</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">{{ getAverageRating() }}</div>
+            <div class="stat-label">Average Rating</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,120 @@
+<div class="dropout-container">
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <h1>📊 Dropout Risk Analysis</h1>
+      <p>Monitor and manage students at risk of dropping out</p>
+    </div>
+  </header>
+
+  <!-- Controls -->
+  <div class="controls-section">
+    <div class="button-group">
+      <button 
+        class="btn btn-primary send-notification-btn"
+        (click)="sendNotification()"
+        [disabled]="notificationSending || dropoutData.length === 0 || loading"
+      >
+        <span *ngIf="!notificationSending">🔔 Send Notification</span>
+        <span *ngIf="notificationSending">⏳ Sending...</span>
+      </button>
+      
+      <button 
+        class="btn btn-secondary refresh-btn"
+        (click)="loadDropoutData()"
+        [disabled]="loading"
+      >
+        <span *ngIf="!loading">🔄 Refresh</span>
+        <span *ngIf="loading">⏳ Loading...</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Success Message -->
+  <div *ngIf="notificationSuccess" class="alert alert-success">
+    ✓ {{ successMessage }}
+  </div>
+
+  <!-- Error Message -->
+  <div *ngIf="error" class="alert alert-error">
+    ✕ {{ error }}
+  </div>
+
+  <!-- Loading State -->
+  <div *ngIf="loading" class="loading-state">
+    <div class="spinner"></div>
+    <p>Loading dropout risk data...</p>
+  </div>
+
+  <!-- Table -->
+  <div *ngIf="!loading" class="grid-wrapper">
+    <div class="grid-info">
+      <p>Showing {{ dropoutData.length }} at-risk students (Page {{ currentPage }} of {{ totalPages }})</p>
+    </div>
+    
+    <!-- Simple HTML Table for debugging -->
+    <table class="simple-table" *ngIf="paginatedData.length > 0">
+      <thead>
+        <tr>
+          <th>Student ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Sessions</th>
+          <th>Avg Gap</th>
+          <th>Avg Duration</th>
+          <th>Recent Avg</th>
+          <th>Lessons</th>
+          <th>Quizzes</th>
+          <th>Days Since Login</th>
+          <th>Risk Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let student of paginatedData">
+          <td>{{ student.student_id }}</td>
+          <td>{{ student.display_name }}</td>
+          <td>{{ student.age }}</td>
+          <td>{{ student.grade }}</td>
+          <td>{{ student.total_sessions }}</td>
+          <td>{{ student.avg_gap_days | number:'1.2-2' }}</td>
+          <td>{{ student.avg_duration | number:'1.2-2' }}</td>
+          <td>{{ student.recent_avg_duration | number:'1.2-2' }}</td>
+          <td>{{ student.avg_lessons | number:'1.2-2' }}</td>
+          <td>{{ student.avg_quizzes | number:'1.2-2' }}</td>
+          <td>{{ student.days_since_last_login | number:'1.1-1' }}</td>
+          <td class="risk-score">{{ student.dropout_risk_score }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Pagination Controls -->
+    <div class="pagination-controls" *ngIf="totalPages > 1">
+      <button class="pagination-btn" (click)="prevPage()" [disabled]="currentPage === 1">
+        ← Previous
+      </button>
+      
+      <div class="pagination-numbers">
+        <button 
+          *ngFor="let page of getPageNumbers()" 
+          class="page-number"
+          [class.active]="page === currentPage"
+          (click)="goToPage(page)"
+        >
+          {{ page }}
+        </button>
+      </div>
+
+      <button class="pagination-btn" (click)="nextPage()" [disabled]="currentPage === totalPages">
+        Next →
+      </button>
+    </div>
+  </div>
+
+  <!-- Empty State -->
+  <div *ngIf="!loading && dropoutData.length === 0 && !error" class="empty-state">
+    <div class="empty-icon">📭</div>
+    <p class="empty-title">No Data Available</p>
+    <p class="empty-description">No dropout risk data found. Check back later or refresh the page.</p>
+  </div>
+</div>
