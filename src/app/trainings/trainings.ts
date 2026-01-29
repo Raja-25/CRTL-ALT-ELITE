@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 // Define interfaces for better type safety and professionalism
 interface Profile {
   name: string;
@@ -35,7 +35,7 @@ export class Trainings implements OnInit {
     { id: 3, name: 'Angular Mastery', progress: 80, lessons: ['Components', 'Services', 'Routing'] }
   ];
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void { }
 
@@ -44,6 +44,7 @@ export class Trainings implements OnInit {
     return `${progress}%`;
   }
 
+  
   // Handle lesson click event (supports both click and keyboard enter)
   onLessonClick(lesson: string): void {
     console.log(`Lesson clicked: ${lesson}`);
@@ -59,4 +60,7 @@ export class Trainings implements OnInit {
   trackByLessonId(index: number, lesson: string): string {
     return lesson;
   }
+  onModuleClick(module: any) {
+  this.router.navigate(['/module', module.id]);  // Navigate to /module/{id}
+}
 }

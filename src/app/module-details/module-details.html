@@ -1,3 +1,8 @@
+
+
+
+
+
 <!-- Trainings Component Template -->
 
 <!-- Header -->
@@ -44,33 +49,37 @@
     </div>
   </section>
 
-  <!-- Learning Modules -->
-  <section class="modules-section" aria-labelledby="modules-heading">
-    <div class="container">
-      <h2 id="modules-heading">Learning Modules</h2>
-      <div class="module-grid">
-<div class="module-card" *ngFor="let module of modules; trackBy: trackByModuleId" tabindex="0" role="button" aria-label="Module: {{ module.name }}, Progress: {{ module.progress }}%" style="margin-top: 40px;" (click)="onModuleClick(module)" (keydown.enter)="onModuleClick(module)">          <h3>{{ module.name }}</h3>
-          <p>Progress: <span class="progress-text">{{ module.progress }}%</span></p>
-          <div class="progress-bar-container">
-            <div class="progress-bar" [style.width]="getProgressBarWidth(module.progress)"></div>
-          </div>
-          <!-- <div class="lessons">
-            <h4>Lessons:</h4>
-            <ul class="lesson-list">
-              <li class="lesson-item" *ngFor="let lesson of module.lessons; trackBy: trackByLessonId" (click)="onLessonClick(lesson)" (keydown.enter)="onLessonClick(lesson)" tabindex="0" role="button" aria-label="Lesson: {{ lesson }}">
-                <p>{{ lesson }}</p>
-              </li>
-            </ul>
-          </div> -->
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
 
+  <div class="container">
+  <!-- Show a message if module is not loaded/available (e.g., during redirect or error) -->
+  <div *ngIf="!module" class="error-message">
+    <p>Module not found. Redirecting...</p>
+  </div>
+
+  <!-- Render module details only if module exists -->
+  <div *ngIf="module" style="background-color: #f0f8ff;padding: 75px;width: 1050px;height:400px;">
+    <h2>{{ module.name }}</h2>
+    <p>Progress: {{ module.progress }}%</p>
+    <div class="progress-bar-container">
+      <div class="progress-bar" [style.width]="module.progress + '%'"></div>
+    </div>
+    <h3>Lessons:</h3>
+    <ul class="lesson-list">
+      <li class="lesson-item" *ngFor="let lesson of module.lessons; trackBy: trackByLessonId" (click)="onLessonClick(lesson)" (keydown.enter)="onLessonClick(lesson)" tabindex="0" role="button" aria-label="Lesson: {{ lesson }}">
+        <p>{{ lesson }}</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+ 
 <!-- Footer -->
 <footer class="footer">
   <div class="container">
     <p>&copy; 2026 My Training Portal. All rights reserved.</p>
   </div>
 </footer>
+
+
+
