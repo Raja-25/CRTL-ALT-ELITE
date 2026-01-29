@@ -1,5 +1,6 @@
-import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { isPlatformBrowser } from '@angular/common';
 import { Chart, registerables } from 'chart.js';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 
@@ -97,13 +98,17 @@ export class DashboardComponent implements OnInit {
   courseCompletionChart: Chart | null = null;
   engagementChart: Chart | null = null;
 
-  constructor(private cdr: ChangeDetectorRef) {}
+  constructor(private cdr: ChangeDetectorRef, @Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit() {
     this.initializeCharts();
   }
 
   initializeCharts() {
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
+    }
+    
     setTimeout(() => {
       this.createOnboardingChart();
       this.createDropoutRiskChart();

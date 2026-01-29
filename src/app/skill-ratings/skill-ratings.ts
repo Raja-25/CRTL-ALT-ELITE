@@ -1,5 +1,5 @@
-import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef, Inject, PLATFORM_ID } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Chart, registerables } from 'chart.js';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
@@ -37,7 +37,7 @@ export class SkillRatingsComponent implements OnInit {
   error: string | null = null;
   skillChart: any;
 
-  constructor(private http: HttpClient, private cdr: ChangeDetectorRef) {}
+  constructor(private http: HttpClient, private cdr: ChangeDetectorRef, @Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit() {
     this.loadSkillRatings();
@@ -69,6 +69,10 @@ export class SkillRatingsComponent implements OnInit {
   }
 
   createSkillChart() {
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
+    }
+
     const ctx = document.getElementById('skillChart') as HTMLCanvasElement;
     if (!ctx) return;
 

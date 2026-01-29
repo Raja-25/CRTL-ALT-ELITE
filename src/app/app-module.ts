@@ -1,5 +1,6 @@
 import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { BrowserModule, provideClientHydration, withEventReplay } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
@@ -17,14 +18,15 @@ import { SkillRatingsComponent } from './skill-ratings/skill-ratings';
     Trainings,
     Contact,
     ModuleDetails,
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
     DashboardComponent,
     DropoutComponent,
     ScreeningComponent,
     SkillRatingsComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners(),
