@@ -30,6 +30,9 @@ interface Module {
   lessons: Lesson[];
   description?: string;
   difficulty?: string;
+  lastAccessedDate?: string;
+  isCurrentlyEngaged?: boolean;
+  consecutiveDaysEngaged?: number;
 }
 
 @Injectable({
@@ -50,18 +53,18 @@ export class TrainingService {
   private buildModulesFromCSVData(): Module[] {
     // All modules from learning_modules.csv
     const modulesData = [
-      { id: 1, name: 'Digital Basics', code: 'MOD001', description: 'Learn fundamental computer skills including file management, browsers, and typing', difficulty: 'Beginner', progress: 50 },
-      { id: 2, name: 'Internet Safety Fundamentals', code: 'MOD002', description: 'Stay safe online with password security, threat recognition, and personal info protection', difficulty: 'Beginner', progress: 45 },
-      { id: 3, name: 'Social Media Awareness', code: 'MOD003', description: 'Navigate social media responsibly, understand digital footprints, handle cyberbullying', difficulty: 'Beginner', progress: 40 },
-      { id: 4, name: 'Introduction to AI', code: 'MOD004', description: 'Discover what AI is, how it works, and its presence in everyday life', difficulty: 'Intermediate', progress: 60 },
-      { id: 5, name: 'AI in Daily Life', code: 'MOD005', description: 'Explore AI applications like voice assistants, recommendations, and smart devices', difficulty: 'Beginner', progress: 55 },
-      { id: 6, name: 'Future of Work', code: 'MOD006', description: 'Understand how technology is changing careers and what skills will be valuable', difficulty: 'Intermediate', progress: 50 },
-      { id: 7, name: 'Coding Fundamentals', code: 'MOD007', description: 'Learn basic programming concepts through visual programming and logic exercises', difficulty: 'Intermediate', progress: 35 },
-      { id: 8, name: 'Data Literacy', code: 'MOD008', description: 'Read, interpret, and work with data, charts, and basic statistics', difficulty: 'Intermediate', progress: 40 },
-      { id: 9, name: 'Digital Communication', code: 'MOD009', description: 'Master professional email writing, video calls, and online collaboration', difficulty: 'Beginner', progress: 65 },
-      { id: 10, name: 'Career Exploration', code: 'MOD010', description: 'Discover career paths, understand your strengths, plan your educational journey', difficulty: 'Beginner', progress: 30 },
-      { id: 11, name: 'Financial Literacy', code: 'MOD011', description: 'Learn about digital payments, budgeting, and smart money management', difficulty: 'Intermediate', progress: 45 },
-      { id: 12, name: 'Creative Digital Tools', code: 'MOD012', description: 'Express yourself using digital design, photo editing, and content creation', difficulty: 'Intermediate', progress: 55 }
+      { id: 1, name: 'Digital Basics', code: 'MOD001', description: 'Learn fundamental computer skills including file management, browsers, and typing', difficulty: 'Beginner', progress: 50, lastAccessedDate: '2026-01-28', consecutiveDaysEngaged: 5, isCurrentlyEngaged: true },
+      { id: 2, name: 'Internet Safety Fundamentals', code: 'MOD002', description: 'Stay safe online with password security, threat recognition, and personal info protection', difficulty: 'Beginner', progress: 45, lastAccessedDate: '2026-01-25', consecutiveDaysEngaged: 3, isCurrentlyEngaged: false },
+      { id: 3, name: 'Social Media Awareness', code: 'MOD003', description: 'Navigate social media responsibly, understand digital footprints, handle cyberbullying', difficulty: 'Beginner', progress: 40, lastAccessedDate: '2026-01-20', consecutiveDaysEngaged: 0, isCurrentlyEngaged: false },
+      { id: 4, name: 'Introduction to AI', code: 'MOD004', description: 'Discover what AI is, how it works, and its presence in everyday life', difficulty: 'Intermediate', progress: 60, lastAccessedDate: '2026-01-29', consecutiveDaysEngaged: 7, isCurrentlyEngaged: true },
+      { id: 5, name: 'AI in Daily Life', code: 'MOD005', description: 'Explore AI applications like voice assistants, recommendations, and smart devices', difficulty: 'Beginner', progress: 55, lastAccessedDate: '2026-01-28', consecutiveDaysEngaged: 4, isCurrentlyEngaged: true },
+      { id: 6, name: 'Future of Work', code: 'MOD006', description: 'Understand how technology is changing careers and what skills will be valuable', difficulty: 'Intermediate', progress: 50, lastAccessedDate: '2026-01-26', consecutiveDaysEngaged: 2, isCurrentlyEngaged: false },
+      { id: 7, name: 'Coding Fundamentals', code: 'MOD007', description: 'Learn basic programming concepts through visual programming and logic exercises', difficulty: 'Intermediate', progress: 35, lastAccessedDate: '2026-01-15', consecutiveDaysEngaged: 0, isCurrentlyEngaged: false },
+      { id: 8, name: 'Data Literacy', code: 'MOD008', description: 'Read, interpret, and work with data, charts, and basic statistics', difficulty: 'Intermediate', progress: 40, lastAccessedDate: '2026-01-22', consecutiveDaysEngaged: 1, isCurrentlyEngaged: false },
+      { id: 9, name: 'Digital Communication', code: 'MOD009', description: 'Master professional email writing, video calls, and online collaboration', difficulty: 'Beginner', progress: 65, lastAccessedDate: '2026-01-29', consecutiveDaysEngaged: 6, isCurrentlyEngaged: true },
+      { id: 10, name: 'Career Exploration', code: 'MOD010', description: 'Discover career paths, understand your strengths, plan your educational journey', difficulty: 'Beginner', progress: 30, lastAccessedDate: '2026-01-18', consecutiveDaysEngaged: 0, isCurrentlyEngaged: false },
+      { id: 11, name: 'Financial Literacy', code: 'MOD011', description: 'Learn about digital payments, budgeting, and smart money management', difficulty: 'Intermediate', progress: 45, lastAccessedDate: '2026-01-27', consecutiveDaysEngaged: 3, isCurrentlyEngaged: false },
+      { id: 12, name: 'Creative Digital Tools', code: 'MOD012', description: 'Express yourself using digital design, photo editing, and content creation', difficulty: 'Intermediate', progress: 55, lastAccessedDate: '2026-01-24', consecutiveDaysEngaged: 1, isCurrentlyEngaged: false }
     ];
 
     // All lessons from lessons.csv with progress and completion status
@@ -328,7 +331,10 @@ export class TrainingService {
         progress: moduleData.progress,
         description: moduleData.description,
         difficulty: moduleData.difficulty,
-        lessons: moduleLessons
+        lessons: moduleLessons,
+        lastAccessedDate: moduleData.lastAccessedDate,
+        isCurrentlyEngaged: moduleData.isCurrentlyEngaged,
+        consecutiveDaysEngaged: moduleData.consecutiveDaysEngaged
       };
     });
   }

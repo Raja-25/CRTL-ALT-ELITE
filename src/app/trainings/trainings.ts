@@ -26,6 +26,9 @@ interface Module {
   name: string;
   progress: number;
   lessons: Lesson[];  // Updated: Lessons are now objects
+  lastAccessedDate?: string;
+  isCurrentlyEngaged?: boolean;
+  consecutiveDaysEngaged?: number;
 }
 
 @Component({
@@ -75,5 +78,20 @@ export class Trainings implements OnInit {  // Renamed class to 'TrainingsCompon
   // TrackBy function for lessons to optimize *ngFor performance
   trackByLessonId(index: number, lesson: Lesson): string {  // Updated: Use Lesson type
     return lesson.name;
+  }
+
+  // Get engagement status badge text
+  getEngagementStatus(module: Module): string {
+    if (module.isCurrentlyEngaged) {
+      return `🔥 Active (${module.consecutiveDaysEngaged} days)`;
+    } else if (module.consecutiveDaysEngaged && module.consecutiveDaysEngaged > 0) {
+      return `⏸️ Paused (${module.consecutiveDaysEngaged} days ago)`;
+    }
+    return '❌ Not Started';
+  }
+
+  // Check if user is continuously engaged (more than 3 consecutive days)
+  isContinuouslyEngaged(module: Module): boolean {
+    return module.isCurrentlyEngaged === true && (module.consecutiveDaysEngaged || 0) >= 3;
   }
 }

@@ -113,15 +113,16 @@ body {
   min-height: calc(100vh - 180px); /* Ensure it fills the screen minus header/navbar/footer */
 }
 
-/* Profile Section - Left side, full height */
+/* Profile Section - Left side, shorter height */
 .profile-section {
   background-color: #ffffff; /* White background */
-  padding: 40px 20px;
-  flex: 1; /* Take up left half */
+  padding: 20px;
+  flex: 0 0 auto; /* Fixed height, don't grow */
   display: flex;
   align-items: flex-start; /* Align to top-left */
   text-align: left;
   box-sizing: border-box;
+  max-height: 250px; /* Limit height */
 }
 
 .profile-card {
@@ -145,41 +146,39 @@ body {
 .modules-section {
   background-color: #f0f8ff; /* Very light blue background */
   padding: 20px;
-  flex: 2; /* Take up right half, more space for modules */
+  flex: 1; /* Fill remaining space */
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  overflow-y: auto; /* Allow vertical scrolling if needed */
 }
 
 .modules-section h2 {
   border-bottom: 1px solid #dee2e6; /* Grey line below the heading */
   padding-bottom: 10px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0; /* Consistent spacing */
   color: #333333; /* Dark text for heading */
+  font-size: 24px; /* Consistent heading size */
 }
 
 .module-grid {
-  display: flex; /* Horizontal layout for modules side by side */
-  gap: 30px; /* Increased gap to prevent overlap */
-  overflow-x: visible; /* Remove horizontal scrolling */
-  padding: 20px 10px; /* Added vertical padding and horizontal padding */
+  display: grid; /* Use CSS Grid for precise 3-column layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 30px; /* Increased spacing between cards */
+  padding: 20px; /* Consistent padding around the grid */
   flex: 1; /* Fill available space */
-  margin-top: 20px; /* Added margin above module cards to prevent overlap with heading on hover */
-  flex-wrap: wrap; /* Allow wrapping to next line */
-  justify-content: flex-start; /* Align cards to the left */
+  auto-rows: max-content; /* Auto height based on content */
 }
 
 .module-card {
   background-color: #f8f9fa; /* Light gray background for individual module cards */
-  padding: 20px;
+  padding: 24px; /* Appropriate internal padding for cards */
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   border: 1px solid #dee2e6; /* Light border */
-  min-width: 300px; /* Minimum width for each card */
-  flex-shrink: 0; /* Prevent shrinking */
-  margin: 0; /* Ensure no extra margins */
+  width: 100%; /* Fill grid cell */
 }
 
 .module-card:hover,
@@ -271,6 +270,38 @@ body {
 .footer p {
   margin: 0;
   font-size: 14px;
+}
+
+/* Engagement Badge Styles */
+.engagement-badge {
+  background-color: #fff3cd; /* Light yellow background */
+  border: 1px solid #ffc107; /* Yellow border */
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin: 12px 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #856404; /* Dark yellow text */
+}
+
+.engagement-badge.engaged {
+  background-color: #d4edda; /* Light green background */
+  border: 1px solid #28a745; /* Green border */
+  color: #155724; /* Dark green text */
+}
+
+.engagement-text {
+  display: inline-block;
+  text-align: center;
+}
+
+/* Last Accessed Text */
+.last-accessed {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 8px 0;
+  font-style: italic;
 }
 
 /* /* Responsive */
