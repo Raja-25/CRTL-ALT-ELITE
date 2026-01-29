@@ -59,14 +59,14 @@ class LLM():
         return response.choices[0].message.content
     
     def __push_to_session(self, role: str, content: str) -> None:
-        with open(self.__session_path, "a") as file:
+        with open(self.__session_path, "a", encoding="utf-8") as file:
             file.write(f"Role: {role}\nContent: {content}\n\n\n")
 
     def __get_session_context(self) -> str:
         if not path.exists(self.__session_path):
             return ""
         
-        with open(self.__session_path, "r") as file:
+        with open(self.__session_path, "r", encoding="utf-8") as file:
             return file.read()
         
     def json_extractor(self, text: str) -> dict:
@@ -84,6 +84,9 @@ class LLM():
                 json_str = json_match.group(0).strip()
             else:
                 raise ValueError("No JSON content found in the text.")
+        
+        # Unescape double braces {{ }} that may be present in the JSON string
+        json_str = json_str.replace('{{', '{').replace('}}', '}')
             
         try:
             parsed_json = json.loads(json_str)

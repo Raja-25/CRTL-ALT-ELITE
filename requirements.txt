@@ -5,8 +5,7 @@ fastapi
 uvicorn
 pydantic
 python-dotenv
-pycryptodome
-cryptography
 pytesseract
 pillow
 pandas
+deep-translator

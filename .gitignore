@@ -4,3 +4,9 @@ venv
 _IGNORE_session
 *.pyc
 __pycache__/
+
+# managed
+**.data.json
+**.node-persist**
+**_IGNORE_**
+# end managed

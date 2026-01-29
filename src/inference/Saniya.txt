@@ -1,0 +1,84 @@
+Role: user
+Content: hi
+
+
+Role: assistant
+Content: ```json
+{{
+"Aadhar Number": "Not Provided",
+"Date of Birth": "Not Provided (YYYY-MM-DD)",
+"Education Level": "Not Provided",
+"Parents' occupation": "Not Provided",
+"Interests": "Not Provided",
+"Previous experience": "Not Provided",
+"Skills": "Not Provided",
+"Language": "Not Provided"
+}}
+```
+
+
+Role: user
+Content: my dob 14/08/2003
+my name saniya vijayvargiya
+my education class 12
+my parents business
+
+
+Role: assistant
+Content: ```json
+{{
+"Aadhar Number": "Not Provided",
+"Date of Birth": "2003-08-14",
+"Education Level": "Class 12",
+"Parents' occupation": "Business",
+"Interests": "Not Provided",
+"Previous experience": "Not Provided",
+"Skills": "Not Provided",
+"Language": "en"
+}}
+```
+
+
+Role: user
+Content: aadhar 808000293930
+interest maths
+experience none
+skills art
+
+
+Role: assistant
+Content: ```json
+{{
+"Aadhar Number": "808000293930",
+"Date of Birth": "2003-08-14",
+"Education Level": "Class 12",
+"Parents' occupation": "Business",
+"Interests": "Maths",
+"Previous experience": "None",
+"Skills": "Art",
+"Language": "en"
+}}
+```
+
+
+Role: user
+Content: 
+Here is the extracted text from the image:
+Saniya Vijayvargiya wrt iy
+oA fafa / DOB: 14/08/2003
+Alea / Female
+
+Issue Date: 25/08/2016
+
+
+
+
+
+Role: assistant
+Content: ```json
+{
+"score": 10
+}
+```
+
+

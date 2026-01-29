@@ -72,9 +72,9 @@ Here is the extracted text from the image:
         try:
             response_json = llm.json_extractor(response)
             score = int(response_json.get("score", 0))
-            if score >= 7:
+            if score >= 6:
                 return score, "The document appears to be authentic.\nYou are now onboarded on Magic Bus!!!"
-            elif score >= 4:
+            elif score >= 3:
                 return score, "The document is partially authentic. We will engage a Magic Bus member with you."
             else:
                 return score, "The document appears to be inauthentic."

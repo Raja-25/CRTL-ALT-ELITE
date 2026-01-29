@@ -3,6 +3,7 @@ from app.tools.onboarding import OnboardingTool
 from app.tools.screen import ScreeningTool
 from app.models.User import User, UserInfo
 from app.repository import UserRepository
+from time import sleep
 
 class Orchestrator():
     def __init__(self):
@@ -14,6 +15,8 @@ class Orchestrator():
         self.images_to_process = []
         self.screening_results = []
 
+        self.session_language_mapping = dict()
+
 
     def extract(self):
 
@@ -22,6 +25,12 @@ class Orchestrator():
         # messages = response.get('response', [])
 
         for message in messages:
+
+            if message['from'] == '919146623526@c.us':
+                continue
+
+            if self.__whatsapp_client.is_seen(message):
+                continue
 
             if message.get('type', '') == 'chat':
                 self.messages_to_process.append({
@@ -43,6 +52,7 @@ class Orchestrator():
 
             onboarding_tool = OnboardingTool(session=message[User.NAME])
             user_info, followup_message, needs_followup = onboarding_tool.onboard(message[User.MESSAGE])
+            self.session_language_mapping[message[User.NAME]] = user_info.get(UserInfo.LANGUAGE, 'en')
 
             if not needs_followup:
                 self.users_to_load.append({
@@ -57,12 +67,16 @@ class Orchestrator():
                     User.SKILLS: user_info.get(UserInfo.SKILLS, 'Not Provided')
                 })
 
+
+
             else:
                 self.followup(
                     phone_number=message[User.PHONE_NUMBER],
                     name=message[User.NAME],
                     message=followup_message
                 )
+
+        self.messages_to_process = []
 
         for name, image_path, number in self.images_to_process:
             screening_tool = ScreeningTool(session=name)
@@ -73,6 +87,8 @@ class Orchestrator():
                 "message": analysis_message,
                 "phone_number": number
             })
+
+        self.images_to_process = []
 
 
     def load(self):
@@ -90,6 +106,8 @@ class Orchestrator():
             print()
             print()
 
+        self.users_to_load = []
+
         for result in self.screening_results:
             self.followup(
                 phone_number=result["phone_number"],
@@ -97,14 +115,24 @@ class Orchestrator():
                 message=result["message"]
             )
 
+        self.screening_results = []
 
-    def followup(self, phone_number: str, name: str, message: str):
-        self.__whatsapp_client.send_text(to=phone_number, content= f"Hi {name},\n{message}")
+
+    def followup(self, phone_number: str, name: str, message: str, language: str = "en"):
+        self.__whatsapp_client.send_text(to=phone_number, content= f"Hi {name},\n{message}", language= 'en' if self.session_language_mapping.get(name, language) == 'Not Provided' else self.session_language_mapping.get(name, language))
 
     def run(self):
         self.extract()
         self.transform()
         self.load()
-
 orc = Orchestrator()
-orc.run()
+
+while True:
+
+    orc.run()
+
+    sleep(5)
+    print("Cycle complete. Sleeping for 1 second before next cycle.")
+
+# orc = Orchestrator()
+# orc.run()

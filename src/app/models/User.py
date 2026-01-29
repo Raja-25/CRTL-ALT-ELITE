@@ -9,6 +9,7 @@ class User:
     INTERESTS: str = "Interests"
     PREVIOUS_EXPERIENCE: str = "Previous experience"
     SKILLS: str = "Skills"
+    LANGUAGE: str = "Language"
 
 class UserInfo:
     AADHAR_NUMBER: str = "Aadhar Number"
@@ -18,3 +19,4 @@ class UserInfo:
     INTERESTS: str = "Interests"
     PREVIOUS_EXPERIENCE: str = "Previous experience"
     SKILLS: str = "Skills"
+    LANGUAGE: str = "Language"

@@ -24,9 +24,32 @@ your response should be in the following format:
 "Parents' occupation": "<Parents' occupation>",
 "Interests": "<Interests>",
 "Previous experience": "<Previous experience>",
-"Skills": "<Skills>"
+"Skills": "<Skills>",
+"Language": "<Preferred Language for communication adhering to the options provided below>"
 }}
 ```
+
+for languages, please choose from the following options only:
+{
+    "assamese": "as",
+    "bengali": "bn",
+    "bhojpuri": "bho",
+    "dogri": "doi",
+    "english": "en",
+    "gujarati": "gu",
+    "hindi": "hi",
+    "kannada": "kn",
+    "konkani": "gom",
+    "lingala": "ln",
+    "maithili": "mai",
+    "malayalam": "ml",
+    "marathi": "mr",
+    "odia (oriya)": "or",
+    "punjabi": "pa",
+    "sanskrit": "sa",
+    "tamil": "ta",
+    "telugu": "te"
+}
 
 if some information is missing, please mention "Not Provided" for that field.
 
@@ -36,6 +59,7 @@ IMPORTANT:
 - Focus solely on extracting and formatting the information.
 - Do not add any fields other than those specified.
 - You can also use context which has session history.
+- Automatically detect the preferred language of the user from the input and set the "Language" field accordingly.
 - ALWWAYS INCLUDE ABOVE JSON OUTPUT IN YOUR RESPONSE IRRESPECTIVE IF DETAILS ARE PRESENT ARE NOT.
 """
         self.__session = session
