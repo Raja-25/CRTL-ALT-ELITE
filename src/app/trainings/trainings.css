@@ -161,10 +161,12 @@ body {
 .module-grid {
   display: flex; /* Horizontal layout for modules side by side */
   gap: 30px; /* Increased gap to prevent overlap */
-  overflow-x: auto; /* Allow horizontal scrolling if needed */
-  padding: 0 10px; /* Added horizontal padding to grid for better spacing */
+  overflow-x: visible; /* Remove horizontal scrolling */
+  padding: 20px 10px; /* Added vertical padding and horizontal padding */
   flex: 1; /* Fill available space */
   margin-top: 20px; /* Added margin above module cards to prevent overlap with heading on hover */
+  flex-wrap: wrap; /* Allow wrapping to next line */
+  justify-content: flex-start; /* Align cards to the left */
 }
 
 .module-card {
@@ -216,6 +218,11 @@ body {
   background-color: #28a745; /* Green for progress */
   border-radius: 5px;
   transition: width 0.3s ease;
+}
+
+/* Add padding after progress bar */
+.modules-section > .container > .progress-bar-container {
+  margin-bottom: 30px; /* Increased padding after progress bar */
 }
 
 /* Lesson List */

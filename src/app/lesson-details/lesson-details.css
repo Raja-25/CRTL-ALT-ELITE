@@ -177,7 +177,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   border: 1px solid #dee2e6; /* Light border */
-  min-width: 300px; /* Minimum width for each card */
+  min-width: 300px; /* Fixed minimum width for each card */
   flex-shrink: 0; /* Prevent shrinking */
   margin: 0; /* Ensure no extra margins */
 }
@@ -268,4 +268,41 @@ body {
   font-size: 14px;
 }
 
-/* /* Responsive */
+/* Content Card Specific Styles */
+.content-card {
+  min-width: 300px;
+  max-width: 300px;
+  flex-shrink: 0; /* Keep cards at fixed size */
+}
+
+.content-card h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.content-card:hover,
+.content-card:focus {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .content-card {
+    min-width: 280px;
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+  .modules-section {
+    flex: 1;
+  }
+  .content-card {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}

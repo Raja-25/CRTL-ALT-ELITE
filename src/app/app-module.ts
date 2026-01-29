@@ -6,13 +6,15 @@ import { App } from './app';
 import { Trainings } from './trainings/trainings';
 import { Contact } from './contact/contact';
 import { ModuleDetails } from './module-details/module-details';
+import { LessonDetails } from './lesson-details/lesson-details';
 
 @NgModule({
   declarations: [
     App,
     Trainings,
     Contact,
-    ModuleDetails
+    ModuleDetails,
+    LessonDetails
   ],
   imports: [
     BrowserModule,

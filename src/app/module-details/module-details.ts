@@ -42,11 +42,12 @@ ngOnInit() {
     this.router.navigate(['/']);
   }
 }
-  onLessonClick(lesson: string) {
-    // Reuse or extend your existing logic, e.g., alert or navigate
-    console.log('Clicked lesson:', lesson);
+  onLessonClick(lesson: any) {
+    // Navigate to the lesson details page
+    console.log('Clicked lesson:', lesson.name);
+    this.router.navigate(['/module', this.module.id, 'lesson', lesson.name]);
   }
-  trackByLessonId(index: number, lesson: string): string {
-  return lesson;  // Or use a unique ID if lessons have one, e.g., lesson.id
+  trackByLessonId(index: number, lesson: any): string {
+  return lesson.name;  // Use lesson name as the unique identifier
 }
 }

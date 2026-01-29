@@ -1,23 +1,12 @@
-
-
-
-
-
-<!-- Trainings Component Template -->
-
 <!-- Header -->
-<header class="header" >
+<header class="header">
   <div class="container">
     <div class="logo">
-      <!-- Correct the image path if necessary -->
-      <!-- <img src="C:\UpSkills\magicSkills\src\assets\MagicBusLogo.png" alt="MagicBus Logo" class="logo-img"> -->
-
       <h1>MagicBus Skills</h1>
     </div>
   </div>
 </header>
 
-<!-- Navbar -->
 <!-- Navbar -->
 <nav class="navbar" role="navigation" aria-label="Main navigation">
   <div class="container">
@@ -35,7 +24,6 @@
   </div>
 </nav>
 
-
 <!-- Main Content -->
 <main class="main-content">
   <!-- Profile Section -->
@@ -49,37 +37,35 @@
     </div>
   </section>
 
+  <!-- Lesson Content Section -->
+  <section class="modules-section" aria-labelledby="lesson-heading" *ngIf="lesson">
+    <div class="container">
+      <h2 id="lesson-heading">{{ lesson.name }}</h2>
+      <p><strong>Progress:</strong> <span class="progress-text">{{ lesson.progress }}%</span></p>
+      <div class="progress-bar-container">
+        <div class="progress-bar" [style.width]="getProgressBarWidth(lesson.progress)"></div>
+      </div>
 
-  <div class="container">
-  <!-- Show a message if module is not loaded/available (e.g., during redirect or error) -->
-  <div *ngIf="!module" class="error-message">
-    <p>Module not found. Redirecting...</p>
-  </div>
-
-  <!-- Render module details only if module exists -->
-  <div *ngIf="module" style="background-color: #f0f8ff;padding: 75px;width: 1050px;height:400px;">
-    <h2>{{ module.name }}</h2>
-    <p>Progress: {{ module.progress }}%</p>
-    <div class="progress-bar-container">
-      <div class="progress-bar" [style.width]="module.progress + '%'"></div>
+      <!-- Horizontal Cards for Contents -->
+      <div class="module-grid">
+        <div class="module-card content-card" *ngFor="let content of lesson.content" (click)="onContentClick(content)" (keydown.enter)="onContentClick(content)" tabindex="0" role="button" aria-label="Content: {{ content.title }}">
+          <h3>{{ content.title }}</h3>
+          <p>{{ content.text }}</p>
+        </div>
+      </div>
     </div>
-    <h3>Lessons:</h3>
-    <ul class="lesson-list">
-      <li class="lesson-item" *ngFor="let lesson of module.lessons; trackBy: trackByLessonId" (click)="onLessonClick(lesson)" (keydown.enter)="onLessonClick(lesson)" tabindex="0" role="button" aria-label="Lesson: {{ lesson.name }}">
-        <p>{{ lesson.name }}</p>
-      </li>
-    </ul>
-  </div>
-</div>
+  </section>
 
+  <section class="modules-section" *ngIf="!lesson">
+    <div class="container">
+      <p>Lesson not found. Redirecting...</p>
+    </div>
+  </section>
+</main>
 
- 
 <!-- Footer -->
 <footer class="footer">
   <div class="container">
     <p>&copy; 2026 My Training Portal. All rights reserved.</p>
   </div>
 </footer>
-
-
-
