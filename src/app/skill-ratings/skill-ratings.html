@@ -1,11 +1,29 @@
 <div class="skill-ratings-container">
   <!-- Header -->
   <header class="header">
-    <div class="header-content">
-      <h1>🎯 Skills & Job Recommendations</h1>
-      <p>Your skill ratings and best-fit career opportunities</p>
+    <div class="container">
+      <div class="logo">
+        <h1>MagicBus Skills</h1>
+      </div>
     </div>
   </header>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a [routerLink]="['/']" routerLinkActive="active" aria-current="page" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/skills-ratings']" routerLinkActive="active" class="nav-link">Skill Rating</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/contact']" routerLinkActive="active" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <!-- Controls -->
   <div class="controls-section">

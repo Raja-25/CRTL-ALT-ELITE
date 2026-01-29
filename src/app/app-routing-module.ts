@@ -16,7 +16,8 @@ const routes: Routes = [
   { path: 'screening', component: ScreeningComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'dropout', component: DropoutComponent },
-  { path: 'skill-ratings', component: SkillRatingsComponent },
+  { path: 'skills-ratings', component: SkillRatingsComponent },
+  { path: '**', component: Trainings }
 ];
 
 @NgModule({

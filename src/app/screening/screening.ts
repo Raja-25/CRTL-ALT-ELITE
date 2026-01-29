@@ -2,13 +2,14 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 import { ScreeningService } from '../services/screening.service';
 import { Question } from '../core/questions.model';
 
 @Component({
   selector: 'app-screening',
   standalone: true,
-  imports: [FormsModule, CommonModule],
+  imports: [FormsModule, CommonModule, RouterModule],
   templateUrl: './screening.html',
   styleUrls: ['./screening.css'],
   providers: [ScreeningService]

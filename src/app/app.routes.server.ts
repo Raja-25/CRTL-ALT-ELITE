@@ -8,6 +8,6 @@ export const serverRoutes: ServerRoute[] = [
   { path: 'dashboard', renderMode: RenderMode.Prerender },
   { path: 'dropout', renderMode: RenderMode.Prerender },
   { path: 'screening', renderMode: RenderMode.Prerender },
-  { path: 'skill-ratings', renderMode: RenderMode.Prerender },
+  { path: 'skills-ratings', renderMode: RenderMode.Prerender },
   { path: '**', renderMode: RenderMode.Prerender }
 ];

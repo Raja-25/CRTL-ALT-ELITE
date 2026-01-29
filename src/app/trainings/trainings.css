@@ -1,14 +1,13 @@
 /* Global Styles for Layout */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* White background for a clean, NGO-friendly look */
-  color: #333333; /* Dark text for contrast */
+  background-color: #ffffff;
+  color: #333333;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the page takes the full height */
-  overflow: hidden; /* Prevent scrolling if we have a perfectly fitting layout */
+  min-height: 100vh;
 }
 
 /* Container for responsive layout */
@@ -17,36 +16,36 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-  width: 100%; /* Ensure container takes full width */
+  width: 100%;
 }
 
 /* Header */
 .header {
-  background-color: #ffffff; /* White background */
-  color: #007bff; /* Professional blue accent for NGO branding */
-  padding: 20px 30px;
-  display: flex; /* Use flexbox */
-  align-items: center; /* Vertically center logo and text */
-  justify-content: flex-start; /* Align content to the left */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  border-bottom: 1px solid #e9ecef; /* Light border */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Logo */
+/* Logo */
 .header .logo {
   display: flex;
-  align-items: center; /* Ensure logo and text align vertically */
-  gap: 10px; /* Space between logo image and text */
+  align-items: center;
+  gap: 10px;
 }
 
 .logo-image {
-  height: 40px; /* Adjust height as needed for the logo */
-  width: auto; /* Maintain aspect ratio */
+  height: 40px;
+  width: auto;
 }
 
 .header .logo h1 {
@@ -54,21 +53,20 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
   margin: 0;
-  color: #000080; /* Dark navy blue for MagicBus Skills */
+  color: white;
   margin-left: -150px;
 }
-
 /* Navbar */
 .navbar {
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #f8f9fa;
   width: 100%;
   position: fixed;
-  top: 60px; /* Adjust based on header height */
+  top: 60px;
   left: 0;
   z-index: 999;
-  border-top: 1px solid #dee2e6; /* Subtle border */
-  border-bottom: 1px solid #dee2e6; /* Subtle border */
-  padding-top: 10px; /* Added margin above navbar contents */
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 10px;
 }
 
 .nav-list {
@@ -85,41 +83,50 @@ body {
 }
 
 .nav-link {
-  color: #495057; /* Dark gray for navbar items */
+  color: #495057;
   padding: 16px 24px;
   text-decoration: none;
   display: block;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 3px solid transparent; /* Default border for underline */
-  transition: color 0.3s, border-color 0.3s; /* Smooth transition */
+  border-bottom: 3px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: #007bff; /* Blue accent for active/hover */
-  border-color: #007bff; /* Underline on hover or when active */
+  color: #667eea;
+  border-color: #667eea;
+}
+
+/* Vertical Divider */
+.profile-divider {
+  width: 2px;
+  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+  height: auto;
+  min-height: 400px;
+  border-radius: 1px;
 }
 
 /* Main Content - Two-column layout: Profile on left, Modules on right */
 .main-content {
-  margin-top: 120px; /* Push below header and navbar */
-  margin-bottom: 60px; /* Push above footer */
+  margin-top: 120px;
+  margin-bottom: 60px;
   flex: 1;
   display: flex;
-  flex-direction: row; /* Horizontal layout for left-right split */
-  background-color: #ffffff; /* White background to cover entire area */
-  min-height: calc(100vh - 180px); /* Ensure it fills the screen minus header/navbar/footer */
+  flex-direction: row;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: calc(100vh - 180px);
 }
 
 /* Profile Section - Left side, full height */
 .profile-section {
-  background-color: #ffffff; /* White background */
+  background: linear-gradient(135deg, #ffffff 0%, #f0f3ff 100%);
   padding: 40px 20px;
-  flex: 1; /* Take up left half */
+  flex: 1;
   display: flex;
-  align-items: flex-start; /* Align to top-left */
+  align-items: flex-start;
   text-align: left;
   box-sizing: border-box;
 }
@@ -143,9 +150,9 @@ body {
 
 /* Learning Modules Section - Right side, no card styling */
 .modules-section {
-  background-color: #f0f8ff; /* Very light blue background */
+  background-color: transparent;
   padding: 20px;
-  flex: 2; /* Take up right half, more space for modules */
+  flex: 2;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -168,23 +175,24 @@ body {
 }
 
 .module-card {
-  background-color: #f8f9fa; /* Light gray background for individual module cards */
+  background-color: white;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  border: 1px solid #dee2e6; /* Light border */
-  min-width: 300px; /* Minimum width for each card */
-  flex-shrink: 0; /* Prevent shrinking */
-  margin: 0; /* Ensure no extra margins */
+  border: none;
+  min-width: 300px;
+  flex-shrink: 0;
+  margin: 0;
+  animation: slideInUp 0.5s ease;
 }
 
 .module-card:hover,
 .module-card:focus {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  outline: 2px solid #007bff; /* Blue focus outline */
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  outline: none;
 }
 
 .module-card h3 {
@@ -246,11 +254,10 @@ body {
   font-size: 14px;
   color: #333333; /* Dark text */
 }
-
 /* Footer */
 .footer {
-  background-color: #f8f9fa; /* Light gray */
-  color: #495057; /* Dark gray text */
+  background-color: #f8f9fa;
+  color: #495057;
   padding: 15px;
   text-align: center;
   width: 100%;
@@ -258,7 +265,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: 999;
-  border-top: 1px solid #dee2e6; /* Subtle border */
+  border-top: 1px solid #dee2e6;
 }
 
 .footer p {
@@ -266,4 +273,114 @@ body {
   font-size: 14px;
 }
 
-/* /* Responsive */
+/* Animations */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .profile-section {
+    padding: 30px 20px;
+  }
+
+  .profile-divider {
+    width: 100%;
+    height: 2px;
+    min-height: auto;
+    margin: 10px 0;
+  }
+
+  .modules-section {
+    padding: 20px;
+    flex: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    top: 50px;
+  }
+
+  .main-content {
+    flex-direction: column;
+    margin-top: 110px;
+  }
+
+  .profile-section {
+    padding: 20px 15px;
+  }
+
+  .profile-card h2 {
+    font-size: 24px;
+  }
+
+  .profile-divider {
+    width: 100%;
+    height: 2px;
+    min-height: auto;
+    margin: 10px 0;
+  }
+
+  .modules-section {
+    padding: 15px;
+  }
+
+  .module-card {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .logo h1 {
+    font-size: 20px;
+  }
+
+  .main-content {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .profile-section {
+    padding: 15px 10px;
+  }
+
+  .profile-card h2 {
+    font-size: 20px;
+  }
+
+  .profile-card p {
+    font-size: 14px;
+  }
+
+  .profile-divider {
+    width: 100%;
+    height: 2px;
+    min-height: auto;
+    margin: 8px 0;
+  }
+
+  .modules-section {
+    padding: 10px;
+  }
+
+  .module-card {
+    min-width: 200px;
+  }
+
+  .nav-link {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+}
