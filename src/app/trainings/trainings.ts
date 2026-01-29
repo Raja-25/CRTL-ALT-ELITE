@@ -48,11 +48,18 @@ export class Trainings implements OnInit {  // Renamed class to 'TrainingsCompon
   // Learning modules data fetched from service
   modules: Module[] = [];
 
+  // Calendar properties
+  currentDate: Date = new Date();
+  calendarDays: any[] = [];
+  engagementDays: number[] = [1, 2, 3, 5, 7, 8, 9, 12, 14, 15, 16, 18, 20, 21, 22, 25, 27, 28, 29]; // Days engaged in January 2026
+  monthName: string = '';
+
   constructor(private router: Router, private trainingService: TrainingService) { }  // Added: Inject TrainingService
 
   ngOnInit(): void {
   // Fetch modules from the service on initialization
   this.modules = this.trainingService.getAllModules() as unknown as Module[];  // Cast via unknown
+  this.generateCalendar();
 }
 
   onModuleClick(module: Module) {  // Updated: Use Module type
@@ -93,5 +100,42 @@ export class Trainings implements OnInit {  // Renamed class to 'TrainingsCompon
   // Check if user is continuously engaged (more than 3 consecutive days)
   isContinuouslyEngaged(module: Module): boolean {
     return module.isCurrentlyEngaged === true && (module.consecutiveDaysEngaged || 0) >= 3;
+  }
+
+  // Generate calendar for current month
+  generateCalendar(): void {
+    const year = this.currentDate.getFullYear();
+    const month = this.currentDate.getMonth();
+    
+    // Get month name
+    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'];
+    this.monthName = monthNames[month];
+
+    // Get first day of month and number of days
+    const firstDay = new Date(year, month, 1).getDay();
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+    this.calendarDays = [];
+
+    // Add empty cells for days before month starts
+    for (let i = 0; i < firstDay; i++) {
+      this.calendarDays.push(null);
+    }
+
+    // Add days of the month
+    for (let day = 1; day <= daysInMonth; day++) {
+      this.calendarDays.push(day);
+    }
+  }
+
+  // Check if a day is an engagement day
+  isEngagementDay(day: number): boolean {
+    return this.engagementDays.includes(day);
+  }
+
+  // Calculate total days in month
+  getTotalDaysInMonth(): number {
+    return this.calendarDays.filter(d => d !== null).length;
   }
 }

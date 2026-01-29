@@ -40,6 +40,29 @@
         <h2 id="profile-heading">{{ profile.name }}</h2>
         <p><strong>Role:</strong> {{ profile.role }}</p>
         <p>{{ profile.bio }}</p>
+
+        <!-- Engagement Calendar -->
+        <div class="engagement-calendar">
+          <h3>{{ monthName }} 2026 Engagement</h3>
+          <div class="calendar-header">
+            <div class="day-label">Sun</div>
+            <div class="day-label">Mon</div>
+            <div class="day-label">Tue</div>
+            <div class="day-label">Wed</div>
+            <div class="day-label">Thu</div>
+            <div class="day-label">Fri</div>
+            <div class="day-label">Sat</div>
+          </div>
+          <div class="calendar-grid">
+            <div 
+              *ngFor="let day of calendarDays" 
+              class="calendar-day" 
+              [ngClass]="{'engagement-day': isEngagementDay(day), 'empty': !day}">
+              {{ day }}
+            </div>
+          </div>
+          <p class="engagement-stats">Days Engaged: {{ engagementDays.length }} / {{ getTotalDaysInMonth() }}</p>
+        </div>
       </div>
     </div>
   </section>
