@@ -6,13 +6,19 @@ import { App } from './app';
 import { Trainings } from './trainings/trainings';
 import { Contact } from './contact/contact';
 import { ModuleDetails } from './module-details/module-details';
+import { Dashboard } from './dashboard/dashboard';
+import { Dropout } from './dropout/dropout';
+import { Screening } from './screening/screening';
 
 @NgModule({
   declarations: [
     App,
     Trainings,
     Contact,
-    ModuleDetails
+    ModuleDetails,
+    Dashboard,
+    Dropout,
+    Screening
   ],
   imports: [
     BrowserModule,
