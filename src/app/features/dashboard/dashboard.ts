@@ -1,8 +1,9 @@
 import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Chart, registerables } from 'chart.js';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 
-Chart.register(...registerables);
+Chart.register(...registerables, ChartDataLabels);
 
 interface MonthlyOnboarding {
   month: string;
@@ -19,6 +20,11 @@ interface CourseCompletion {
   oneCourse: number;
   twoCourses: number;
   threeCourses: number;
+}
+
+interface StudentEngagement {
+  module: string;
+  activeStudents: number;
 }
 
 @Component({
@@ -75,9 +81,21 @@ export class DashboardComponent implements OnInit {
     { month: 'December', oneCourse: 45, twoCourses: 32, threeCourses: 18 },
   ];
 
+  engagementData: StudentEngagement[] = [
+    { module: 'Safety Module', activeStudents: 456 },
+    { module: 'Life Skills', activeStudents: 523 },
+    { module: 'Career Building', activeStudents: 389 },
+    { module: 'Financial Literacy', activeStudents: 612 },
+    { module: 'Digital Skills', activeStudents: 478 },
+    { module: 'Health & Wellness', activeStudents: 534 },
+    { module: 'Communication', activeStudents: 445 },
+    { module: 'Leadership', activeStudents: 392 },
+  ];
+
   onboardingChart: Chart | null = null;
   dropoutRiskChart: Chart | null = null;
   courseCompletionChart: Chart | null = null;
+  engagementChart: Chart | null = null;
 
   constructor(private cdr: ChangeDetectorRef) {}
 
@@ -90,6 +108,7 @@ export class DashboardComponent implements OnInit {
       this.createOnboardingChart();
       this.createDropoutRiskChart();
       this.createCourseCompletionChart();
+      this.createEngagementChart();
       this.cdr.markForCheck();
     }, 100);
   }
@@ -134,6 +153,21 @@ export class DashboardComponent implements OnInit {
               color: '#333',
               padding: 15,
             },
+          },
+          tooltip: {
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            titleFont: { size: 14, weight: 'bold' },
+            bodyFont: { size: 12 },
+            padding: 12,
+            displayColors: false,
+          },
+          datalabels: {
+            display: true,
+            align: 'top',
+            offset: 10,
+            color: '#333',
+            font: { weight: 'bold', size: 11 },
+            formatter: (value: any) => value.toString(),
           },
         },
         scales: {
@@ -210,6 +244,23 @@ export class DashboardComponent implements OnInit {
               padding: 15,
             },
           },
+          tooltip: {
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            titleFont: { size: 14, weight: 'bold' },
+            bodyFont: { size: 12 },
+            padding: 12,
+            displayColors: false,
+          },
+          datalabels: {
+            display: true,
+            align: 'top',
+            offset: 10,
+            anchor: 'end',
+            color: '#333',
+            font: { weight: 'bold', size: 11 },
+            clamp: true,
+            formatter: (value: any) => value.toString(),
+          },
         },
         scales: {
           y: {
@@ -285,6 +336,23 @@ export class DashboardComponent implements OnInit {
               padding: 15,
             },
           },
+          tooltip: {
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            titleFont: { size: 14, weight: 'bold' },
+            bodyFont: { size: 12 },
+            padding: 12,
+            displayColors: true,
+          },
+          datalabels: {
+            display: true,
+            align: 'top',
+            offset: 8,
+            anchor: 'end',
+            color: '#333',
+            font: { weight: 'bold', size: 10 },
+            clamp: true,
+            formatter: (value: any) => value.toString(),
+          },
         },
         scales: {
           y: {
@@ -308,6 +376,76 @@ export class DashboardComponent implements OnInit {
               display: false,
             },
           },
+        },
+      },
+    });
+  }
+
+  createEngagementChart() {
+    const ctx = document.getElementById('engagementChart') as HTMLCanvasElement;
+    if (!ctx) return;
+
+    if (this.engagementChart) {
+      this.engagementChart.destroy();
+    }
+
+    const colors = [
+      '#667eea', '#764ba2', '#f093fb', '#4facfe',
+      '#00f2fe', '#43e97b', '#fa709a', '#fee140'
+    ];
+
+    this.engagementChart = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: this.engagementData.map(d => d.module),
+        datasets: [
+          {
+            data: this.engagementData.map(d => d.activeStudents),
+            backgroundColor: colors,
+            borderColor: '#fff',
+            borderWidth: 3,
+            hoverBorderColor: '#333',
+            hoverBorderWidth: 4,
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+          legend: {
+            position: 'bottom',
+            labels: {
+              font: { size: 12, weight: 'bold' },
+              color: '#333',
+              padding: 15,
+              boxWidth: 15,
+            },
+          },
+          tooltip: {
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            titleFont: { size: 14, weight: 'bold' },
+            bodyFont: { size: 12 },
+            padding: 12,
+            callbacks: {
+              label: function(context) {
+                const value = context.parsed || 0;
+                const total = context.dataset.data.reduce((a: number, b: any) => a + (typeof b === 'number' ? b : 0), 0);
+                const percentage = ((value / total) * 100).toFixed(1);
+                return `${context.label}: ${value} students (${percentage}%)`;
+              }
+            }
+          },
+          datalabels: {
+            display: true,
+            color: '#333',
+            font: { weight: 'bold', size: 11 },
+            formatter: function(value: any, context: any) {
+              const total = context.dataset.data.reduce((a: number, b: any) => a + (typeof b === 'number' ? b : 0), 0);
+              const percentage = ((value / total) * 100).toFixed(1);
+              return percentage + '%';
+            }
+          }
         },
       },
     });
