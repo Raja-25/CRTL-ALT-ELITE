@@ -1,3 +1,7 @@
+/* ag-Grid Theme - Legacy CSS */
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+
 /* Global styles */
 * {
   box-sizing: border-box;
@@ -8,5 +12,4 @@ body {
   font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   background-color: #f7f9fc;
   color: #111;
-  padding-top: 90px;
 }
