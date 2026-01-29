@@ -6,9 +6,10 @@ import { App } from './app';
 import { Trainings } from './trainings/trainings';
 import { Contact } from './contact/contact';
 import { ModuleDetails } from './module-details/module-details';
-import { Dashboard } from './dashboard/dashboard';
-import { Dropout } from './dropout/dropout';
-import { Screening } from './screening/screening';
+import { DashboardComponent } from './dashboard/dashboard';
+import { DropoutComponent } from './dropout/dropout';
+import { ScreeningComponent } from './screening/screening';
+import { SkillRatingsComponent } from './skill-ratings/skill-ratings';
 
 @NgModule({
   declarations: [
@@ -16,9 +17,10 @@ import { Screening } from './screening/screening';
     Trainings,
     Contact,
     ModuleDetails,
-    Dashboard,
-    Dropout,
-    Screening
+    DashboardComponent,
+    DropoutComponent,
+    ScreeningComponent,
+    SkillRatingsComponent
   ],
   imports: [
     BrowserModule,
