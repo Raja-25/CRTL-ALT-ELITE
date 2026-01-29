@@ -54,12 +54,6 @@ export const QUESTIONS_6_9 = [
     correct: 3
   },
   {
-    id: '6q11',
-    question: 'Find the odd one out:',
-    options: ['2×3', '3×2', '4×2', '2×6'],
-    correct: 2
-  },
-  {
     id: '6q12',
     question: '1, 1, 2, 3, 5, ?',
     options: ['6', '7', '8', '9'],

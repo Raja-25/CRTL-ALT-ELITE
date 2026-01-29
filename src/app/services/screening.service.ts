@@ -10,7 +10,13 @@ export class ScreeningService {
 
   getRandomQuestions(grade: '6-9' | '10-12'): Question[] {
     const source = grade === '6-9' ? QUESTIONS_6_9 : QUESTIONS_10_12;
-    return this.shuffleArray(source).slice(0, 10);
+
+    const cloned = source.map(q => ({
+      ...q,
+      options: [...q.options] // deep copy options
+    }));
+
+    return this.shuffleArray(cloned).slice(0, 10);
   }
   
   private shuffleArray<T>(arr: T[]): T[] {
